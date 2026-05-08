@@ -1,47 +1,11 @@
-from google import genai
-from dotenv import load_dotenv
-import os
 from flask import Flask,request,jsonify
+from gemini_service import GeminiService
+gemini_service=GeminiService()
 
-load_dotenv()
-genapp=Flask(__name__)
+app=Flask(__name__)
 
-api_key=os.getenv("Gemini_API_Key")
-
-if not api_key:
-    raise Exception("Gemini APi Key invalid")
-
-client=genai.Client(api_key= api_key)
-
-def get_chat_response(user_message):
-
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=user_message
-    )
-
-    # Token metadata
-    usage = response.usage_metadata
-
-    prompt_tokens = usage.prompt_token_count
-    completion_tokens = usage.candidates_token_count
-    total_tokens = usage.total_token_count
-
-    # Log tokens
-    print("Prompt Tokens:", prompt_tokens)
-    print("Completion Tokens:", completion_tokens)
-    print("Total Tokens:", total_tokens)
-
-    return {
-        "message": response.text,
-
-        "tokens": {
-            "prompt": prompt_tokens,
-            "completion": completion_tokens,
-            "total": total_tokens
-        }
-    }
-@genapp.route("/chat",methods=["POST"])
+##CHAT ENDPOINT
+@app.route("/chat",methods=["POST"])
 def chat():
     try:
         data=request.get_json()
@@ -56,7 +20,7 @@ def chat():
                 "error":"Message is required"
             }),400
         
-        result=get_chat_response(user_message)
+        result=gemini_service.get_chat_response(user_message)
         
         return jsonify({
             "response": result["message"],
@@ -86,9 +50,33 @@ def chat():
             "details": error_message
         }), 500
 
+##EXTRACT ENDPOINT
+@app.route("/extract", methods=["POST"])
+def extract():
+    data = request.get_json()
+    if not data:
+        return jsonify({
+            "error": "JSON body is missing"
+        }), 400
+    user_text = data.get("text")
+    if not user_text:
+        return jsonify({
+            "error": "Text field is required"
+        }), 400
+    try:
+        result = gemini_service.extract_data(user_text)
+        if "error" in result:
+            return jsonify(result), 400
+        
+        return jsonify(result), 200
+    except Exception as e:
+        return jsonify({
+            "error": "Something went wrong",
+            "details": str(e)
+        }), 500
 
 # Start Flask server
 if __name__ == "__main__":
 
-    genapp.run(debug=True, port=4000)
+    app.run(debug=True, port=4000)
 
