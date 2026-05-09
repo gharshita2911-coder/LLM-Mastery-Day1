@@ -1,0 +1,262 @@
+{
+    "total_tests": 15,
+    "correct_predictions": 15,
+    "accuracy": 100.0,
+    "results": [
+        {
+            "prompt": "I want to be contacted",
+            "expected_action": "createLead",
+            "actual_action": "createLead",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "I want to be contacted",
+                "name": null
+            },
+            "tokens": {
+                "completion": 18,
+                "prompt": 275,
+                "total": 293
+            },
+            "passed": true
+        },
+        {
+            "prompt": "I'm just researching your product and comparing it with others in the market. You can ignore this for now, no need to contact me at test.user@mail.com",
+            "expected_action": "none",
+            "actual_action": "none",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "I'm just researching your product and comparing it with others in the market. You can ignore this for now, no need to contact me at test.user@mail.com",
+                "name": null
+            },
+            "tokens": {
+                "completion": 36,
+                "prompt": 306,
+                "total": 342
+            },
+            "passed": true
+        },
+        {
+            "prompt": "My email is rahul.demo@gmail.com but I'm only exploring your website.Not ready to speak with you anyone yet",
+            "expected_action": "none",
+            "actual_action": "none",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "My email is rahul.demo@gmail.com but I'm only exploring your website.Not ready to speak with you anyone yet",
+                "name": null
+            },
+            "tokens": {
+                "completion": 22,
+                "prompt": 297,
+                "total": 319
+            },
+            "passed": true
+        },
+        {
+            "prompt": "This looks intersting but I'm still in the early research phase.I will reach out myself if I decide to proceed .",
+            "expected_action": "none",
+            "actual_action": "none",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "This looks intersting but I'm still in the early research phase.I will reach out myself if I decide to proceed .",
+                "name": null
+            },
+            "tokens": {
+                "completion": 13,
+                "prompt": 296,
+                "total": 309
+            },
+            "passed": true
+        },
+        {
+            "prompt": "Please do not call me right now as I'm just reviewing tools.Maybe sometime in the future if needed",
+            "expected_action": "none",
+            "actual_action": "none",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "Please do not call me right now as I'm just reviewing tools.Maybe sometime in the future if needed",
+                "name": null
+            },
+            "tokens": {
+                "completion": 15,
+                "prompt": 292,
+                "total": 307
+            },
+            "passed": true
+        },
+        {
+            "prompt": "I'm still evaluating options but it would help if someone from your team connects with me. You can reach me at priya.connect@gmail.com",
+            "expected_action": "createLead",
+            "actual_action": "createLead",
+            "args": {
+                "company": null,
+                "email": "priya.connect@gmail.com",
+                "message": "I'm still evaluating options but it would help if someone from your team connects with me. You can reach me at priya.connect@gmail.com",
+                "name": null
+            },
+            "tokens": {
+                "completion": 39,
+                "prompt": 302,
+                "total": 341
+            },
+            "passed": true
+        },
+        {
+            "prompt": "Not urgent,but I would like more details from your sales team.Please have someone contact me when possible",
+            "expected_action": "createLead",
+            "actual_action": "createLead",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "Not urgent,but I would like more details from your sales team.Please have someone contact me when possible",
+                "name": null
+            },
+            "tokens": {
+                "completion": 31,
+                "prompt": 291,
+                "total": 322
+            },
+            "passed": true
+        },
+        {
+            "prompt": "I was only browsing initially, but now I think a quick call would help. Kindly arrange a callback for me",
+            "expected_action": "createLead",
+            "actual_action": "createLead",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "I was only browsing initially, but now I think a quick call would help. Kindly arrange a callback for me",
+                "name": null
+            },
+            "tokens": {
+                "completion": 34,
+                "prompt": 292,
+                "total": 326
+            },
+            "passed": true
+        },
+        {
+            "prompt": "I donot need anything immediately, however your team can email me details.My email is amit.demo@gmail.com",
+            "expected_action": "createLead",
+            "actual_action": "createLead",
+            "args": {
+                "company": null,
+                "email": "amit.demo@gmail.com",
+                "message": "I donot need anything immediately, however your team can email me details.My email is amit.demo@gmail.com",
+                "name": null
+            },
+            "tokens": {
+                "completion": 32,
+                "prompt": 295,
+                "total": 327
+            },
+            "passed": true
+        },
+        {
+            "prompt": "Hello, I was browsing your website to understand what your company offers. At the moment, I am only collecting general information about different tools. Your platform looks intersting, but I am not ready to speak with anyone yet. I still need to evaluate my options available in the market. Right now my goal is just to gather information and study documentation. Maybe sometime later I will consier reaching out.For now no action is required.",
+            "expected_action": "none",
+            "actual_action": "none",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "Hello, I was browsing your website to understand what your company offers. At the moment, I am only collecting general information about different tools. Your platform looks intersting, but I am not ready to speak with anyone yet. I still need to evaluate my options available in the market. Right now my goal is just to gather information and study documentation. Maybe sometime later I will consier reaching out.For now no action is required.",
+                "name": null
+            },
+            "tokens": {
+                "completion": 5,
+                "prompt": 357,
+                "total": 362
+            },
+            "passed": true
+        },
+        {
+            "prompt": "Hello, I was browsing your website to understand what your company offers.At the moment, I am only collecting general information about different tools.Your platform looks interesting but I am not ready to engage with sales yet. I still need to compare multiple options available in the market.Right now my goal is just to study the features and documentation.Maybe sometime later I will consider reaching out.For now, no action is required from your side.",
+            "expected_action": "none",
+            "actual_action": "none",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "Hello, I was browsing your website to understand what your company offers.At the moment, I am only collecting general information about different tools.Your platform looks interesting but I am not ready to engage with sales yet. I still need to compare multiple options available in the market.Right now my goal is just to study the features and documentation.Maybe sometime later I will consider reaching out.For now, no action is required from your side.",
+                "name": null
+            },
+            "tokens": {
+                "completion": 21,
+                "prompt": 358,
+                "total": 379
+            },
+            "passed": true
+        },
+        {
+            "prompt": "Good afternoon, I’ve been comparing multiple products in this category.Your solution stood out based on the features listed on your website.Before we proceed further, I would like to speak with a representative.A quick call or demo session would help us evaluate properly.My name is Amit Singh from ABC Corp.Please register my interest and arrange a callback.You may contact me at amit.singh@demo.com",
+            "expected_action": "createLead",
+            "actual_action": "createLead",
+            "args": {
+                "company": "ABC Corp",
+                "email": "amit.singh@demo.com",
+                "message": "Good afternoon, I’ve been comparing multiple products in this category.Your solution stood out based on the features listed on your website.Before we proceed further, I would like to speak with a representative.A quick call or demo session would help us evaluate properly.My name is Amit Singh from ABC Corp.Please register my interest and arrange a callback.You may contact me at amit.singh@demo.com",
+                "name": "Amit Singh"
+            },
+            "tokens": {
+                "completion": 54,
+                "prompt": 354,
+                "total": 408
+            },
+            "passed": true
+        },
+        {
+            "prompt": "Hi, I visited your website today while searching for enterprise solutions. The overall offering looks aligned with what our organization needs.We are in the early stages of vendor discussions. However, I would definitely like someone from your team to contact me. A short introductory call would be very helpful for us.Please add my details to your lead list. You can reach me anytime via email.",
+            "expected_action": "createLead",
+            "actual_action": "createLead",
+            "args": {
+                "company": null,
+                "email": "null",
+                "message": "Hi, I visited your website today while searching for enterprise solutions. The overall offering looks aligned with what our organization needs.We are in the early stages of vendor discussions. However, I would definitely like someone from your team to contact me. A short introductory call would be very helpful for us.Please add my details to your lead list. You can reach me anytime via email.",
+                "name": null
+            },
+            "tokens": {
+                "completion": 45,
+                "prompt": 346,
+                "total": 391
+            },
+            "passed": true
+        },
+        {
+            "prompt": "हेलो टीम, मैं अपनी कंपनी रिसर्च को मजबूत करने की योजना बना रहा हूं। इसी के दौरान आपकी कंपनी का नाम सामने आया। आपका समाधान हमारी जरूरतों के अनुसार लगता है। मैं प्राइसिंग और इम्प्लीमेंटेशन के बारे में जानना चाहता हूं। कृपया अपनी टीम के किसी भी मुझसे संपर्क करने के लिए मेरा ईमेल business.user@mail.com हो। आपके जवाब का प्रतीक्षा रहेगा।",
+            "expected_action": "createLead",
+            "actual_action": "createLead",
+            "args": {
+                "company": null,
+                "email": "business.user@mail.com",
+                "message": "हेलो टीम, मैं अपनी कंपनी रिसर्च को मजबूत करने की योजना बना रहा हूं। इसी के दौरान आपकी कंपनी का नाम सामने आया। आपका समाधान हमारी जरूरतों के अनुसार लगता है। मैं प्राइसिंग और इम्प्लीमेंटेशन के बारे में जानना चाहता हूं। कृपया अपनी टीम के किसी भी मुझसे संपर्क करने के लिए मेरा ईमेल business.user@mail.com हो। आपके जवाब का प्रतीक्षा रहेगा।",
+                "name": null
+            },
+            "tokens": {
+                "completion": 33,
+                "prompt": 348,
+                "total": 381
+            },
+            "passed": true
+        },
+        {
+            "prompt": "नमस्कार, मैंने आपके प्लेटफॉर्म के बारे में एक आर्टिकल में पढ़ा। यह इस क्षेत्र में एक दिलचस्प समाधान लगता है। मैं सिर्फ कंपनियों अलग-अलग ঵িকল্প দেখ রहा हूं। ফিলহাল মেরি সে কোনও তত্কাল আবশ্যকতা নেই। মৈঁ কেবল জানকারি একত্র কর রহা হুন। ভবিষ্যতে স্থিতি बদलে তভी निর्णय करব।",
+            "expected_action": "none",
+            "actual_action": "none",
+            "args": {
+                "company": null,
+                "email": null,
+                "message": "नमस्कार, मैंने आपके प्लेटफॉर्म के बारे में एक आर्टिकल में पढ़ा। यह इस क्षेत्र में एक दिलचस्प समाधान लगता है। मैं सिर्फ कंपनियों अलग-अलग ঵িকল্প দেখ রहा हूं। ফিলহাল মেরি সে কোনও তত্কাল আবশ্যকতা নেই। মৈঁ কেবল জানকারি একত্র কর রহা হুন। ভবিষ্যতে স্থিতি बদलে তভी निর्णय करব।",
+                "name": null
+            },
+            "tokens": {
+                "completion": 32,
+                "prompt": 353,
+                "total": 385
+            },
+            "passed": true
+        }
+    ]
+}
