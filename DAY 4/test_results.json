@@ -1,18 +1,18 @@
 {
     "total_tests": 20,
-    "valid_json_count": 18,
-    "success_rate_pct": 90.0,
+    "valid_json_count": 20,
+    "success_rate_pct": 100.0,
     "hallucination_count": 0,
-    "correct_tone_count": 18,
-    "total_tokens_used": 5946,
-    "total_cost_usd": 0.0011,
-    "avg_cost_per_request_usd": 5.501e-05,
-    "avg_response_time_sec": 7.64,
+    "correct_tone_count": 20,
+    "total_tokens_used": 6637,
+    "total_cost_usd": 0.001227,
+    "avg_cost_per_request_usd": 6.137e-05,
+    "avg_response_time_sec": 3.96,
     "results": [
         {
             "id": 1,
             "description": "Formal business inquiry",
-            "response_time_sec": 6.87,
+            "response_time_sec": 1.41,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -31,7 +31,7 @@
         {
             "id": 2,
             "description": "Urgent support request",
-            "response_time_sec": 1.85,
+            "response_time_sec": 2.79,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -50,7 +50,7 @@
         {
             "id": 3,
             "description": "Casual thank you email",
-            "response_time_sec": 1.86,
+            "response_time_sec": 3.5,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -69,7 +69,7 @@
         {
             "id": 4,
             "description": "Neutral meeting request",
-            "response_time_sec": 2.47,
+            "response_time_sec": 3.19,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -88,7 +88,7 @@
         {
             "id": 5,
             "description": "Customer complaint",
-            "response_time_sec": 5.65,
+            "response_time_sec": 5.08,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -107,7 +107,7 @@
         {
             "id": 6,
             "description": "Job application follow-up",
-            "response_time_sec": 18.57,
+            "response_time_sec": 2.64,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -126,7 +126,7 @@
         {
             "id": 7,
             "description": "Short casual question",
-            "response_time_sec": 19.48,
+            "response_time_sec": 9.64,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -145,17 +145,45 @@
         {
             "id": 8,
             "description": "Invoice payment reminder (urgent)",
-            "error": "HTTPConnectionPool(host='127.0.0.1', port=6000): Read timed out. (read timeout=30)"
+            "response_time_sec": 4.01,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.32e-05,
+                "suggestedReply": "Thank you for the reminder regarding Invoice #INV-2045. I will process the payment of $4,500 immediately. Please let me know if there are any further steps required from my end.",
+                "summary": "Invoice #INV-2045 for $4,500 is overdue and requires immediate payment.",
+                "tokens": {
+                    "completion": 96,
+                    "prompt": 248,
+                    "total": 344
+                },
+                "tone": "urgent"
+            }
         },
         {
             "id": 9,
             "description": "Project update email",
-            "error": "HTTPConnectionPool(host='127.0.0.1', port=6000): Read timed out. (read timeout=30)"
+            "response_time_sec": 3.09,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.41e-05,
+                "suggestedReply": "Thank you for the update. It's great to hear the Q2 project is progressing well and remains on track for the June 15 deadline. Please let us know if any support is needed for the final QA and documentation phases.",
+                "summary": "Q2 project is 70% complete and on track for the June 15 deadline.",
+                "tokens": {
+                    "completion": 98,
+                    "prompt": 249,
+                    "total": 347
+                },
+                "tone": "neutral"
+            }
         },
         {
             "id": 10,
             "description": "Formal contract negotiation",
-            "response_time_sec": 3.71,
+            "response_time_sec": 4.83,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -174,7 +202,7 @@
         {
             "id": 11,
             "description": "Newsletter unsubscribe request",
-            "response_time_sec": 2.14,
+            "response_time_sec": 4.88,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -193,7 +221,7 @@
         {
             "id": 12,
             "description": "Positive product feedback",
-            "response_time_sec": 5.75,
+            "response_time_sec": 4.89,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -212,7 +240,7 @@
         {
             "id": 13,
             "description": "Refund request",
-            "response_time_sec": 5.16,
+            "response_time_sec": 3.26,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -231,7 +259,7 @@
         {
             "id": 14,
             "description": "Hindi email",
-            "response_time_sec": 7.52,
+            "response_time_sec": 3.65,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -250,7 +278,7 @@
         {
             "id": 15,
             "description": "Apology email",
-            "response_time_sec": 14.32,
+            "response_time_sec": 4.49,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -269,7 +297,7 @@
         {
             "id": 16,
             "description": "Very short email",
-            "response_time_sec": 21.48,
+            "response_time_sec": 4.22,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -288,7 +316,7 @@
         {
             "id": 17,
             "description": "Interview invitation",
-            "response_time_sec": 5.34,
+            "response_time_sec": 5.02,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -307,7 +335,7 @@
         {
             "id": 18,
             "description": "Vendor proposal",
-            "response_time_sec": 8.49,
+            "response_time_sec": 2.07,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -326,7 +354,7 @@
         {
             "id": 19,
             "description": "Aggressive/rude complaint",
-            "response_time_sec": 12.36,
+            "response_time_sec": 3.4,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
@@ -345,7 +373,7 @@
         {
             "id": 20,
             "description": "Multi-language Hinglish",
-            "response_time_sec": 9.86,
+            "response_time_sec": 3.09,
             "valid_json": true,
             "hallucinated": false,
             "tone_valid": true,
