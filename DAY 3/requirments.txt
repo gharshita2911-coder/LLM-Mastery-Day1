@@ -1,5 +1,6 @@
-flask
-google-generativeai
-python-dotenv
 jsonschema
-requests
+flask==3.0.3
+python-dotenv==1.0.1
+# openai==1.79.0
+google-generative==0.8.3
+requests==2.31.0
