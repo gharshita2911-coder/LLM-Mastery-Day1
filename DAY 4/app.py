@@ -1,12 +1,18 @@
-import os
-
 from flask import Flask, request, jsonify
 from email_service import EmailService
+import os
 
 app = Flask(__name__)
-email_service = EmailService()
+email_service = None          # lazy — created on first request
 
 MAX_EMAIL_LENGTH = 8000  # characters
+
+
+def get_service():
+    global email_service
+    if email_service is None:
+        email_service = EmailService()
+    return email_service
 
 
 @app.route("/email/analyze", methods=["POST"])
@@ -31,7 +37,7 @@ def analyze_email():
                 "error": f"Email exceeds maximum length of {MAX_EMAIL_LENGTH} characters"
             }), 400
 
-        result = email_service.analyze_email(email_text)
+        result = get_service().analyze_email(email_text)
 
         if "error" in result:
             return jsonify(result), 400
