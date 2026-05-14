@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "description": "Formal business inquiry",
+    "email": "Dear Sir/Madam, I am writing to inquire about the availability of your enterprise software license for a team of 50 employees. Could you please provide pricing details and a product demo at your earliest convenience? Regards, Mr. Kapoor"
+  },
+  {
+    "id": 2,
+    "description": "Urgent support request",
+    "email": "URGENT: Our production server is down and we cannot access the dashboard. We are losing revenue every minute. Please respond IMMEDIATELY. This is a critical issue that needs to be resolved right now!"
+  },
+  {
+    "id": 3,
+    "description": "Casual thank you email",
+    "email": "Hey! Just wanted to say thanks for the help yesterday. Really appreciated it. You're awesome! Catch you later 😊"
+  },
+  {
+    "id": 4,
+    "description": "Neutral meeting request",
+    "email": "Hi, I would like to schedule a meeting to discuss the project progress. Please let me know your availability for next week. Thank you."
+  },
+  {
+    "id": 5,
+    "description": "Customer complaint",
+    "email": "I ordered a product two weeks ago and it has still not arrived. The tracking information has not been updated in 5 days. This is completely unacceptable. I demand a full refund immediately or an explanation for this delay."
+  },
+  {
+    "id": 6,
+    "description": "Job application follow-up",
+    "email": "Dear Hiring Manager, I applied for the Software Engineer position on May 1st and wanted to follow up on the status of my application. I remain very interested in the role and would love the opportunity to discuss my qualifications further."
+  },
+  {
+    "id": 7,
+    "description": "Short casual question",
+    "email": "Hey, are you free for lunch tomorrow? Let me know!"
+  },
+  {
+    "id": 8,
+    "description": "Invoice payment reminder (urgent)",
+    "email": "This is a reminder that Invoice #INV-2045 for $4,500 was due on April 30th and remains unpaid. Please arrange payment immediately to avoid late fees and service suspension. Contact us if you have any questions."
+  },
+  {
+    "id": 9,
+    "description": "Project update email",
+    "email": "Hi Team, Just a quick update on the Q2 project. We have completed 70% of the deliverables and are on track for the June 15 deadline. The remaining tasks include final QA and documentation. Let me know if you have any concerns."
+  },
+  {
+    "id": 10,
+    "description": "Formal contract negotiation",
+    "email": "Dear Legal Team, Following our discussion on April 28th, we would like to propose the following amendments to Section 4.2 of the draft contract regarding liability limits. We believe these changes are necessary to protect both parties' interests. Please review and revert at your earliest convenience."
+  },
+  {
+    "id": 11,
+    "description": "Newsletter unsubscribe request",
+    "email": "Hi, I have been receiving your newsletter for a while but I am no longer interested in the content. Please remove me from your mailing list. Thank you."
+  },
+  {
+    "id": 12,
+    "description": "Positive product feedback",
+    "email": "Hello, I just wanted to write in and say how much I love your product! It has completely transformed how my team works. The interface is intuitive and the features are exactly what we needed. Keep up the great work!"
+  },
+  {
+    "id": 13,
+    "description": "Refund request",
+    "email": "Hi there, I purchased your premium plan last week but the features I needed are not available as advertised on your website. I would like to request a full refund under your 30-day money-back guarantee. Please let me know how to proceed."
+  },
+  {
+    "id": 14,
+    "description": "Hindi email",
+    "email": "नमस्ते, मुझे आपकी सेवाओं के बारे में अधिक जानकारी चाहिए। क्या आप मुझे अपने उत्पाद की कीमत और विशेषताओं के बारे में बता सकते हैं? धन्यवाद।"
+  },
+  {
+    "id": 15,
+    "description": "Apology email",
+    "email": "Dear Customer, We sincerely apologize for the inconvenience caused by the service outage on May 8th. Our team has resolved the issue and implemented measures to prevent recurrence. As a token of our apology, we are extending your subscription by one month at no charge."
+  },
+  {
+    "id": 16,
+    "description": "Very short email",
+    "email": "Please send the report by Friday."
+  },
+  {
+    "id": 17,
+    "description": "Interview invitation",
+    "email": "Dear Harshita, We are pleased to inform you that you have been shortlisted for the Software Engineer role at TechCorp. We would like to invite you for a technical interview on May 20th at 11:00 AM IST via Zoom. Please confirm your availability. Best regards, HR Team"
+  },
+  {
+    "id": 18,
+    "description": "Vendor proposal",
+    "email": "Dear Procurement Team, We are pleased to submit our proposal for the annual IT maintenance contract. Our company has 10+ years of experience and we are confident we can meet your requirements within the specified budget. Please find the detailed proposal attached. We look forward to a long-term partnership."
+  },
+  {
+    "id": 19,
+    "description": "Aggressive/rude complaint",
+    "email": "This is absolutely ridiculous!! I have called your support line 4 times and nobody has helped me!! Your service is a JOKE and I want to speak to a manager RIGHT NOW. If this is not resolved today I will be posting a 1-star review everywhere."
+  },
+  {
+    "id": 20,
+    "description": "Multi-language Hinglish",
+    "email": "Hi, mujhe aapka product bahut pasand aaya. Kya aap mujhe ek demo schedule kar sakte hain? Main interested hoon aur jaldi se connect karna chahta hoon. Thanks!"
+  }
+]

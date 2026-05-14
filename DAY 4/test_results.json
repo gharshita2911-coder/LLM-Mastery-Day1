@@ -1,0 +1,365 @@
+{
+    "total_tests": 20,
+    "valid_json_count": 18,
+    "success_rate_pct": 90.0,
+    "hallucination_count": 0,
+    "correct_tone_count": 18,
+    "total_tokens_used": 5946,
+    "total_cost_usd": 0.0011,
+    "avg_cost_per_request_usd": 5.501e-05,
+    "avg_response_time_sec": 7.64,
+    "results": [
+        {
+            "id": 1,
+            "description": "Formal business inquiry",
+            "response_time_sec": 6.87,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 7.35e-05,
+                "suggestedReply": "Dear Mr. Kapoor,\n\nThank you for your interest in our enterprise software. We would be happy to provide you with pricing details and arrange a product demonstration for your team of 50 employees. Please let us know your preferred dates and times for the demo, and we will coordinate accordingly.\n\nBest regards,\n[Your Name/Company Name]",
+                "summary": "Inquiry about enterprise software license availability, pricing, and demo for 50 employees.",
+                "tokens": {
+                    "completion": 123,
+                    "prompt": 243,
+                    "total": 366
+                },
+                "tone": "formal"
+            }
+        },
+        {
+            "id": 2,
+            "description": "Urgent support request",
+            "response_time_sec": 1.85,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 5.22e-05,
+                "suggestedReply": "Acknowledged. We are mobilizing our technical team immediately to diagnose and resolve the production server outage. We will provide updates as soon as possible.",
+                "summary": "Production server is down, causing revenue loss; immediate resolution required.",
+                "tokens": {
+                    "completion": 71,
+                    "prompt": 238,
+                    "total": 309
+                },
+                "tone": "urgent"
+            }
+        },
+        {
+            "id": 3,
+            "description": "Casual thank you email",
+            "response_time_sec": 1.86,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 4.41e-05,
+                "suggestedReply": "You're very welcome! Glad I could help. Talk to you soon!",
+                "summary": "A casual thank you for help received yesterday.",
+                "tokens": {
+                    "completion": 55,
+                    "prompt": 221,
+                    "total": 276
+                },
+                "tone": "casual"
+            }
+        },
+        {
+            "id": 4,
+            "description": "Neutral meeting request",
+            "response_time_sec": 2.47,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6e-05,
+                "suggestedReply": "Thank you for your email. I am available to meet next week to discuss the project progress. Please let me know which days and times work best for you, and I will do my best to accommodate.\n\nBest regards,\n[Your Name]",
+                "summary": "Request to schedule a meeting next week to discuss project progress.",
+                "tokens": {
+                    "completion": 94,
+                    "prompt": 224,
+                    "total": 318
+                },
+                "tone": "neutral"
+            }
+        },
+        {
+            "id": 5,
+            "description": "Customer complaint",
+            "response_time_sec": 5.65,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.88e-05,
+                "suggestedReply": "Dear Customer,\n\nI sincerely apologize for the delay in your order and the lack of updated tracking information. I understand your frustration and will investigate this immediately. Please provide your order number so I can look into this further and provide you with an explanation or process a refund.\n\nSincerely,\n[Your Name/Company Name]",
+                "summary": "Customer demands refund or explanation for delayed order with no tracking updates.",
+                "tokens": {
+                    "completion": 112,
+                    "prompt": 240,
+                    "total": 352
+                },
+                "tone": "urgent"
+            }
+        },
+        {
+            "id": 6,
+            "description": "Job application follow-up",
+            "response_time_sec": 18.57,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.46e-05,
+                "suggestedReply": "Dear [Applicant Name],\n\nThank you for following up on your application for the Software Engineer position. We appreciate your continued interest. We are still reviewing applications and will be in touch regarding the next steps in the hiring process.\n\nSincerely,\nThe Hiring Team",
+                "summary": "Applicant follows up on their Software Engineer application submitted on May 1st.",
+                "tokens": {
+                    "completion": 101,
+                    "prompt": 242,
+                    "total": 343
+                },
+                "tone": "formal"
+            }
+        },
+        {
+            "id": 7,
+            "description": "Short casual question",
+            "response_time_sec": 19.48,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 4.41e-05,
+                "suggestedReply": "Hi there! Thanks for the invite. Unfortunately, I'm busy tomorrow. Perhaps another time?",
+                "summary": "Inquiry about availability for lunch tomorrow.",
+                "tokens": {
+                    "completion": 58,
+                    "prompt": 209,
+                    "total": 267
+                },
+                "tone": "casual"
+            }
+        },
+        {
+            "id": 8,
+            "description": "Invoice payment reminder (urgent)",
+            "error": "HTTPConnectionPool(host='127.0.0.1', port=6000): Read timed out. (read timeout=30)"
+        },
+        {
+            "id": 9,
+            "description": "Project update email",
+            "error": "HTTPConnectionPool(host='127.0.0.1', port=6000): Read timed out. (read timeout=30)"
+        },
+        {
+            "id": 10,
+            "description": "Formal contract negotiation",
+            "response_time_sec": 3.71,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.38e-05,
+                "suggestedReply": "Dear [Sender Name],\n\nThank you for submitting the proposed amendments to Section 4.2 of the draft contract. We will review these changes promptly and provide our feedback at our earliest convenience.\n\nSincerely,\nThe Legal Team",
+                "summary": "Proposed amendments to Section 4.2 of the draft contract regarding liability limits.",
+                "tokens": {
+                    "completion": 96,
+                    "prompt": 254,
+                    "total": 350
+                },
+                "tone": "formal"
+            }
+        },
+        {
+            "id": 11,
+            "description": "Newsletter unsubscribe request",
+            "response_time_sec": 2.14,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 5.08e-05,
+                "suggestedReply": "Thank you for letting us know. We have removed you from our mailing list and apologize if our content was not of interest. We wish you all the best.",
+                "summary": "Unsubscribe request from a newsletter subscriber.",
+                "tokens": {
+                    "completion": 70,
+                    "prompt": 228,
+                    "total": 298
+                },
+                "tone": "neutral"
+            }
+        },
+        {
+            "id": 12,
+            "description": "Positive product feedback",
+            "response_time_sec": 5.75,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.25e-05,
+                "suggestedReply": "Thank you so much for your kind words! We're thrilled to hear that our product has transformed your team's workflow and that you find the interface intuitive and the features beneficial. We appreciate your feedback and are committed to continuing our work.",
+                "summary": "Customer expresses strong satisfaction with the product and its impact on their team's workflow.",
+                "tokens": {
+                    "completion": 96,
+                    "prompt": 241,
+                    "total": 337
+                },
+                "tone": "neutral"
+            }
+        },
+        {
+            "id": 13,
+            "description": "Refund request",
+            "response_time_sec": 5.16,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 7.68e-05,
+                "suggestedReply": "Dear [Customer Name],\n\nThank you for reaching out to us. We apologize that the premium plan features did not meet your expectations and for any inconvenience this may have caused. We would be happy to process your refund under our 30-day money-back guarantee. To proceed, please confirm your order details, and we will initiate the refund process immediately.\n\nSincerely,\n[Your Name/Company Name]",
+                "summary": "Customer requests a refund due to unavailable advertised premium plan features.",
+                "tokens": {
+                    "completion": 130,
+                    "prompt": 248,
+                    "total": 378
+                },
+                "tone": "formal"
+            }
+        },
+        {
+            "id": 14,
+            "description": "Hindi email",
+            "response_time_sec": 7.52,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.98e-05,
+                "suggestedReply": "नमस्ते,\n\nआपकी पूछताछ के लिए धन्यवाद। हम आपको अपनी सेवाओं के बारे में अधिक जानकारी प्रदान करने में प्रसन्न होंगे। कृपया हमें बताएं कि आप किन विशिष्ट उत्पादों या सेवाओं में रुचि रखते हैं ताकि हम आपको सबसे प्रासंगिक विवरण, मूल्य निर्धारण और सुविधाएँ प्रदान कर सकें।\n\nसाभार,\n[आपका नाम/कंपनी का नाम]",
+                "summary": "The sender is requesting more information about services, including pricing and features.",
+                "tokens": {
+                    "completion": 118,
+                    "prompt": 226,
+                    "total": 344
+                },
+                "tone": "formal"
+            }
+        },
+        {
+            "id": 15,
+            "description": "Apology email",
+            "response_time_sec": 14.32,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 5.24e-05,
+                "suggestedReply": "Dear [Company Name], Thank you for your apology and for extending my subscription. I appreciate the proactive measures taken to prevent future outages.",
+                "summary": "Apology for service outage, subscription extended one month free.",
+                "tokens": {
+                    "completion": 69,
+                    "prompt": 248,
+                    "total": 317
+                },
+                "tone": "formal"
+            }
+        },
+        {
+            "id": 16,
+            "description": "Very short email",
+            "response_time_sec": 21.48,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 4.27e-05,
+                "suggestedReply": "Thank you for your request. I will ensure the report is submitted by Friday.",
+                "summary": "The sender requests the report be submitted by Friday.",
+                "tokens": {
+                    "completion": 56,
+                    "prompt": 203,
+                    "total": 259
+                },
+                "tone": "neutral"
+            }
+        },
+        {
+            "id": 17,
+            "description": "Interview invitation",
+            "response_time_sec": 5.34,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 7.62e-05,
+                "suggestedReply": "Dear HR Team,\n\nThank you for informing me about being shortlisted for the Software Engineer role at TechCorp. I am pleased to accept the invitation for a technical interview on May 20th at 11:00 AM IST via Zoom. Please let me know if there is any further information or preparation required from my end.\n\nBest regards,\nHarshita",
+                "summary": "You are shortlisted for a Software Engineer role and invited for a technical interview.",
+                "tokens": {
+                    "completion": 126,
+                    "prompt": 258,
+                    "total": 384
+                },
+                "tone": "formal"
+            }
+        },
+        {
+            "id": 18,
+            "description": "Vendor proposal",
+            "response_time_sec": 8.49,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 7.07e-05,
+                "suggestedReply": "Dear [Sender Name],\n\nThank you for submitting your proposal for the annual IT maintenance contract. We appreciate you taking the time to outline your company's experience and confidence in meeting our requirements within budget. We will review the attached proposal thoroughly and be in touch regarding the next steps.\n\nSincerely,\nThe Procurement Team",
+                "summary": "Proposal submitted for the annual IT maintenance contract, highlighting experience and budget adherence.",
+                "tokens": {
+                    "completion": 113,
+                    "prompt": 255,
+                    "total": 368
+                },
+                "tone": "formal"
+            }
+        },
+        {
+            "id": 19,
+            "description": "Aggressive/rude complaint",
+            "response_time_sec": 12.36,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.47e-05,
+                "suggestedReply": "I sincerely apologize for the frustrating experience you've had with our support team. I understand your urgency and would like to help resolve this immediately. Please provide your account details or a brief description of the issue, and I will escalate this to a manager for urgent attention.",
+                "summary": "Customer is extremely frustrated with support and demands to speak to a manager immediately.",
+                "tokens": {
+                    "completion": 99,
+                    "prompt": 251,
+                    "total": 350
+                },
+                "tone": "urgent"
+            }
+        },
+        {
+            "id": 20,
+            "description": "Multi-language Hinglish",
+            "response_time_sec": 9.86,
+            "valid_json": true,
+            "hallucinated": false,
+            "tone_valid": true,
+            "response": {
+                "cost_usd": 6.24e-05,
+                "suggestedReply": "Namaste! Mujhe khushi hai ki aapko hamara product pasand aaya. Kripya mujhe batayein ki aap demo ke liye kaun sa samay aur din pasand karenge, taaki hum uske anusar schedule kar sakein. Dhanyawad!",
+                "summary": "Customer likes the product and wants to schedule a demo soon.",
+                "tokens": {
+                    "completion": 98,
+                    "prompt": 232,
+                    "total": 330
+                },
+                "tone": "casual"
+            }
+        }
+    ]
+}
