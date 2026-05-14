@@ -14,6 +14,5 @@ lead_schema = {
             "type": ["string", "null"]
         }
     },
-    "required": ["message"],
-    "additionalProperties": False
+    "required": ["message"]
 }
