@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "document": "hr_policy.txt",
+    "question": "How many days of paid annual leave are employees entitled to?",
+    "expected_type": "answerable",
+    "expected_keyword": "18"
+  },
+  {
+    "id": 2,
+    "document": "hr_policy.txt",
+    "question": "How many days in advance must leave be applied for?",
+    "expected_type": "answerable",
+    "expected_keyword": "3"
+  },
+  {
+    "id": 3,
+    "document": "hr_policy.txt",
+    "question": "How many work-from-home days per week are allowed?",
+    "expected_type": "answerable",
+    "expected_keyword": "3"
+  },
+  {
+    "id": 4,
+    "document": "hr_policy.txt",
+    "question": "Are employees on probation eligible for work-from-home?",
+    "expected_type": "answerable",
+    "expected_keyword": "not eligible"
+  },
+  {
+    "id": 5,
+    "document": "hr_policy.txt",
+    "question": "What is the hotel accommodation cap for domestic business travel?",
+    "expected_type": "answerable",
+    "expected_keyword": "5,000"
+  },
+  {
+    "id": 6,
+    "document": "hr_policy.txt",
+    "question": "What is the notice period for senior employees at Grade 4 and above?",
+    "expected_type": "answerable",
+    "expected_keyword": "60"
+  },
+  {
+    "id": 7,
+    "document": "hr_policy.txt",
+    "question": "Within how many days must travel expense claims be submitted?",
+    "expected_type": "answerable",
+    "expected_keyword": "15"
+  },
+  {
+    "id": 8,
+    "document": "hr_policy.txt",
+    "question": "When are performance reviews conducted at TechNova?",
+    "expected_type": "answerable",
+    "expected_keyword": "June"
+  },
+  {
+    "id": 9,
+    "document": "hr_policy.txt",
+    "question": "What happens to unused leave beyond 10 days at year end?",
+    "expected_type": "answerable",
+    "expected_keyword": "forfeited"
+  },
+  {
+    "id": 10,
+    "document": "novacrm_docs.txt",
+    "question": "What is the API rate limit for the Professional plan?",
+    "expected_type": "answerable",
+    "expected_keyword": "5,000"
+  },
+  {
+    "id": 11,
+    "document": "novacrm_docs.txt",
+    "question": "How long are exported files available for download?",
+    "expected_type": "answerable",
+    "expected_keyword": "24 hours"
+  },
+  {
+    "id": 12,
+    "document": "novacrm_docs.txt",
+    "question": "What authentication standard is used for SSO on Enterprise plans?",
+    "expected_type": "answerable",
+    "expected_keyword": "SAML"
+  },
+  {
+    "id": 13,
+    "document": "novacrm_docs.txt",
+    "question": "What is the monthly price per user for the Starter plan?",
+    "expected_type": "answerable",
+    "expected_keyword": "29"
+  },
+  {
+    "id": 14,
+    "document": "novacrm_docs.txt",
+    "question": "Which browsers are officially supported by NovaCRM?",
+    "expected_type": "answerable",
+    "expected_keyword": "Chrome"
+  },
+  {
+    "id": 15,
+    "document": "novacrm_docs.txt",
+    "question": "What HTTP status code is returned when the API rate limit is exceeded?",
+    "expected_type": "answerable",
+    "expected_keyword": "429"
+  },
+  {
+    "id": 16,
+    "document": "both",
+    "question": "What is the company's refund policy for unused leave payouts?",
+    "expected_type": "unanswerable",
+    "expected_keyword": "cannot find"
+  },
+  {
+    "id": 17,
+    "document": "both",
+    "question": "Does NovaCRM have a mobile app for Android?",
+    "expected_type": "unanswerable",
+    "expected_keyword": "cannot find"
+  },
+  {
+    "id": 18,
+    "document": "both",
+    "question": "What is the CEO's name at TechNova Inc.?",
+    "expected_type": "unanswerable",
+    "expected_keyword": "cannot find"
+  },
+  {
+    "id": 19,
+    "document": "both",
+    "question": "What programming language is NovaCRM's backend written in?",
+    "expected_type": "unanswerable",
+    "expected_keyword": "cannot find"
+  },
+  {
+    "id": 20,
+    "document": "both",
+    "question": "How many vacation days do interns get at TechNova?",
+    "expected_type": "unanswerable",
+    "expected_keyword": "cannot find"
+  }
+]

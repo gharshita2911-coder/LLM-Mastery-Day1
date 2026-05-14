@@ -1,0 +1,444 @@
+{
+    "total_tests": 20,
+    "correct": 20,
+    "accuracy_pct": 100.0,
+    "hallucinations": 0,
+    "hallucination_pct": 0.0,
+    "total_tokens_used": 15154,
+    "total_cost_usd": 0.002028,
+    "avg_cost_per_request": 0.00010142,
+    "avg_response_time_sec": 2.54,
+    "results": [
+        {
+            "id": 1,
+            "question": "How many days of paid annual leave are employees entitled to?",
+            "expected_type": "answerable",
+            "expected_keyword": "18",
+            "answer": "Employees are entitled to 18 days of paid annual leave per calendar year.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_0",
+                    "snippet": "Employees are entitled to 18 days of paid annual leave per calendar year."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 1.56,
+            "tokens": {
+                "completion": 86,
+                "prompt": 686,
+                "total": 772
+            },
+            "cost_usd": 0.000103
+        },
+        {
+            "id": 2,
+            "question": "How many days in advance must leave be applied for?",
+            "expected_type": "answerable",
+            "expected_keyword": "3",
+            "answer": "Leave must be applied for at least 3 working days in advance using the HR portal.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_0",
+                    "snippet": "Leave must be applied for at least 3 working days in advance using the HR portal."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 2.29,
+            "tokens": {
+                "completion": 90,
+                "prompt": 665,
+                "total": 755
+            },
+            "cost_usd": 0.0001025
+        },
+        {
+            "id": 3,
+            "question": "How many work-from-home days per week are allowed?",
+            "expected_type": "answerable",
+            "expected_keyword": "3",
+            "answer": "Employees may work from home up to 3 days per week.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_1",
+                    "snippet": "Employees may work from home up to 3 days per week."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 2.79,
+            "tokens": {
+                "completion": 80,
+                "prompt": 681,
+                "total": 761
+            },
+            "cost_usd": 0.0001001
+        },
+        {
+            "id": 4,
+            "question": "Are employees on probation eligible for work-from-home?",
+            "expected_type": "answerable",
+            "expected_keyword": "not eligible",
+            "answer": "Employees on probation, which is the first 6 months of employment, are not eligible for work-from-home arrangements.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_2",
+                    "snippet": "Employees on probation (first 6 months) are not eligible for work-from-home arrangements."
+                },
+                {
+                    "chunkId": "7e40ac12_chunk_1",
+                    "snippet": "Employees on probation (first 6 months) are not eligible for work-from-home arr"
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 3.36,
+            "tokens": {
+                "completion": 150,
+                "prompt": 680,
+                "total": 830
+            },
+            "cost_usd": 0.000128
+        },
+        {
+            "id": 5,
+            "question": "What is the hotel accommodation cap for domestic business travel?",
+            "expected_type": "answerable",
+            "expected_keyword": "5,000",
+            "answer": "Hotel accommodation is capped at Rs. 5,000 per night for domestic business travel.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_3",
+                    "snippet": "Hotel accommodation is capped at Rs. 5,000 per night."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 1.77,
+            "tokens": {
+                "completion": 90,
+                "prompt": 659,
+                "total": 749
+            },
+            "cost_usd": 0.0001019
+        },
+        {
+            "id": 6,
+            "question": "What is the notice period for senior employees at Grade 4 and above?",
+            "expected_type": "answerable",
+            "expected_keyword": "60",
+            "answer": "Senior employees at Grade 4 and above must serve a notice period of 60 days.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_4",
+                    "snippet": "Senior employees (Grade 4 and above) must serve 60 days."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 1.46,
+            "tokens": {
+                "completion": 89,
+                "prompt": 663,
+                "total": 752
+            },
+            "cost_usd": 0.0001019
+        },
+        {
+            "id": 7,
+            "question": "Within how many days must travel expense claims be submitted?",
+            "expected_type": "answerable",
+            "expected_keyword": "15",
+            "answer": "All travel expense claims must be submitted within 15 working days of returning from travel with original receipts.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_4",
+                    "snippet": "submitted within 15 working days of returning from travel with original receipts."
+                },
+                {
+                    "chunkId": "7e40ac12_chunk_3",
+                    "snippet": "All claims must be submitted within 15 working days of returning from travel with original receipt"
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 3.18,
+            "tokens": {
+                "completion": 140,
+                "prompt": 659,
+                "total": 799
+            },
+            "cost_usd": 0.0001219
+        },
+        {
+            "id": 8,
+            "question": "When are performance reviews conducted at TechNova?",
+            "expected_type": "answerable",
+            "expected_keyword": "June",
+            "answer": "Performance reviews are conducted twice a year, in June and December.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_2",
+                    "snippet": "Performance reviews are conducted twice a year: in June and December."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 1.59,
+            "tokens": {
+                "completion": 80,
+                "prompt": 665,
+                "total": 745
+            },
+            "cost_usd": 9.85e-05
+        },
+        {
+            "id": 9,
+            "question": "What happens to unused leave beyond 10 days at year end?",
+            "expected_type": "answerable",
+            "expected_keyword": "forfeited",
+            "answer": "Unused leave beyond 10 days at year end is forfeited.",
+            "sources": [
+                {
+                    "chunkId": "7e40ac12_chunk_0",
+                    "snippet": "Unused leave of up to 10 days may be carried forward to the next year; the remaining balance is forfeited."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 1.68,
+            "tokens": {
+                "completion": 93,
+                "prompt": 688,
+                "total": 781
+            },
+            "cost_usd": 0.000106
+        },
+        {
+            "id": 10,
+            "question": "What is the API rate limit for the Professional plan?",
+            "expected_type": "answerable",
+            "expected_keyword": "5,000",
+            "answer": "The API rate limit for the Professional plan is 5,000 requests per hour.",
+            "sources": [
+                {
+                    "chunkId": "00a9a040_chunk_2",
+                    "snippet": "Professional plan: 5,000 requests per hour"
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 3.64,
+            "tokens": {
+                "completion": 87,
+                "prompt": 644,
+                "total": 731
+            },
+            "cost_usd": 9.92e-05
+        },
+        {
+            "id": 11,
+            "question": "How long are exported files available for download?",
+            "expected_type": "answerable",
+            "expected_keyword": "24 hours",
+            "answer": "Exported files are available for download for 24 hours after generation.",
+            "sources": [
+                {
+                    "chunkId": "00a9a040_chunk_4",
+                    "snippet": "Exported files are available for download for 24 hours after generation."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 1.41,
+            "tokens": {
+                "completion": 85,
+                "prompt": 611,
+                "total": 696
+            },
+            "cost_usd": 9.51e-05
+        },
+        {
+            "id": 12,
+            "question": "What authentication standard is used for SSO on Enterprise plans?",
+            "expected_type": "answerable",
+            "expected_keyword": "SAML",
+            "answer": "Single Sign-On (SSO) on Enterprise plans uses SAML 2.0.",
+            "sources": [
+                {
+                    "chunkId": "00a9a040_chunk_1",
+                    "snippet": "Single Sign-On (SSO) is available on Enterprise plans via SAML 2.0."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 3.49,
+            "tokens": {
+                "completion": 95,
+                "prompt": 638,
+                "total": 733
+            },
+            "cost_usd": 0.0001018
+        },
+        {
+            "id": 13,
+            "question": "What is the monthly price per user for the Starter plan?",
+            "expected_type": "answerable",
+            "expected_keyword": "29",
+            "answer": "The Starter plan is $29 per user per month.",
+            "sources": [
+                {
+                    "chunkId": "00a9a040_chunk_5",
+                    "snippet": "Starter: $29/user/month – up to 10,000 contacts, email integration."
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 2.34,
+            "tokens": {
+                "completion": 91,
+                "prompt": 657,
+                "total": 748
+            },
+            "cost_usd": 0.0001021
+        },
+        {
+            "id": 14,
+            "question": "Which browsers are officially supported by NovaCRM?",
+            "expected_type": "answerable",
+            "expected_keyword": "Chrome",
+            "answer": "NovaCRM officially supports Chrome 110+, Firefox 115+, and Edge 110+. Safari is not officially supported.",
+            "sources": [
+                {
+                    "chunkId": "00a9a040_chunk_1",
+                    "snippet": "Supported browsers: Chrome 110+, Firefox 115+, Edge 110+. Safari is not officially supported."
+                },
+                {
+                    "chunkId": "00a9a040_chunk_0",
+                    "snippet": "Supported browsers: Chrome 110+, Firefox 115+, Edge 110+. Safari is not official"
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 2.04,
+            "tokens": {
+                "completion": 169,
+                "prompt": 722,
+                "total": 891
+            },
+            "cost_usd": 0.0001398
+        },
+        {
+            "id": 15,
+            "question": "What HTTP status code is returned when the API rate limit is exceeded?",
+            "expected_type": "answerable",
+            "expected_keyword": "429",
+            "answer": "Requests exceeding the limit return HTTP 429.",
+            "sources": [
+                {
+                    "chunkId": "00a9a040_chunk_3",
+                    "snippet": "Requests exceeding the limit return HTTP 429."
+                },
+                {
+                    "chunkId": "00a9a040_chunk_2",
+                    "snippet": "Requests exceeding the limi"
+                }
+            ],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 3.06,
+            "tokens": {
+                "completion": 115,
+                "prompt": 652,
+                "total": 767
+            },
+            "cost_usd": 0.0001112
+        },
+        {
+            "id": 16,
+            "question": "What is the company's refund policy for unused leave payouts?",
+            "expected_type": "unanswerable",
+            "expected_keyword": "cannot find",
+            "answer": "I cannot find relevant information in the uploaded documents to answer this question.",
+            "sources": [],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 3.66,
+            "tokens": {
+                "completion": 34,
+                "prompt": 682,
+                "total": 716
+            },
+            "cost_usd": 8.18e-05
+        },
+        {
+            "id": 17,
+            "question": "Does NovaCRM have a mobile app for Android?",
+            "expected_type": "unanswerable",
+            "expected_keyword": "cannot find",
+            "answer": "I cannot find relevant information in the uploaded documents to answer this question.",
+            "sources": [],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 4.23,
+            "tokens": {
+                "completion": 34,
+                "prompt": 723,
+                "total": 757
+            },
+            "cost_usd": 8.59e-05
+        },
+        {
+            "id": 18,
+            "question": "What is the CEO's name at TechNova Inc.?",
+            "expected_type": "unanswerable",
+            "expected_keyword": "cannot find",
+            "answer": "I cannot find relevant information in the uploaded documents to answer this question.",
+            "sources": [],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 4.3,
+            "tokens": {
+                "completion": 34,
+                "prompt": 677,
+                "total": 711
+            },
+            "cost_usd": 8.13e-05
+        },
+        {
+            "id": 19,
+            "question": "What programming language is NovaCRM's backend written in?",
+            "expected_type": "unanswerable",
+            "expected_keyword": "cannot find",
+            "answer": "I cannot find relevant information in the uploaded documents to answer this question.",
+            "sources": [],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 1.27,
+            "tokens": {
+                "completion": 34,
+                "prompt": 725,
+                "total": 759
+            },
+            "cost_usd": 8.61e-05
+        },
+        {
+            "id": 20,
+            "question": "How many vacation days do interns get at TechNova?",
+            "expected_type": "unanswerable",
+            "expected_keyword": "cannot find",
+            "answer": "I cannot find relevant information in the uploaded documents to answer this question.",
+            "sources": [],
+            "correct": true,
+            "hallucinated": false,
+            "response_time_sec": 1.76,
+            "tokens": {
+                "completion": 34,
+                "prompt": 667,
+                "total": 701
+            },
+            "cost_usd": 8.03e-05
+        }
+    ]
+}
