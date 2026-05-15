@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "title": "Phase 2 \u2014 RAG Guardrail Test Suite",
+    "generated": "2026-05-15T08:05:12.775224+00:00",
+    "total": 101,
+    "passed": 101,
+    "failed": 0,
+    "skipped": 0,
+    "crashes": 0,
+    "duration_s": 1.085,
+    "exit_status": 0
+  },
+  "summary_by_category": {
+    "A: Input Length Validation": {
+      "total": 26,
+      "passed": 26,
+      "failed": 0,
+      "skipped": 0
+    },
+    "B: Output Schema Validation": {
+      "total": 24,
+      "passed": 24,
+      "failed": 0,
+      "skipped": 0
+    },
+    "C: Retry Logic": {
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "skipped": 0
+    },
+    "D: Timeout Handling": {
+      "total": 15,
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0
+    },
+    "E: End-to-End / No-Crash": {
+      "total": 16,
+      "passed": 16,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "test_cases": [
+    {
+      "id": 1,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A01_exact_limit_accepted",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000286,
+      "error": null
+    },
+    {
+      "id": 2,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A02_one_over_limit_raises",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000304,
+      "error": null
+    },
+    {
+      "id": 3,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A03_small_valid_sizes[0]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000336,
+      "error": null
+    },
+    {
+      "id": 4,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A03_small_valid_sizes[1]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000202,
+      "error": null
+    },
+    {
+      "id": 5,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A04_large_valid_sizes[1000]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000447,
+      "error": null
+    },
+    {
+      "id": 6,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A04_large_valid_sizes[4000]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000757,
+      "error": null
+    },
+    {
+      "id": 7,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A04_large_valid_sizes[7999]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000205,
+      "error": null
+    },
+    {
+      "id": 8,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A04_large_valid_sizes[8000]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.00032,
+      "error": null
+    },
+    {
+      "id": 9,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A05_small_over_limit[8001]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000219,
+      "error": null
+    },
+    {
+      "id": 10,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A05_small_over_limit[10000]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000352,
+      "error": null
+    },
+    {
+      "id": 11,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A06_large_over_limit[50000]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000274,
+      "error": null
+    },
+    {
+      "id": 12,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A06_large_over_limit[999999]",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000958,
+      "error": null
+    },
+    {
+      "id": 13,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A07_rag_returns_400_on_long_input",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.001418,
+      "error": null
+    },
+    {
+      "id": 14,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A08_rag_proceeds_on_ok_input",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.00629,
+      "error": null
+    },
+    {
+      "id": 15,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A09_error_message_has_char_info",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000226,
+      "error": null
+    },
+    {
+      "id": 16,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A10_400_data_is_none",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.001176,
+      "error": null
+    },
+    {
+      "id": 17,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A11_400_has_meta_elapsed",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.002358,
+      "error": null
+    },
+    {
+      "id": 18,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A12_400_status_is_error",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.001249,
+      "error": null
+    },
+    {
+      "id": 19,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A13_400_has_message",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.002372,
+      "error": null
+    },
+    {
+      "id": 20,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A14_empty_string_is_valid",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000224,
+      "error": null
+    },
+    {
+      "id": 21,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A15_single_char_is_valid",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.000231,
+      "error": null
+    },
+    {
+      "id": 22,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A16_no_api_call_on_long_input",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.002181,
+      "error": null
+    },
+    {
+      "id": 23,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A17_unicode_chars_counted_correctly",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.001733,
+      "error": null
+    },
+    {
+      "id": 24,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A18_combined_query_context_over_limit_rejected",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.001229,
+      "error": null
+    },
+    {
+      "id": 25,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A19_envelope_keys_present_on_400",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.001337,
+      "error": null
+    },
+    {
+      "id": 26,
+      "nodeid": "test_guardrails.py::TestInputLength::test_A20_ok_input_returns_status_ok",
+      "category": "A: Input Length Validation",
+      "outcome": "PASS",
+      "duration": 0.002775,
+      "error": null
+    },
+    {
+      "id": 27,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B01_valid_json_passes",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000337,
+      "error": null
+    },
+    {
+      "id": 28,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B02_invalid_json_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.00034,
+      "error": null
+    },
+    {
+      "id": 29,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B03_missing_sources_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.00178,
+      "error": null
+    },
+    {
+      "id": 30,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B04_array_root_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000515,
+      "error": null
+    },
+    {
+      "id": 31,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B05_empty_string_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000554,
+      "error": null
+    },
+    {
+      "id": 32,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B06_null_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000779,
+      "error": null
+    },
+    {
+      "id": 33,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B07_extra_keys_allowed",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.001054,
+      "error": null
+    },
+    {
+      "id": 34,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B08_returns_dict_on_success",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000356,
+      "error": null
+    },
+    {
+      "id": 35,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B09_sources_list_preserved",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000298,
+      "error": null
+    },
+    {
+      "id": 36,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B10_whitespace_only_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.001106,
+      "error": null
+    },
+    {
+      "id": 37,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B11_boolean_true_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000558,
+      "error": null
+    },
+    {
+      "id": 38,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B12_integer_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000418,
+      "error": null
+    },
+    {
+      "id": 39,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B13_string_value_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000373,
+      "error": null
+    },
+    {
+      "id": 40,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B14_missing_answer_raises",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.000258,
+      "error": null
+    },
+    {
+      "id": 41,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B15_schema_failure_uses_fallback",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.003548,
+      "error": null
+    },
+    {
+      "id": 42,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B16_fallback_flag_in_meta",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.002368,
+      "error": null
+    },
+    {
+      "id": 43,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B17_fallback_answer_is_string",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.00362,
+      "error": null
+    },
+    {
+      "id": 44,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B18_fallback_sources_is_list",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.003641,
+      "error": null
+    },
+    {
+      "id": 45,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B19_bad_outputs_never_crash[not json]",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.004181,
+      "error": null
+    },
+    {
+      "id": 46,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B19_bad_outputs_never_crash[{}]",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.005011,
+      "error": null
+    },
+    {
+      "id": 47,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B19_bad_outputs_never_crash[[]]",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.002781,
+      "error": null
+    },
+    {
+      "id": 48,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B19_bad_outputs_never_crash[42]",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.00612,
+      "error": null
+    },
+    {
+      "id": 49,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B19_bad_outputs_never_crash[\"string\"]",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.004183,
+      "error": null
+    },
+    {
+      "id": 50,
+      "nodeid": "test_guardrails.py::TestOutputSchema::test_B20_valid_output_not_flagged_as_fallback",
+      "category": "B: Output Schema Validation",
+      "outcome": "PASS",
+      "duration": 0.003358,
+      "error": null
+    },
+    {
+      "id": 51,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C01_429_retried_then_succeeds",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.008457,
+      "error": null
+    },
+    {
+      "id": 52,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C02_500_retried_then_succeeds",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.007262,
+      "error": null
+    },
+    {
+      "id": 53,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C03_502_retried_then_succeeds",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.003771,
+      "error": null
+    },
+    {
+      "id": 54,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C04_503_retried_then_succeeds",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.005335,
+      "error": null
+    },
+    {
+      "id": 55,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C05_504_retried_then_succeeds",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.004243,
+      "error": null
+    },
+    {
+      "id": 56,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C06_403_not_retried",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.002843,
+      "error": null
+    },
+    {
+      "id": 57,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C07_401_not_retried",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.002864,
+      "error": null
+    },
+    {
+      "id": 58,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C08_404_not_retried",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.002215,
+      "error": null
+    },
+    {
+      "id": 59,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C09_400_not_retried",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.002928,
+      "error": null
+    },
+    {
+      "id": 60,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C10_422_not_retried",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.002444,
+      "error": null
+    },
+    {
+      "id": 61,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C11_all_retries_exhausted_returns_error",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.003477,
+      "error": null
+    },
+    {
+      "id": 62,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C12_success_first_try_no_retry",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.002527,
+      "error": null
+    },
+    {
+      "id": 63,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C13_backoff_delays_non_decreasing",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.009657,
+      "error": null
+    },
+    {
+      "id": 64,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C14_retry_count_never_exceeds_max",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.004057,
+      "error": null
+    },
+    {
+      "id": 65,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C15_mixed_errors_then_success",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.006095,
+      "error": null
+    },
+    {
+      "id": 66,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C16_answer_correct_after_retry",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.008614,
+      "error": null
+    },
+    {
+      "id": 67,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C17_meta_present_on_retry_success",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.004919,
+      "error": null
+    },
+    {
+      "id": 68,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C18_status_ok_on_retry_success",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.008298,
+      "error": null
+    },
+    {
+      "id": 69,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C19_exhausted_error_has_message",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.002988,
+      "error": null
+    },
+    {
+      "id": 70,
+      "nodeid": "test_guardrails.py::TestRetryLogic::test_C20_429_twice_then_success_call_count",
+      "category": "C: Retry Logic",
+      "outcome": "PASS",
+      "duration": 0.006539,
+      "error": null
+    },
+    {
+      "id": 71,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D01_read_timeout_returns_504",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.002241,
+      "error": null
+    },
+    {
+      "id": 72,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D02_connect_timeout_returns_504",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.001747,
+      "error": null
+    },
+    {
+      "id": 73,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D03_generic_timeout_returns_504",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.005526,
+      "error": null
+    },
+    {
+      "id": 74,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D04_write_timeout_returns_504",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.001492,
+      "error": null
+    },
+    {
+      "id": 75,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D05_pool_timeout_returns_504",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.002335,
+      "error": null
+    },
+    {
+      "id": 76,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D06_timeout_message_informative",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.002787,
+      "error": null
+    },
+    {
+      "id": 77,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D07_timeout_data_is_none",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.00479,
+      "error": null
+    },
+    {
+      "id": 78,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D08_timeout_has_meta_elapsed",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.002707,
+      "error": null
+    },
+    {
+      "id": 79,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D09_timeout_status_is_error",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.00481,
+      "error": null
+    },
+    {
+      "id": 80,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D10_timeout_result_is_dict",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.001755,
+      "error": null
+    },
+    {
+      "id": 81,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D11_timeout_never_crashes[0]",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.003769,
+      "error": null
+    },
+    {
+      "id": 82,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D11_timeout_never_crashes[1]",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.003139,
+      "error": null
+    },
+    {
+      "id": 83,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D16_envelope_keys_present_on_timeout",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.004764,
+      "error": null
+    },
+    {
+      "id": 84,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D17_recovery_after_timeout[0]",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.002899,
+      "error": null
+    },
+    {
+      "id": 85,
+      "nodeid": "test_guardrails.py::TestTimeoutHandling::test_D17_recovery_after_timeout[1]",
+      "category": "D: Timeout Handling",
+      "outcome": "PASS",
+      "duration": 0.002746,
+      "error": null
+    },
+    {
+      "id": 86,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E01_happy_path_always_200[0]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.004736,
+      "error": null
+    },
+    {
+      "id": 87,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E01_happy_path_always_200[1]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.005334,
+      "error": null
+    },
+    {
+      "id": 88,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E01_happy_path_always_200[2]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.01075,
+      "error": null
+    },
+    {
+      "id": 89,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E01_happy_path_always_200[3]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.002164,
+      "error": null
+    },
+    {
+      "id": 90,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E01_happy_path_always_200[4]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.003524,
+      "error": null
+    },
+    {
+      "id": 91,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E01_happy_path_always_200[5]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.003099,
+      "error": null
+    },
+    {
+      "id": 92,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E11_varied_inputs_no_crash[-]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.003616,
+      "error": null
+    },
+    {
+      "id": 93,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E11_varied_inputs_no_crash[qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq-ctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctxctx]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.003845,
+      "error": null
+    },
+    {
+      "id": 94,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E11_varied_inputs_no_crash[unicode: \\u4f60\\u597d \\u0645\\u0631\\u062d\\u0628\\u0627-context with \\xe9mojis \\U0001f389]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.003708,
+      "error": null
+    },
+    {
+      "id": 95,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E11_varied_inputs_no_crash[\\n\\n\\t  -whitespace-only context]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.003784,
+      "error": null
+    },
+    {
+      "id": 96,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E11_varied_inputs_no_crash[q-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc]",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.007473,
+      "error": null
+    },
+    {
+      "id": 97,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E16_all_four_guards_in_sequence",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.011712,
+      "error": null
+    },
+    {
+      "id": 98,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E17_meta_fields_present",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.003985,
+      "error": null
+    },
+    {
+      "id": 99,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E18_fallback_never_raw_json",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.005223,
+      "error": null
+    },
+    {
+      "id": 100,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E19_envelope_always_has_required_keys",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.003272,
+      "error": null
+    },
+    {
+      "id": 101,
+      "nodeid": "test_guardrails.py::TestEndToEndNoCrash::test_E20_fallback_flag_set_on_schema_failure",
+      "category": "E: End-to-End / No-Crash",
+      "outcome": "PASS",
+      "duration": 0.009758,
+      "error": null
+    }
+  ]
+}
