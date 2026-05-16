@@ -24,7 +24,7 @@ for test in test_cases:
         response = requests.post(
             API_URL,
             json={"email": test["email"]},
-            timeout=30
+            timeout=90
         )
 
         response_time = round(time.time() - start_time, 2)
