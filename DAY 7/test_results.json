@@ -1,0 +1,140 @@
+[
+    {
+        "test_id": "TC01",
+        "description": "Positive lead — strong interest & demo scheduled",
+        "status": "PASS",
+        "response": {
+            "sentimentScore": "positive",
+            "suggestedFollowUp": "Following the 1-on-1 demo, send a personalized recap email and schedule a follow-up call within 2 business days to discuss specific pain points and tailor a solution proposal.",
+            "summary": "Priya Sharma from NovaTech Solutions is a highly engaged lead who immediately booked a 1-on-1 demo after attending the webinar. She is actively seeking to replace their current $20k/year tool, has an approved budget, and aims for a Q3 switch. Her enthusiasm for our solution is very high."
+        },
+        "timestamp": "2026-05-16T05:56:27.566532Z"
+    },
+    {
+        "test_id": "TC02",
+        "description": "Negative lead — uninterested, no budget",
+        "status": "PASS",
+        "response": {
+            "sentimentScore": "negative",
+            "suggestedFollowUp": "Schedule a follow-up email for the beginning of the next fiscal year (approximately 6-9 months from now) to gently check for any changes in their vendor situation or budget availability.",
+            "summary": "James Hooper from OldGuard Manufacturing was referred but indicated strong satisfaction with his current vendor and explicitly stated no budget for the current fiscal year. He showed clear disinterest and did not engage with any questions during the call."
+        },
+        "timestamp": "2026-05-16T05:56:32.753462Z"
+    },
+    {
+        "test_id": "TC03",
+        "description": "Neutral lead — exploratory multi-vendor evaluation",
+        "status": "PASS",
+        "response": {
+            "sentimentScore": "neutral",
+            "suggestedFollowUp": "Follow up with Sarah in the third week of next month to offer support in preparing for the CTO discussion and address any further questions regarding integrations or pricing.",
+            "summary": "Sarah Kim from Apex Consulting Group is currently evaluating three vendors, including us, and has shown interest by asking detailed questions about pricing and integrations. She plans to involve her CTO in the discussion next month, though a decision timeline remains undefined."
+        },
+        "timestamp": "2026-05-16T05:56:37.556279Z"
+    },
+    {
+        "test_id": "TC04",
+        "description": "Enterprise lead — multi-team compliance process",
+        "status": "PASS",
+        "response": {
+            "sentimentScore": "positive",
+            "suggestedFollowUp": "Immediately send the requested SOC 2 Type II report and GDPR addendum to Rajiv, then schedule a follow-up call in 2-3 weeks to check on the progress of their internal review.",
+            "summary": "Rajiv Menon leads digital transformation at GlobalBank Corp and is technically very interested in the solution. He has sign-off authority but needs extensive internal approvals (legal, compliance, IT), with compliance review alone taking 6-8 weeks. He has requested the SOC 2 Type II report and GDPR addendum to facilitate this lengthy procurement process."
+        },
+        "timestamp": "2026-05-16T05:56:43.834648Z"
+    },
+    {
+        "test_id": "TC05",
+        "description": "Urgent lead — deadline + approved budget",
+        "status": "PASS",
+        "response": {
+            "sentimentScore": "positive",
+            "suggestedFollowUp": "Send the annual plan pricing and proposal to Emily today, and follow up with a call within 24 hours to discuss deployment specifics and her urgent timeline.",
+            "summary": "Emily Chen from FastScale Startup requires an immediate solution to avoid losing a key client, with a deployment deadline by the end of the month. She has an approved $50k budget and is eager to bypass the trial phase, requesting annual plan pricing today."
+        },
+        "timestamp": "2026-05-16T05:56:48.677243Z"
+    },
+    {
+        "test_id": "TC06",
+        "description": "Minimal valid notes (just above 10-char minimum)",
+        "status": "PASS",
+        "response": {
+            "sentimentScore": "neutral",
+            "suggestedFollowUp": "Send a follow-up email next Monday morning, referencing the previous voicemails and offering a brief overview of how we might assist Baker & Associates.",
+            "summary": "Tom Baker from Baker & Associates has not responded to two voicemails left earlier this week. There is currently no engagement or feedback from the lead."
+        },
+        "timestamp": "2026-05-16T05:56:52.678571Z"
+    },
+    {
+        "test_id": "TC07",
+        "description": "Long notes with mixed signals",
+        "status": "PASS",
+        "response": {
+            "sentimentScore": "positive",
+            "suggestedFollowUp": "Send the detailed ROI breakdown to Linda within 5 business days, offering to schedule a brief call to explain the ROI and assist her in presenting it internally.",
+            "summary": "Linda Park from MidWest Retail Co. initially showed strong enthusiasm for our analytics, but a company-wide spending freeze has paused their investment plans. Despite this, Linda is acting as an internal champion, actively lobbying her CFO to proceed and has requested a detailed ROI breakdown to support her case. The timeline for a decision is currently uncertain, projected for Q4 this year or next fiscal."
+        },
+        "timestamp": "2026-05-16T05:57:01.804109Z"
+    },
+    {
+        "test_id": "TC08",
+        "description": "International lead — non-ASCII company name",
+        "status": "PASS",
+        "response": {
+            "sentimentScore": "positive",
+            "suggestedFollowUp": "Provision the requested sandbox environment to Yuki Tanaka within 2 business days and schedule a follow-up call for next week to discuss their experience and answer any questions.",
+            "summary": "Yuki Tanaka from FutureTech KK is actively seeking a multi-currency and multi-language CRM solution to support their expansion into European markets. They are highly engaged and have specifically requested access to a sandbox environment."
+        },
+        "timestamp": "2026-05-16T05:57:08.065177Z"
+    },
+    {
+        "test_id": "TC09",
+        "description": "Missing 'name' field → 400",
+        "status": "PASS",
+        "response": {
+            "details": [
+                "'name' is required and must be a non-empty string."
+            ],
+            "error": "Validation failed"
+        },
+        "timestamp": "2026-05-16T05:57:10.089966Z"
+    },
+    {
+        "test_id": "TC10",
+        "description": "Missing 'company' field → 400",
+        "status": "PASS",
+        "response": {
+            "details": [
+                "'company' is required and must be a non-empty string."
+            ],
+            "error": "Validation failed"
+        },
+        "timestamp": "2026-05-16T05:57:12.139149Z"
+    },
+    {
+        "test_id": "TC11",
+        "description": "Notes too short (< 10 chars) → 400",
+        "status": "PASS",
+        "response": {
+            "details": [
+                "'notes' is required and must be a string with at least 10 characters."
+            ],
+            "error": "Validation failed"
+        },
+        "timestamp": "2026-05-16T05:57:14.179759Z"
+    },
+    {
+        "test_id": "TC12",
+        "description": "Empty body — all fields missing → 400",
+        "status": "PASS",
+        "response": {
+            "details": [
+                "'name' is required and must be a non-empty string.",
+                "'company' is required and must be a non-empty string.",
+                "'notes' is required and must be a string with at least 10 characters."
+            ],
+            "error": "Validation failed"
+        },
+        "timestamp": "2026-05-16T05:57:16.230637Z"
+    }
+]

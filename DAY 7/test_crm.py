@@ -313,7 +313,7 @@ def run():
         sys.exit(1)
 
     passed, failed, failures = 0, 0, []
-
+    results = []
     for tc_id, description, fn in TESTS:
         print(f"  {BOLD}{tc_id} — {description}{RESET}")
         try:
@@ -327,11 +327,24 @@ def run():
                 print(f"     {YELLOW}errors       :{RESET} {'; '.join(result['details'])}")
             print(f"  {GREEN}✓ PASS{RESET}\n")
             passed += 1
+            results.append({
+                "test_id": tc_id,
+                "description": description,
+                "status": "PASS",
+                "response": result,
+                "timestamp": datetime.utcnow().isoformat() + "Z",
+            })
         except (AssertionError, Exception) as e:
             print(f"  {RED}✗ FAIL — {e}{RESET}\n")
             failed += 1
             failures.append((tc_id, description, str(e)))
-
+            results.append({
+                "test_id": tc_id,
+                "description": description,
+                "status": "FAIL",
+                "error": str(e),
+                "timestamp": datetime.utcnow().isoformat() + "Z",
+            })
     print(f"{CYAN}{'━'*60}{RESET}")
     fail_color = RED if failed else ""
     print(
@@ -346,6 +359,8 @@ def run():
             print(f"      {err}")
 
     print(f"{CYAN}{'━'*60}{RESET}\n")
+    with open("test_results.json", "w", encoding="utf-8") as f:
+        json.dump(results, f,indent=4,ensure_ascii=False)
     sys.exit(1 if failed else 0)
 
 
