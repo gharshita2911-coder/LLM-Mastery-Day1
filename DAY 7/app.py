@@ -30,6 +30,14 @@ def log_request():
 
 
 # ── Routes ────────────────────────────────────────────────────────────────────
+@app.get("/")
+def home():
+    return jsonify({
+        "message": "AI CRM Assistant API is running successfully",
+        "health_endpoint": "/health",
+        "crm_endpoint": "/crm/analyze-lead",
+        "status": "live"
+    })
 
 @app.get("/health")
 def health():
