@@ -1,10 +1,10 @@
-# 🤖 AI CRM Assistant (Python + Gemini)
+#  AI CRM Assistant (Python + Gemini)
 
 An AI-powered CRM lead analyzer built with **Python**, **Flask**, and **Google Gemini API**. Given a lead's name, company, and sales notes, it returns a structured JSON with a summary, suggested follow-up action, and sentiment score — all in a **single LLM call**.
 
 ---
 
-## 📦 Features
+##  Features
 
 | Feature | Detail |
 |---|---|
@@ -18,7 +18,7 @@ An AI-powered CRM lead analyzer built with **Python**, **Flask**, and **Google G
 
 ---
 
-## 🚀 Quick Start (One Command)
+## Quick Start (One Command)
 
 ### 1. Clone and install
 
@@ -47,7 +47,7 @@ GEMINI_MODEL=gemini-1.5-flash
 ### 3. Start the server
 
 ```bash
-python src/server.py
+python app.py
 ```
 
 You should see:
@@ -60,7 +60,7 @@ You should see:
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 ### `POST /crm/analyze-lead`
 
@@ -129,7 +129,7 @@ Analyzes a CRM lead and returns a structured AI analysis.
 Start the server in one terminal, then in another:
 
 ```bash
-python tests/test_crm.py
+python test_crm.py
 ```
 
 Optional — test against a different host:
@@ -176,14 +176,12 @@ curl http://localhost:3000/health
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-crm-assistant/
-├── src/
 │   ├── server.py        # Flask app + /crm/analyze-lead endpoint
 │   └── llm_service.py   # Gemini API integration + output validation
-├── tests/
 │   └── test_crm.py      # 12 test cases (stdlib only, no pytest needed)
 ├── .env.example         # Environment variable template
 ├── requirements.txt     # pip dependencies
@@ -192,17 +190,17 @@ ai-crm-assistant/
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 | Variable | Required | Default | Description |
 |---|---|---|---|
 | `GEMINI_API_KEY` | ✅ | — | Your Google Gemini API key |
 | `PORT` | ❌ | `3000` | Server port |
-| `GEMINI_MODEL` | ❌ | `gemini-1.5-flash` | Gemini model to use |
+| `GEMINI_MODEL` | ❌ | `gemini-2.5-flash` | Gemini model to use |
 
 ---
 
-## 🔧 Development
+##  Development
 
 ```bash
 # Auto-reload on file changes (install watchdog first)
@@ -212,7 +210,7 @@ flask --app src/server run --debug --port 3000
 
 ---
 
-## 📋 Design Decisions
+##  Design Decisions
 
 - **Single LLM call**: All three outputs are generated together in one Gemini API request — minimal latency and cost.
 - **JSON-only output**: The system instruction tells Gemini to return raw JSON with no markdown, ensuring reliable parsing.
@@ -222,7 +220,7 @@ flask --app src/server run --debug --port 3000
 
 ---
 
-## 🔒 Requirements
+##  Requirements
 
 - Python ≥ 3.10
 - A Google Gemini API key (free tier available)
