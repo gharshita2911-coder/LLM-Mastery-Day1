@@ -1,5 +1,4 @@
 """
-guardrails.py — RAG Engineering Phase 2
 Guardrail module: input length limit, output schema validation,
 retry logic with exponential backoff, and timeout handling.
 """
