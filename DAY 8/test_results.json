@@ -1,0 +1,475 @@
+{
+  "run_started_at": "2026-05-18T08:23:50.153478+00:00",
+  "run_completed_at": "2026-05-18T08:24:38.915675+00:00",
+  "summary": {
+    "total": 22,
+    "successful": 22,
+    "failed": 0,
+    "success_rate": "100.0%",
+    "pass": true
+  },
+  "results": [
+    {
+      "id": 23,
+      "raw_text": "My login keeps failing after the latest update to AuthPro. Error 403 every time I try. Username: john_doe.",
+      "person": "john_doe",
+      "company": null,
+      "product": "AuthPro",
+      "issue": "login failing",
+      "category": "bug",
+      "summary": "Login failing with Error 403 after AuthPro update for user john_doe.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 23,
+      "created_at": "2026-05-18T08:23:51.831783+00:00",
+      "latency_ms": 1677,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 24,
+      "raw_text": "Sarah here from Acme Corp. Your API keeps returning 500 errors on /invoices endpoint since yesterday morning.",
+      "person": "Sarah",
+      "company": "Acme Corp",
+      "product": null,
+      "issue": "API returns 500 errors",
+      "category": "bug",
+      "summary": "API returning 500 errors on /invoices endpoint since yesterday.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 24,
+      "created_at": "2026-05-18T08:23:52.315738+00:00",
+      "latency_ms": 472,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 25,
+      "raw_text": "The mobile app for FlowBoard crashes every time I open a project with more than 50 tasks. iOS 17.",
+      "person": null,
+      "company": null,
+      "product": "FlowBoard",
+      "issue": "Crashes with large projects",
+      "category": "bug",
+      "summary": "FlowBoard mobile app crashes with projects over 50 tasks on iOS 17.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 25,
+      "created_at": "2026-05-18T08:23:52.934790+00:00",
+      "latency_ms": 603,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 26,
+      "raw_text": "User: mike@corp.com. Product: BillingPlus. Issue: charged twice for the same invoice #INV-4421.",
+      "person": "mike",
+      "company": "corp.com",
+      "product": "BillingPlus",
+      "issue": "charged twice",
+      "category": "complaint",
+      "summary": "Double charge issue on invoice INV-4421 for BillingPlus.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 26,
+      "created_at": "2026-05-18T08:23:53.581858+00:00",
+      "latency_ms": 637,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 27,
+      "raw_text": "Password reset email from SecureLogin never arrives. Checked spam. Tried 5 times today already.",
+      "person": null,
+      "company": null,
+      "product": "SecureLogin",
+      "issue": "Password reset email not arriving",
+      "category": "complaint",
+      "summary": "Password reset emails from SecureLogin are not being received.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 27,
+      "created_at": "2026-05-18T08:23:54.339892+00:00",
+      "latency_ms": 739,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 28,
+      "raw_text": "Files uploaded to DocuVault are corrupted when downloaded. Happens with files over 10MB.",
+      "person": null,
+      "company": null,
+      "product": "DocuVault",
+      "issue": "Corrupted file downloads",
+      "category": "bug",
+      "summary": "Large files over 10MB are corrupted when downloaded from DocuVault.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 28,
+      "created_at": "2026-05-18T08:23:54.920045+00:00",
+      "latency_ms": 562,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 29,
+      "raw_text": "Search in KnowledgeBase is broken — it returns no results even for exact phrase matches.",
+      "person": null,
+      "company": null,
+      "product": "KnowledgeBase",
+      "issue": "Search returns no results",
+      "category": "bug",
+      "summary": "KnowledgeBase search is broken, returning no results for exact phrase matches.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 29,
+      "created_at": "2026-05-18T08:23:55.366450+00:00",
+      "latency_ms": 438,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 30,
+      "raw_text": "PayGate integration keeps rejecting valid Visa cards. Stripe test mode works fine. Live mode broken.",
+      "person": null,
+      "company": null,
+      "product": "PayGate",
+      "issue": "rejects valid Visa cards",
+      "category": "bug",
+      "summary": "PayGate integration is rejecting valid Visa cards in live mode.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 30,
+      "created_at": "2026-05-18T08:23:55.932356+00:00",
+      "latency_ms": 547,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 31,
+      "raw_text": "NotifySend is sending duplicate push notifications. Every action triggers the alert 2-3 times.",
+      "person": null,
+      "company": null,
+      "product": "NotifySend",
+      "issue": "Duplicate push notifications",
+      "category": "bug",
+      "summary": "NotifySend sending duplicate push notifications for every action.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 31,
+      "created_at": "2026-05-18T08:23:56.488964+00:00",
+      "latency_ms": 546,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 32,
+      "raw_text": "Would love a dark mode option in the DataDash dashboard. Our team works late and the bright white is tiring.",
+      "person": null,
+      "company": null,
+      "product": "DataDash",
+      "issue": "Dark mode option missing",
+      "category": "bug",
+      "summary": "Request for dark mode option in DataDash dashboard.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 32,
+      "created_at": "2026-05-18T08:23:56.964013+00:00",
+      "latency_ms": 463,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 33,
+      "raw_text": "Feature request: please add bulk CSV import to InventoryPro. Currently have to add items one by one.",
+      "person": null,
+      "company": null,
+      "product": "InventoryPro",
+      "issue": "Bulk CSV import missing",
+      "category": "bug",
+      "summary": "Bulk CSV import feature requested for InventoryPro.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 33,
+      "created_at": "2026-05-18T08:23:57.421281+00:00",
+      "latency_ms": 450,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 34,
+      "raw_text": "Requesting webhook support for StatusMonitor. We need real-time push instead of polling every 5 min.",
+      "person": null,
+      "company": null,
+      "product": "StatusMonitor",
+      "issue": "missing webhook support",
+      "category": "bug",
+      "summary": "Customer requests real-time webhook support for StatusMonitor.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 34,
+      "created_at": "2026-05-18T08:23:58.202483+00:00",
+      "latency_ms": 763,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 35,
+      "raw_text": "Please add two-factor authentication to AdminPortal. Our security team requires it for compliance.",
+      "person": null,
+      "company": null,
+      "product": "AdminPortal",
+      "issue": "Missing two-factor authentication",
+      "category": "bug",
+      "summary": "AdminPortal requires two-factor authentication for security compliance.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 35,
+      "created_at": "2026-05-18T08:23:58.800314+00:00",
+      "latency_ms": 583,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 36,
+      "raw_text": "Would be great if SchedulerPro supported recurring events with custom RRULE expressions like iCal.",
+      "person": null,
+      "company": null,
+      "product": "SchedulerPro",
+      "issue": "missing custom RRULE support",
+      "category": "bug",
+      "summary": "Recurring events with custom RRULE expressions are not supported in SchedulerPro.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 36,
+      "created_at": "2026-05-18T08:23:59.277698+00:00",
+      "latency_ms": 470,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 37,
+      "raw_text": "Can SearchPro index content inside PDF attachments? We need full-text search across all file types.",
+      "person": null,
+      "company": null,
+      "product": "SearchPro",
+      "issue": "PDF attachment indexing",
+      "category": "question",
+      "summary": "Customer inquires about SearchPro indexing PDF attachments for full-text search.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 37,
+      "created_at": "2026-05-18T08:24:06.308031+00:00",
+      "latency_ms": 7016,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 38,
+      "raw_text": "How do I export my reports as PDF in ReportBuilder? I can't find the option anywhere.",
+      "person": null,
+      "company": null,
+      "product": "ReportBuilder",
+      "issue": "PDF export option missing",
+      "category": "bug",
+      "summary": "User unable to find PDF export option in ReportBuilder.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 38,
+      "created_at": "2026-05-18T08:24:11.039507+00:00",
+      "latency_ms": 4712,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 39,
+      "raw_text": "Can you clarify the difference between the Pro and Enterprise plans for TeamSync? Pricing page is confusing.",
+      "person": null,
+      "company": null,
+      "product": "TeamSync",
+      "issue": "Confusing pricing plans",
+      "category": "question",
+      "summary": "Customer seeks clarification on TeamSync Pro and Enterprise plan differences.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 39,
+      "created_at": "2026-05-18T08:24:15.552578+00:00",
+      "latency_ms": 4506,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 40,
+      "raw_text": "Is there an API rate limit for AnalyticsPro? We're hitting what looks like a 429 at ~200 req/min.",
+      "person": null,
+      "company": null,
+      "product": "AnalyticsPro",
+      "issue": "API rate limit exceeded",
+      "category": "question",
+      "summary": "API rate limit inquiry for AnalyticsPro due to 429 error at 200 requests per minute.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 40,
+      "created_at": "2026-05-18T08:24:20.146918+00:00",
+      "latency_ms": 4584,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 41,
+      "raw_text": "How do I transfer my account from one workspace to another in CollabSpace?",
+      "person": null,
+      "company": null,
+      "product": "CollabSpace",
+      "issue": "transfer account between workspaces",
+      "category": "question",
+      "summary": "Account transfer from one workspace to another in CollabSpace.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 41,
+      "created_at": "2026-05-18T08:24:24.786003+00:00",
+      "latency_ms": 4633,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 42,
+      "raw_text": "Need help setting up SSO with Okta for our OrgManager account. Following the docs but stuck at step 4.",
+      "person": null,
+      "company": null,
+      "product": "OrgManager",
+      "issue": "SSO setup with Okta",
+      "category": "feature",
+      "summary": "SSO setup with Okta for OrgManager is stuck at step 4.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 42,
+      "created_at": "2026-05-18T08:24:29.501723+00:00",
+      "latency_ms": 4694,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 43,
+      "raw_text": "This is absolutely unacceptable! My data in CloudStore was deleted without any warning. I want answers NOW.",
+      "person": null,
+      "company": null,
+      "product": "CloudStore",
+      "issue": "Data deleted without warning",
+      "category": "complaint",
+      "summary": "CloudStore data deleted without warning, customer demands immediate explanation.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 43,
+      "created_at": "2026-05-18T08:24:34.215931+00:00",
+      "latency_ms": 4706,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    },
+    {
+      "id": 44,
+      "raw_text": "Extremely disappointed. SupportDesk has been down for 3 hours and your status page still says 'operational'.",
+      "person": null,
+      "company": null,
+      "product": "SupportDesk",
+      "issue": "SupportDesk down",
+      "category": "bug",
+      "summary": "SupportDesk down for 3 hours, status page incorrect.",
+      "completion": {
+        "prompt_token_count": 0,
+        "candidates_token_count": 0,
+        "total_token_count": 0
+      },
+      "row_count": 44,
+      "created_at": "2026-05-18T08:24:38.903835+00:00",
+      "latency_ms": 4673,
+      "status": "success",
+      "error_step": null,
+      "error_msg": null
+    }
+  ]
+}
