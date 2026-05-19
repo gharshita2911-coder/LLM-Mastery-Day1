@@ -1,4 +1,4 @@
-# src/llm_service.py
+#llm_service.py
 # Handles all Gemini API interactions for lead analysis
 
 import json
