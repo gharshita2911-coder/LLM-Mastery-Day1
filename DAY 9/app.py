@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify({"message":"AI Agent is running"})
+    return jsonify({"message":"AI Agent running"})
 
 @app.route("/ask",methods=["POST"])
 def ask():
