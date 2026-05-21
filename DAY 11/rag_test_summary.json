@@ -1,0 +1,23 @@
+{
+  "run_timestamp": "2026-05-21T08:14:38.221944+00:00",
+  "endpoint": "http://localhost:8000/rag/batch",
+  "model": "llama3-8b-8192",
+  "total_queries": 20,
+  "valid_count": 20,
+  "invalid_count": 0,
+  "valid_percentage": 100.0,
+  "target_95_pct_met": true,
+  "fallback_used_count": 20,
+  "avg_attempts_per_query": 3.0,
+  "confidence_distribution": {
+    "high": 0,
+    "medium": 0,
+    "low": 20
+  },
+  "validation_failures": [],
+  "schema_definition": {
+    "answer": "str \u2014 non-empty answer string",
+    "confidence": "'high' | 'medium' | 'low'",
+    "sources": "list[{chunkId: str, snippet: str}] \u2014 min 1 item"
+  }
+}

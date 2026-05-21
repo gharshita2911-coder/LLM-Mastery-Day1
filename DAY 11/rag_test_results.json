@@ -1,0 +1,847 @@
+{
+  "summary": {
+    "run_timestamp": "2026-05-21T08:14:38.221944+00:00",
+    "endpoint": "http://localhost:8000/rag/batch",
+    "model": "llama3-8b-8192",
+    "total_queries": 20,
+    "valid_count": 20,
+    "invalid_count": 0,
+    "valid_percentage": 100.0,
+    "target_95_pct_met": true,
+    "fallback_used_count": 20,
+    "avg_attempts_per_query": 3.0,
+    "confidence_distribution": {
+      "high": 0,
+      "medium": 0,
+      "low": 20
+    },
+    "validation_failures": [],
+    "schema_definition": {
+      "answer": "str \u2014 non-empty answer string",
+      "confidence": "'high' | 'medium' | 'low'",
+      "sources": "list[{chunkId: str, snippet: str}] \u2014 min 1 item"
+    }
+  },
+  "results": [
+    {
+      "query_id": "Q01",
+      "query": "What is Python and what programming paradigms does it support?",
+      "answer": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and functional programming paradigms. The Python standard library includes modules for file I/O, networking, JSON serialization, regular expressions, threading, and many other common programming tasks.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "py-001",
+          "snippet": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and function"
+        },
+        {
+          "chunkId": "py-003",
+          "snippet": "The Python standard library includes modules for file I/O, networking, JSON serialization, regular expressions, threading, and many other common progr"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.08957
+        },
+        {
+          "chunkId": "py-003",
+          "doc": "Python Libraries",
+          "score": 0.03296
+        },
+        {
+          "chunkId": "py-004",
+          "doc": "Python Libraries",
+          "score": 0.026
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q02",
+      "query": "How does Python define code blocks differently from other languages?",
+      "answer": "Python uses indentation to define code blocks instead of curly braces, enforcing a consistent and readable code style across all projects. The Python standard library includes modules for file I/O, networking, JSON serialization, regular expressions, threading, and many other common programming tasks.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "py-002",
+          "snippet": "Python uses indentation to define code blocks instead of curly braces, enforcing a consistent and readable code style across all projects."
+        },
+        {
+          "chunkId": "py-003",
+          "snippet": "The Python standard library includes modules for file I/O, networking, JSON serialization, regular expressions, threading, and many other common progr"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "py-002",
+          "doc": "Python Basics",
+          "score": 0.07227
+        },
+        {
+          "chunkId": "py-003",
+          "doc": "Python Libraries",
+          "score": 0.02893
+        },
+        {
+          "chunkId": "ml-002",
+          "doc": "ML Overview",
+          "score": 0.01108
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q03",
+      "query": "What modules are included in the Python standard library?",
+      "answer": "The Python standard library includes modules for file I/O, networking, JSON serialization, regular expressions, threading, and many other common programming tasks. Cloud computing delivers computing resources on demand over the internet. The three service models are IaaS (Infrastructure), PaaS (Platform), and SaaS (Software) as a Service.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "py-003",
+          "snippet": "The Python standard library includes modules for file I/O, networking, JSON serialization, regular expressions, threading, and many other common progr"
+        },
+        {
+          "chunkId": "cloud-001",
+          "snippet": "Cloud computing delivers computing resources on demand over the internet. The three service models are IaaS (Infrastructure), PaaS (Platform), and Saa"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "py-003",
+          "doc": "Python Libraries",
+          "score": 0.08104
+        },
+        {
+          "chunkId": "cloud-001",
+          "doc": "Cloud Computing",
+          "score": 0.03174
+        },
+        {
+          "chunkId": "cloud-002",
+          "doc": "Cloud Computing",
+          "score": 0.02033
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q04",
+      "query": "Which Python libraries are used for machine learning and data analysis?",
+      "answer": "Popular third-party Python libraries include NumPy and Pandas for data analysis, TensorFlow and PyTorch for machine learning, Flask and FastAPI for web APIs, and Requests for HTTP. Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using reward signals from an environment.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "py-004",
+          "snippet": "Popular third-party Python libraries include NumPy and Pandas for data analysis, TensorFlow and PyTorch for machine learning, Flask and FastAPI for we"
+        },
+        {
+          "chunkId": "ml-002",
+          "snippet": "Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using rew"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "py-004",
+          "doc": "Python Libraries",
+          "score": 0.09803
+        },
+        {
+          "chunkId": "ml-002",
+          "doc": "ML Overview",
+          "score": 0.05071
+        },
+        {
+          "chunkId": "ml-001",
+          "doc": "ML Overview",
+          "score": 0.03605
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q05",
+      "query": "What is machine learning and how does it differ from explicit programming?",
+      "answer": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and functional programming paradigms. Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using reward signals from an environment.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "py-001",
+          "snippet": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and function"
+        },
+        {
+          "chunkId": "ml-002",
+          "snippet": "Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using rew"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.05272
+        },
+        {
+          "chunkId": "ml-002",
+          "doc": "ML Overview",
+          "score": 0.0388
+        },
+        {
+          "chunkId": "ml-001",
+          "doc": "ML Overview",
+          "score": 0.03566
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q06",
+      "query": "What is the difference between supervised and unsupervised learning?",
+      "answer": "Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using reward signals from an environment. Popular third-party Python libraries include NumPy and Pandas for data analysis, TensorFlow and PyTorch for machine learning, Flask and FastAPI for web APIs, and Requests for HTTP.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "ml-002",
+          "snippet": "Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using rew"
+        },
+        {
+          "chunkId": "py-004",
+          "snippet": "Popular third-party Python libraries include NumPy and Pandas for data analysis, TensorFlow and PyTorch for machine learning, Flask and FastAPI for we"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "ml-002",
+          "doc": "ML Overview",
+          "score": 0.07046
+        },
+        {
+          "chunkId": "py-004",
+          "doc": "Python Libraries",
+          "score": 0.02889
+        },
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.02566
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q07",
+      "query": "How does backpropagation adjust weights in a neural network?",
+      "answer": "A neural network consists of layers of interconnected nodes. Each connection has a weight adjusted during training to minimize the loss function via backpropagation and gradient descent. Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using reward signals from an environment.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "ml-003",
+          "snippet": "A neural network consists of layers of interconnected nodes. Each connection has a weight adjusted during training to minimize the loss function via b"
+        },
+        {
+          "chunkId": "ml-002",
+          "snippet": "Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using rew"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "ml-003",
+          "doc": "Neural Networks",
+          "score": 0.04824
+        },
+        {
+          "chunkId": "ml-002",
+          "doc": "ML Overview",
+          "score": 0.01534
+        },
+        {
+          "chunkId": "rag-002",
+          "doc": "RAG Overview",
+          "score": 0.01534
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q08",
+      "query": "What are CNNs and RNNs and what are they used for?",
+      "answer": "Popular third-party Python libraries include NumPy and Pandas for data analysis, TensorFlow and PyTorch for machine learning, Flask and FastAPI for web APIs, and Requests for HTTP. The three major cloud providers are AWS, Microsoft Azure, and Google Cloud Platform. They offer compute, storage, managed databases, AI/ML services, and global networking infrastructure.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "py-004",
+          "snippet": "Popular third-party Python libraries include NumPy and Pandas for data analysis, TensorFlow and PyTorch for machine learning, Flask and FastAPI for we"
+        },
+        {
+          "chunkId": "cloud-002",
+          "snippet": "The three major cloud providers are AWS, Microsoft Azure, and Google Cloud Platform. They offer compute, storage, managed databases, AI/ML services, a"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "py-004",
+          "doc": "Python Libraries",
+          "score": 0.05872
+        },
+        {
+          "chunkId": "cloud-002",
+          "doc": "Cloud Computing",
+          "score": 0.04482
+        },
+        {
+          "chunkId": "ml-004",
+          "doc": "Neural Networks",
+          "score": 0.04199
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q09",
+      "query": "What is Retrieval-Augmented Generation and how does it work?",
+      "answer": "Retrieval-Augmented Generation (RAG) combines a retrieval system with a language model. The retriever fetches relevant chunks from a knowledge base; the LLM uses them as context to generate accurate answers. Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and functional programming paradigms.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "rag-001",
+          "snippet": "Retrieval-Augmented Generation (RAG) combines a retrieval system with a language model. The retriever fetches relevant chunks from a knowledge base; t"
+        },
+        {
+          "chunkId": "py-001",
+          "snippet": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and function"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "rag-001",
+          "doc": "RAG Overview",
+          "score": 0.04498
+        },
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.03649
+        },
+        {
+          "chunkId": "se-001",
+          "doc": "SE Principles",
+          "score": 0.02209
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q10",
+      "query": "How does RAG help reduce hallucinations in language model responses?",
+      "answer": "RAG reduces LLM hallucinations by grounding responses in retrieved facts. It also allows models to access current information without costly retraining or fine-tuning. Retrieval-Augmented Generation (RAG) combines a retrieval system with a language model. The retriever fetches relevant chunks from a knowledge base; the LLM uses them as context to generate accurate answers.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "rag-002",
+          "snippet": "RAG reduces LLM hallucinations by grounding responses in retrieved facts. It also allows models to access current information without costly retrainin"
+        },
+        {
+          "chunkId": "rag-001",
+          "snippet": "Retrieval-Augmented Generation (RAG) combines a retrieval system with a language model. The retriever fetches relevant chunks from a knowledge base; t"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "rag-002",
+          "doc": "RAG Overview",
+          "score": 0.05248
+        },
+        {
+          "chunkId": "rag-001",
+          "doc": "RAG Overview",
+          "score": 0.03198
+        },
+        {
+          "chunkId": "se-001",
+          "doc": "SE Principles",
+          "score": 0.01457
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q11",
+      "query": "What is a vector database and how does similarity search work?",
+      "answer": "Vector databases store documents as high-dimensional embeddings. Similarity search using cosine distance or dot-product retrieves the most semantically relevant chunks for a given query. Popular vector databases include Pinecone, Weaviate, Chroma, and FAISS. They support approximate nearest-neighbour search for fast, scalable retrieval across millions of documents.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "rag-003",
+          "snippet": "Vector databases store documents as high-dimensional embeddings. Similarity search using cosine distance or dot-product retrieves the most semanticall"
+        },
+        {
+          "chunkId": "rag-004",
+          "snippet": "Popular vector databases include Pinecone, Weaviate, Chroma, and FAISS. They support approximate nearest-neighbour search for fast, scalable retrieval"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "rag-003",
+          "doc": "Vector Databases",
+          "score": 0.03697
+        },
+        {
+          "chunkId": "rag-004",
+          "doc": "Vector Databases",
+          "score": 0.03088
+        },
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.02309
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q12",
+      "query": "Name some popular vector databases used in production systems.",
+      "answer": "Popular vector databases include Pinecone, Weaviate, Chroma, and FAISS. They support approximate nearest-neighbour search for fast, scalable retrieval across millions of documents. Vector databases store documents as high-dimensional embeddings. Similarity search using cosine distance or dot-product retrieves the most semantically relevant chunks for a given query.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "rag-004",
+          "snippet": "Popular vector databases include Pinecone, Weaviate, Chroma, and FAISS. They support approximate nearest-neighbour search for fast, scalable retrieval"
+        },
+        {
+          "chunkId": "rag-003",
+          "snippet": "Vector databases store documents as high-dimensional embeddings. Similarity search using cosine distance or dot-product retrieves the most semanticall"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "rag-004",
+          "doc": "Vector Databases",
+          "score": 0.0413
+        },
+        {
+          "chunkId": "rag-003",
+          "doc": "Vector Databases",
+          "score": 0.02491
+        },
+        {
+          "chunkId": "ml-002",
+          "doc": "ML Overview",
+          "score": 0.01364
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q13",
+      "query": "What are the SOLID principles in object-oriented software engineering?",
+      "answer": "Cloud computing delivers computing resources on demand over the internet. The three service models are IaaS (Infrastructure), PaaS (Platform), and SaaS (Software) as a Service. Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and functional programming paradigms.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "cloud-001",
+          "snippet": "Cloud computing delivers computing resources on demand over the internet. The three service models are IaaS (Infrastructure), PaaS (Platform), and Saa"
+        },
+        {
+          "chunkId": "py-001",
+          "snippet": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and function"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "cloud-001",
+          "doc": "Cloud Computing",
+          "score": 0.04084
+        },
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.03047
+        },
+        {
+          "chunkId": "se-001",
+          "doc": "SE Principles",
+          "score": 0.02914
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q14",
+      "query": "What is Test-Driven Development and what are its benefits?",
+      "answer": "Test-Driven Development (TDD) requires writing a failing test before writing implementation code. This ensures correctness, promotes good design, and produces a comprehensive regression test suite. Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and functional programming paradigms.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "se-002",
+          "snippet": "Test-Driven Development (TDD) requires writing a failing test before writing implementation code. This ensures correctness, promotes good design, and "
+        },
+        {
+          "chunkId": "py-001",
+          "snippet": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and function"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "se-002",
+          "doc": "SE Principles",
+          "score": 0.07487
+        },
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.02309
+        },
+        {
+          "chunkId": "se-001",
+          "doc": "SE Principles",
+          "score": 0.02209
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q15",
+      "query": "What HTTP methods does REST use and what does each one do?",
+      "answer": "REST uses HTTP methods: GET retrieves resources, POST creates them, PUT replaces them, PATCH partially updates them, and DELETE removes them. Resources are identified by URLs. Popular third-party Python libraries include NumPy and Pandas for data analysis, TensorFlow and PyTorch for machine learning, Flask and FastAPI for web APIs, and Requests for HTTP.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "se-003",
+          "snippet": "REST uses HTTP methods: GET retrieves resources, POST creates them, PUT replaces them, PATCH partially updates them, and DELETE removes them. Resource"
+        },
+        {
+          "chunkId": "py-004",
+          "snippet": "Popular third-party Python libraries include NumPy and Pandas for data analysis, TensorFlow and PyTorch for machine learning, Flask and FastAPI for we"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "se-003",
+          "doc": "REST APIs",
+          "score": 0.03481
+        },
+        {
+          "chunkId": "py-004",
+          "doc": "Python Libraries",
+          "score": 0.02319
+        },
+        {
+          "chunkId": "ml-003",
+          "doc": "Neural Networks",
+          "score": 0.01386
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q16",
+      "query": "How is API versioning and authentication typically handled?",
+      "answer": "API versioning via path prefixes like /v1/ or /v2/ allows backward-compatible evolution. Common auth mechanisms include API keys, OAuth 2.0 bearer tokens, and signed JWTs. Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and functional programming paradigms.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "se-004",
+          "snippet": "API versioning via path prefixes like /v1/ or /v2/ allows backward-compatible evolution. Common auth mechanisms include API keys, OAuth 2.0 bearer tok"
+        },
+        {
+          "chunkId": "py-001",
+          "snippet": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and function"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "se-004",
+          "doc": "REST APIs",
+          "score": 0.06123
+        },
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.02887
+        },
+        {
+          "chunkId": "se-001",
+          "doc": "SE Principles",
+          "score": 0.02761
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q17",
+      "query": "What are the three cloud service models IaaS PaaS and SaaS?",
+      "answer": "Cloud computing delivers computing resources on demand over the internet. The three service models are IaaS (Infrastructure), PaaS (Platform), and SaaS (Software) as a Service. The three major cloud providers are AWS, Microsoft Azure, and Google Cloud Platform. They offer compute, storage, managed databases, AI/ML services, and global networking infrastructure.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "cloud-001",
+          "snippet": "Cloud computing delivers computing resources on demand over the internet. The three service models are IaaS (Infrastructure), PaaS (Platform), and Saa"
+        },
+        {
+          "chunkId": "cloud-002",
+          "snippet": "The three major cloud providers are AWS, Microsoft Azure, and Google Cloud Platform. They offer compute, storage, managed databases, AI/ML services, a"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "cloud-001",
+          "doc": "Cloud Computing",
+          "score": 0.12642
+        },
+        {
+          "chunkId": "cloud-002",
+          "doc": "Cloud Computing",
+          "score": 0.056
+        },
+        {
+          "chunkId": "ml-004",
+          "doc": "Neural Networks",
+          "score": 0.01848
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q18",
+      "query": "Which companies are the major cloud providers and what services do they offer?",
+      "answer": "The three major cloud providers are AWS, Microsoft Azure, and Google Cloud Platform. They offer compute, storage, managed databases, AI/ML services, and global networking infrastructure. Cloud computing delivers computing resources on demand over the internet. The three service models are IaaS (Infrastructure), PaaS (Platform), and SaaS (Software) as a Service.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "cloud-002",
+          "snippet": "The three major cloud providers are AWS, Microsoft Azure, and Google Cloud Platform. They offer compute, storage, managed databases, AI/ML services, a"
+        },
+        {
+          "chunkId": "cloud-001",
+          "snippet": "Cloud computing delivers computing resources on demand over the internet. The three service models are IaaS (Infrastructure), PaaS (Platform), and Saa"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "cloud-002",
+          "doc": "Cloud Computing",
+          "score": 0.0862
+        },
+        {
+          "chunkId": "cloud-001",
+          "doc": "Cloud Computing",
+          "score": 0.0353
+        },
+        {
+          "chunkId": "se-001",
+          "doc": "SE Principles",
+          "score": 0.01699
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q19",
+      "query": "What is CI/CD and which tools are commonly used to implement it?",
+      "answer": "CI/CD automates building, testing, and deploying software. Continuous Integration merges code frequently; Continuous Deployment ships passing builds automatically. Tools include GitHub Actions, Jenkins, and GitLab CI. Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and functional programming paradigms.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "devops-001",
+          "snippet": "CI/CD automates building, testing, and deploying software. Continuous Integration merges code frequently; Continuous Deployment ships passing builds a"
+        },
+        {
+          "chunkId": "py-001",
+          "snippet": "Python is a high-level, interpreted programming language known for clear syntax and readability. It supports procedural, object-oriented, and function"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "devops-001",
+          "doc": "CI/CD",
+          "score": 0.04509
+        },
+        {
+          "chunkId": "py-001",
+          "doc": "Python Basics",
+          "score": 0.02807
+        },
+        {
+          "chunkId": "se-001",
+          "doc": "SE Principles",
+          "score": 0.01699
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    },
+    {
+      "query_id": "Q20",
+      "query": "How do Docker and Kubernetes work together in a production system?",
+      "answer": "Docker packages applications into portable containers with all dependencies. Kubernetes orchestrates containers at scale, providing automated deployment, horizontal scaling, load balancing, and self-healing. Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using reward signals from an environment.",
+      "confidence": "low",
+      "sources": [
+        {
+          "chunkId": "devops-002",
+          "snippet": "Docker packages applications into portable containers with all dependencies. Kubernetes orchestrates containers at scale, providing automated deployme"
+        },
+        {
+          "chunkId": "ml-002",
+          "snippet": "Supervised learning trains on labeled data, unsupervised learning finds patterns in unlabeled data, and reinforcement learning trains agents using rew"
+        }
+      ],
+      "valid": true,
+      "client_valid": true,
+      "server_valid": true,
+      "attempts": 3,
+      "used_fallback": true,
+      "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+      "chunks_retrieved": [
+        {
+          "chunkId": "devops-002",
+          "doc": "Containers",
+          "score": 0.03298
+        },
+        {
+          "chunkId": "ml-002",
+          "doc": "ML Overview",
+          "score": 0.01732
+        },
+        {
+          "chunkId": "py-004",
+          "doc": "Python Libraries",
+          "score": 0.0173
+        }
+      ],
+      "elapsed_seconds": 0,
+      "timestamp": ""
+    }
+  ]
+}
