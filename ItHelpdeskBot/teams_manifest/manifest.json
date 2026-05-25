@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.17",
+  "version": "1.0.0",
+
+  "id": "YOUR_BOT_APP_ID_HERE",
+
+  "developer": {
+    "name": "Your IT Department",
+    "websiteUrl": "https://yourcompany.com",
+    "privacyUrl": "https://yourcompany.com/privacy",
+    "termsOfUseUrl": "https://yourcompany.com/terms"
+  },
+
+  "name": {
+    "short": "IT Helpdesk",
+    "full": "IT Helpdesk Bot"
+  },
+
+  "description": {
+    "short": "IT support, troubleshooting, and escalations.",
+    "full": "The IT Helpdesk Bot helps you troubleshoot common IT issues step by step across 8 categories: Account & Access, Microsoft 365, Hardware & Peripherals, Connectivity, Software & Updates, Performance, Security, and Equipment Requests. When issues cannot be resolved, the bot escalates automatically by email to the IT team."
+  },
+
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+
+  "accentColor": "#0078D4",
+
+  "bots": [
+    {
+      "botId": "YOUR_BOT_APP_ID_HERE",
+      "scopes": [
+        "personal",
+        "groupChat",
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false,
+      "commandLists": [
+        {
+          "scopes": ["personal", "groupChat", "team"],
+          "commands": [
+            {
+              "title": "menu",
+              "description": "Show the helpdesk category menu"
+            },
+            {
+              "title": "help",
+              "description": "Show available commands and categories"
+            },
+            {
+              "title": "restart",
+              "description": "Restart the current troubleshooting session"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+
+  "validDomains": [
+    "*.botframework.com",
+    "*.azurewebsites.net",
+    "token.botframework.com"
+  ]
+}

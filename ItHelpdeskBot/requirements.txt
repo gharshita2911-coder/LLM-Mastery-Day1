@@ -1,0 +1,21 @@
+# ── Microsoft Bot Framework SDK ───────────────────────────────────────────────
+# Core SDK: ActivityHandler, ConversationState, MemoryStorage, TurnContext
+botbuilder-core==4.16.1
+
+# aiohttp integration: CloudAdapter, aiohttp_error_middleware
+botbuilder-integration-aiohttp==4.16.1
+
+# Azure state storage (uncomment for production — replace MemoryStorage)
+# botbuilder-azure==4.16.1
+
+# ── Web server ─────────────────────────────────────────────────────────────────
+aiohttp==3.9.5
+
+# ── Environment variable loading ───────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Standard library modules used (no install needed) ─────────────────────────
+# smtplib    — SMTP email sending (escalation.py)
+# email      — MIME email construction (escalation.py)
+# logging    — application logging (all files)
+# dataclasses — ConvData model (bot.py)
