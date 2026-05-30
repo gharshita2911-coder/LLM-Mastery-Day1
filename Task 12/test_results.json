@@ -1,0 +1,510 @@
+{
+  "run_metadata": {
+    "timestamp": "2026-05-30T08:05:44.623708+00:00",
+    "model": "llama-3.3-70b-versatile",
+    "embed_method": "TF-IDF (scikit-learn, local)",
+    "top_k": 3,
+    "total_tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "pass_rate": "100.0%",
+    "total_ms": 74731.7
+  },
+  "test_results": [
+    {
+      "test_id": "TC01",
+      "category": "RAG-only",
+      "question": "What is the scaled dot-product attention formula used in Transformers?",
+      "notes": "Direct answer in doc_001 (Transformer architecture)",
+      "retrieved_chunks": [
+        {
+          "title": "Introduction to Transformer Architecture",
+          "doc_id": "doc_001",
+          "score": 0.2299
+        },
+        {
+          "title": "Vector Embeddings and Similarity Search",
+          "doc_id": "doc_004",
+          "score": 0.0917
+        },
+        {
+          "title": "Retrieval-Augmented Generation (RAG)",
+          "doc_id": "doc_002",
+          "score": 0.0297
+        }
+      ],
+      "tool_calls": [],
+      "final_answer": "The scaled dot-product attention formula used in Transformers is: Attention(Q,K,V) = softmax(QK^T / sqrt(d_k)) * V.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": false,
+        "actual_tool_used": false,
+        "expected_tool_name": null,
+        "actual_tools": [],
+        "expected_topic": null,
+        "actual_topics": []
+      },
+      "verdict": "PASS",
+      "latency_ms": 516.3,
+      "llm_calls": 1
+    },
+    {
+      "test_id": "TC02",
+      "category": "RAG-only",
+      "question": "What are the core benefits of RAG over purely parametric LLMs?",
+      "notes": "Direct answer in doc_002 (RAG overview)",
+      "retrieved_chunks": [
+        {
+          "title": "Retrieval-Augmented Generation (RAG)",
+          "doc_id": "doc_002",
+          "score": 0.2068
+        },
+        {
+          "title": "LLM Evaluation Metrics",
+          "doc_id": "doc_008",
+          "score": 0.0722
+        },
+        {
+          "title": "Function Calling in Large Language Models",
+          "doc_id": "doc_003",
+          "score": 0.0311
+        }
+      ],
+      "tool_calls": [],
+      "final_answer": "The core benefits of RAG over purely parametric LLMs are that it allows LLMs to cite sources, reduce hallucination, and access knowledge beyond their training cutoff by combining parametric knowledge stored in model weights with non-parametric retrieval from external documents.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": false,
+        "actual_tool_used": false,
+        "expected_tool_name": null,
+        "actual_tools": [],
+        "expected_topic": null,
+        "actual_topics": []
+      },
+      "verdict": "PASS",
+      "latency_ms": 690.6,
+      "llm_calls": 1
+    },
+    {
+      "test_id": "TC03",
+      "category": "RAG-only",
+      "question": "How does cosine similarity work, and what is its formula?",
+      "notes": "Formula and explanation in doc_004",
+      "retrieved_chunks": [
+        {
+          "title": "Vector Embeddings and Similarity Search",
+          "doc_id": "doc_004",
+          "score": 0.1242
+        },
+        {
+          "title": "FAISS: Facebook AI Similarity Search",
+          "doc_id": "doc_007",
+          "score": 0.0837
+        },
+        {
+          "title": "LLM Evaluation Metrics",
+          "doc_id": "doc_008",
+          "score": 0.0663
+        }
+      ],
+      "tool_calls": [],
+      "final_answer": "Cosine similarity measures the angle between two vectors. The formula for cosine similarity is sim(A,B) = (A·B) / (||A|| × ||B||), where A and B are vectors, A·B is the dot product of A and B, and ||A|| and ||B|| are the magnitudes of A and B, respectively. When vectors are L2-normalised, the dot product equals cosine similarity.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": false,
+        "actual_tool_used": false,
+        "expected_tool_name": null,
+        "actual_tools": [],
+        "expected_topic": null,
+        "actual_topics": []
+      },
+      "verdict": "PASS",
+      "latency_ms": 577.9,
+      "llm_calls": 1
+    },
+    {
+      "test_id": "TC04",
+      "category": "RAG-only",
+      "question": "What is the difference between bi-encoder and cross-encoder models?",
+      "notes": "Covered in doc_004 (vector embeddings)",
+      "retrieved_chunks": [
+        {
+          "title": "Vector Embeddings and Similarity Search",
+          "doc_id": "doc_004",
+          "score": 0.197
+        },
+        {
+          "title": "Introduction to Transformer Architecture",
+          "doc_id": "doc_001",
+          "score": 0.0661
+        },
+        {
+          "title": "Groq API and LPU Inference",
+          "doc_id": "doc_005",
+          "score": 0.0276
+        }
+      ],
+      "tool_calls": [],
+      "final_answer": "Bi-encoder models embed queries and documents independently, which makes them fast for large-scale retrieval. In contrast, cross-encoder models jointly encode the query and document, allowing for higher precision re-ranking of a smaller candidate set.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": false,
+        "actual_tool_used": false,
+        "expected_tool_name": null,
+        "actual_tools": [],
+        "expected_topic": null,
+        "actual_topics": []
+      },
+      "verdict": "PASS",
+      "latency_ms": 711.5,
+      "llm_calls": 1
+    },
+    {
+      "test_id": "TC05",
+      "category": "RAG-only",
+      "question": "Explain chain-of-thought prompting and when you should use it.",
+      "notes": "Covered in doc_006 (prompt engineering)",
+      "retrieved_chunks": [
+        {
+          "title": "Prompt Engineering Best Practices",
+          "doc_id": "doc_006",
+          "score": 0.2108
+        },
+        {
+          "title": "Function Calling in Large Language Models",
+          "doc_id": "doc_003",
+          "score": 0.0197
+        },
+        {
+          "title": "LLM Evaluation Metrics",
+          "doc_id": "doc_008",
+          "score": 0.0196
+        }
+      ],
+      "tool_calls": [],
+      "final_answer": "Chain-of-thought (CoT) prompting is a technique used to improve reasoning in language models by asking them to show their work step by step before giving a final answer. This approach is useful when the task requires a series of logical steps or complex reasoning to arrive at a conclusion. By providing a step-by-step breakdown of the thought process, CoT prompting can help increase the transparency and explainability of the model's responses, making it easier to understand how the model arrived at its answer. You should use CoT prompting when the task involves complex problem-solving, multi-step reasoning, or when you need to understand the model's thought process behind its response.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": false,
+        "actual_tool_used": false,
+        "expected_tool_name": null,
+        "actual_tools": [],
+        "expected_topic": null,
+        "actual_topics": []
+      },
+      "verdict": "PASS",
+      "latency_ms": 1002.6,
+      "llm_calls": 1
+    },
+    {
+      "test_id": "TC06",
+      "category": "Tool-required",
+      "question": "What are the latest benchmark scores for Llama 3.3 70B, GPT-4o, and Claude on MMLU and HumanEval?",
+      "notes": "Benchmark numbers not in any KB doc; requires tool",
+      "retrieved_chunks": [
+        {
+          "title": "Groq API and LPU Inference",
+          "doc_id": "doc_005",
+          "score": 0.1698
+        },
+        {
+          "title": "LLM Evaluation Metrics",
+          "doc_id": "doc_008",
+          "score": 0.0
+        },
+        {
+          "title": "FAISS: Facebook AI Similarity Search",
+          "doc_id": "doc_007",
+          "score": 0.0
+        }
+      ],
+      "tool_calls": [
+        {
+          "round": 1,
+          "tool": "fetch_additional_doc",
+          "args": {
+            "topic": "latest_model_benchmarks"
+          },
+          "result_preview": "[Latest LLM Benchmark Results (2024–2025)]\nAs of early 2025: GPT-4o scores 88.7 on MMLU, Gemini 1.5 Pro 85.9, Llama 3.3 70B 86.0 (strongest open-source). On Hum…"
+        }
+      ],
+      "final_answer": "The latest benchmark scores for Llama 3.3 70B, GPT-4o, and Claude are as follows: \n\n- Llama 3.3 70B scores 86.0 on MMLU.\n- GPT-4o scores 88.7 on MMLU and 90.2 on HumanEval.\n- Claude scores 92% on HumanEval. \n\nNote that these scores are subject to change as new models are released and existing ones are fine-tuned.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": true,
+        "actual_tool_used": true,
+        "expected_tool_name": "fetch_additional_doc",
+        "actual_tools": [
+          "fetch_additional_doc"
+        ],
+        "expected_topic": "latest_model_benchmarks",
+        "actual_topics": [
+          "latest_model_benchmarks"
+        ]
+      },
+      "verdict": "PASS",
+      "latency_ms": 9263.9,
+      "llm_calls": 2
+    },
+    {
+      "test_id": "TC07",
+      "category": "Tool-required",
+      "question": "How much does the Groq API cost per million tokens for Llama 3.3 70B?",
+      "notes": "Pricing figures not in KB; requires fetch_additional_doc",
+      "retrieved_chunks": [
+        {
+          "title": "Groq API and LPU Inference",
+          "doc_id": "doc_005",
+          "score": 0.2491
+        },
+        {
+          "title": "Function Calling in Large Language Models",
+          "doc_id": "doc_003",
+          "score": 0.043
+        },
+        {
+          "title": "LLM Evaluation Metrics",
+          "doc_id": "doc_008",
+          "score": 0.0303
+        }
+      ],
+      "tool_calls": [
+        {
+          "round": 1,
+          "tool": "fetch_additional_doc",
+          "args": {
+            "topic": "groq_pricing"
+          },
+          "result_preview": "[Groq API Pricing (2025)]\nLlama 3.3 70B Versatile : $0.59 / 1M input tokens, $0.79 / 1M output. Llama 3.1 8B Instant    : $0.05 / 1M input tokens, $0.08 / 1M ou…"
+        }
+      ],
+      "final_answer": "The Groq API costs $0.59 per million input tokens and $0.79 per million output tokens for the Llama 3.3 70B model.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": true,
+        "actual_tool_used": true,
+        "expected_tool_name": "fetch_additional_doc",
+        "actual_tools": [
+          "fetch_additional_doc"
+        ],
+        "expected_topic": "groq_pricing",
+        "actual_topics": [
+          "groq_pricing"
+        ]
+      },
+      "verdict": "PASS",
+      "latency_ms": 7751.2,
+      "llm_calls": 2
+    },
+    {
+      "test_id": "TC08",
+      "category": "Tool-required",
+      "question": "Compare popular RAG frameworks — LangChain, LlamaIndex, and Haystack — as of 2025.",
+      "notes": "Framework comparison not in KB",
+      "retrieved_chunks": [
+        {
+          "title": "LLM Evaluation Metrics",
+          "doc_id": "doc_008",
+          "score": 0.1146
+        },
+        {
+          "title": "Retrieval-Augmented Generation (RAG)",
+          "doc_id": "doc_002",
+          "score": 0.0945
+        },
+        {
+          "title": "FAISS: Facebook AI Similarity Search",
+          "doc_id": "doc_007",
+          "score": 0.0
+        }
+      ],
+      "tool_calls": [
+        {
+          "round": 1,
+          "tool": "fetch_additional_doc",
+          "args": {
+            "topic": "rag_frameworks_comparison"
+          },
+          "result_preview": "[RAG Frameworks Comparison 2025]\nLangChain: most popular, 80k+ GitHub stars, broad ecosystem. LlamaIndex: specialises in structured data ingestion and query eng…"
+        }
+      ],
+      "final_answer": "Based on the comparison of popular RAG frameworks as of 2025, LangChain is the most popular with over 80,000 GitHub stars and a broad ecosystem. LlamaIndex specializes in structured data ingestion and query engines, while Haystack, developed by deepset, is production-ready with REST pipelines and strong enterprise adoption. Additionally, DSPy from Stanford offers programmatic prompt optimization, compiling prompts automatically, and Cohere Coral features grounded generation built-in. The 2025 trend in RAG frameworks is towards agentic RAG, which involves iterative retrieval and reasoning loops. All of these frameworks support Groq via an OpenAI-compatible API.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": true,
+        "actual_tool_used": true,
+        "expected_tool_name": "fetch_additional_doc",
+        "actual_tools": [
+          "fetch_additional_doc"
+        ],
+        "expected_topic": "rag_frameworks_comparison",
+        "actual_topics": [
+          "rag_frameworks_comparison"
+        ]
+      },
+      "verdict": "PASS",
+      "latency_ms": 13314.0,
+      "llm_calls": 2
+    },
+    {
+      "test_id": "TC09",
+      "category": "Tool-required",
+      "question": "How do I install FAISS in Python and build a cosine similarity index?",
+      "notes": "doc_007 has theory only; install steps need tool",
+      "retrieved_chunks": [
+        {
+          "title": "FAISS: Facebook AI Similarity Search",
+          "doc_id": "doc_007",
+          "score": 0.286
+        },
+        {
+          "title": "Vector Embeddings and Similarity Search",
+          "doc_id": "doc_004",
+          "score": 0.1047
+        },
+        {
+          "title": "Retrieval-Augmented Generation (RAG)",
+          "doc_id": "doc_002",
+          "score": 0.0816
+        }
+      ],
+      "tool_calls": [
+        {
+          "round": 1,
+          "tool": "fetch_additional_doc",
+          "args": {
+            "topic": "python_faiss_install"
+          },
+          "result_preview": "[Installing and Using FAISS in Python]\nInstall: `pip install faiss-cpu`  (or faiss-gpu for CUDA). Create index: `index = faiss.IndexFlatIP(dim)`. Normalise firs…"
+        }
+      ],
+      "final_answer": "To install FAISS in Python, you can use pip: `pip install faiss-cpu` for CPU support or `pip install faiss-gpu` for CUDA support. \n\nTo build a cosine similarity index, first, create an index with `index = faiss.IndexFlatIP(dim)`, where `dim` is the dimension of your vectors. \n\nBefore adding vectors to the index, normalize them in-place with `faiss.normalize_L2(vectors)` to ensure cosine similarity works correctly.\n\nThen, add your vectors to the index with `index.add(vectors)`.\n\nTo search for the k nearest neighbors to a query vector, use `D, I = index.search(query, k)`, where `D` will contain the distances and `I` will contain the indices of the top-k nearest neighbors.\n\nFor persistence, you can write the index to a file with `faiss.write_index(index, 'store.index')` and read it back with `faiss.read_index(...)`. \n\nFor large corpora, consider using `IndexIVFFlat` with `nlist` approximately equal to the square root of the number of vectors for efficient search.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": true,
+        "actual_tool_used": true,
+        "expected_tool_name": "fetch_additional_doc",
+        "actual_tools": [
+          "fetch_additional_doc"
+        ],
+        "expected_topic": "python_faiss_install",
+        "actual_topics": [
+          "python_faiss_install"
+        ]
+      },
+      "verdict": "PASS",
+      "latency_ms": 13615.9,
+      "llm_calls": 2
+    },
+    {
+      "test_id": "TC10",
+      "category": "Mixed (RAG + Tool)",
+      "question": "Explain how function calling works in Groq, and also give me the current pricing so I can estimate costs.",
+      "notes": "Function calling explained by doc_003 (RAG); pricing requires tool",
+      "retrieved_chunks": [
+        {
+          "title": "Function Calling in Large Language Models",
+          "doc_id": "doc_003",
+          "score": 0.2814
+        },
+        {
+          "title": "Groq API and LPU Inference",
+          "doc_id": "doc_005",
+          "score": 0.0902
+        },
+        {
+          "title": "Prompt Engineering Best Practices",
+          "doc_id": "doc_006",
+          "score": 0.0415
+        }
+      ],
+      "tool_calls": [
+        {
+          "round": 1,
+          "tool": "fetch_additional_doc",
+          "args": {
+            "topic": "groq_pricing"
+          },
+          "result_preview": "[Groq API Pricing (2025)]\nLlama 3.3 70B Versatile : $0.59 / 1M input tokens, $0.79 / 1M output. Llama 3.1 8B Instant    : $0.05 / 1M input tokens, $0.08 / 1M ou…"
+        },
+        {
+          "round": 1,
+          "tool": "fetch_additional_doc",
+          "args": {
+            "topic": "rag_frameworks_comparison"
+          },
+          "result_preview": "[RAG Frameworks Comparison 2025]\nLangChain: most popular, 80k+ GitHub stars, broad ecosystem. LlamaIndex: specialises in structured data ingestion and query eng…"
+        }
+      ],
+      "final_answer": "Function calling in Groq works by following the OpenAI tool-call format, allowing for real-time data lookup, computation, and actions beyond the model's static knowledge. The Groq API is OpenAI-compatible and supports chat completions, tool use, and JSON mode. \n\nAs for the current pricing, the costs are as follows: \n- Llama 3.3 70B Versatile: $0.59 per 1 million input tokens and $0.79 per 1 million output tokens\n- Llama 3.1 8B Instant: $0.05 per 1 million input tokens and $0.08 per 1 million output tokens\n- Mixtral 8x7B: $0.24 per 1 million input tokens and $0.24 per 1 million output tokens\nThe free tier allows approximately 30 requests per minute on most models, with no per-request fees.",
+      "error": null,
+      "evaluation": {
+        "passed": true,
+        "tool_use_correct": true,
+        "tool_name_correct": true,
+        "topic_correct": true,
+        "has_answer": true,
+        "expected_tool": true,
+        "actual_tool_used": true,
+        "expected_tool_name": "fetch_additional_doc",
+        "actual_tools": [
+          "fetch_additional_doc",
+          "fetch_additional_doc"
+        ],
+        "expected_topic": "groq_pricing",
+        "actual_topics": [
+          "groq_pricing",
+          "rag_frameworks_comparison"
+        ]
+      },
+      "verdict": "PASS",
+      "latency_ms": 13749.5,
+      "llm_calls": 2
+    }
+  ]
+}

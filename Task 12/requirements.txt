@@ -1,0 +1,11 @@
+botbuilder-core==4.16.1
+botbuilder-integration-aiohttp==4.16.1
+aiohttp==3.9.5
+gunicorn==21.2.0
+python-dotenv==1.0.1
+groq>=0.9.0
+groq
+numpy
+scikit-learn
+PyPDF2
+python-docx
