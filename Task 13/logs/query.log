@@ -1,0 +1,356 @@
+2026-06-02 11:11:04,447 | INFO     | rag.batch | Batch run 20260602T054104 | 4 queries selected (dry_run=False)
+2026-06-02 11:11:04,448 | INFO     | rag.batch | [1/4] Running query q001: What is the refund policy?
+2026-06-02 11:11:04,448 | INFO     | rag.query | Query received: 'What is the refund policy?'
+2026-06-02 11:11:04,448 | ERROR    | rag.batch | Query q001 failed: Index not found at data/index.json. Run indexer.py first.
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 222, in query
+    top_chunks = retrieve(question, top_k=top_k)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 119, in retrieve
+    index  = load_index()
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 83, in load_index
+    raise FileNotFoundError(
+        f"Index not found at {INDEX_PATH}. Run indexer.py first."
+    )
+FileNotFoundError: Index not found at data/index.json. Run indexer.py first.
+2026-06-02 11:11:05,448 | INFO     | rag.batch | [2/4] Running query q002: How does the onboarding process work?
+2026-06-02 11:11:05,448 | INFO     | rag.query | Query received: 'How does the onboarding process work?'
+2026-06-02 11:11:05,449 | ERROR    | rag.batch | Query q002 failed: Index not found at data/index.json. Run indexer.py first.
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 222, in query
+    top_chunks = retrieve(question, top_k=top_k)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 119, in retrieve
+    index  = load_index()
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 83, in load_index
+    raise FileNotFoundError(
+        f"Index not found at {INDEX_PATH}. Run indexer.py first."
+    )
+FileNotFoundError: Index not found at data/index.json. Run indexer.py first.
+2026-06-02 11:11:06,454 | INFO     | rag.batch | [3/4] Running query q003: What are the system requirements?
+2026-06-02 11:11:06,455 | INFO     | rag.query | Query received: 'What are the system requirements?'
+2026-06-02 11:11:06,455 | ERROR    | rag.batch | Query q003 failed: Index not found at data/index.json. Run indexer.py first.
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 222, in query
+    top_chunks = retrieve(question, top_k=top_k)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 119, in retrieve
+    index  = load_index()
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 83, in load_index
+    raise FileNotFoundError(
+        f"Index not found at {INDEX_PATH}. Run indexer.py first."
+    )
+FileNotFoundError: Index not found at data/index.json. Run indexer.py first.
+2026-06-02 11:11:07,460 | INFO     | rag.batch | [4/4] Running query q004: How do I contact support?
+2026-06-02 11:11:07,460 | INFO     | rag.query | Query received: 'How do I contact support?'
+2026-06-02 11:11:07,460 | ERROR    | rag.batch | Query q004 failed: Index not found at data/index.json. Run indexer.py first.
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 222, in query
+    top_chunks = retrieve(question, top_k=top_k)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 119, in retrieve
+    index  = load_index()
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 83, in load_index
+    raise FileNotFoundError(
+        f"Index not found at {INDEX_PATH}. Run indexer.py first."
+    )
+FileNotFoundError: Index not found at data/index.json. Run indexer.py first.
+2026-06-02 11:11:07,461 | INFO     | rag.batch | Batch run saved → data/batch_results.json (total runs stored: 1)
+2026-06-02 11:15:52,994 | INFO     | rag.batch | Batch run 20260602T054552 | 4 queries selected (dry_run=False)
+2026-06-02 11:15:52,995 | INFO     | rag.batch | [1/4] Running query q001: What is the refund policy?
+2026-06-02 11:15:52,995 | INFO     | rag.query | Query received: 'What is the refund policy?'
+2026-06-02 11:15:52,995 | ERROR    | rag.batch | Query q001 failed: Index not found at data/index.json. Run indexer.py first.
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 222, in query
+    top_chunks = retrieve(question, top_k=top_k)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 119, in retrieve
+    index  = load_index()
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 83, in load_index
+    raise FileNotFoundError(
+        f"Index not found at {INDEX_PATH}. Run indexer.py first."
+    )
+FileNotFoundError: Index not found at data/index.json. Run indexer.py first.
+2026-06-02 11:15:54,001 | INFO     | rag.batch | [2/4] Running query q002: How does the onboarding process work?
+2026-06-02 11:15:54,001 | INFO     | rag.query | Query received: 'How does the onboarding process work?'
+2026-06-02 11:15:54,001 | ERROR    | rag.batch | Query q002 failed: Index not found at data/index.json. Run indexer.py first.
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 222, in query
+    top_chunks = retrieve(question, top_k=top_k)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 119, in retrieve
+    index  = load_index()
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 83, in load_index
+    raise FileNotFoundError(
+        f"Index not found at {INDEX_PATH}. Run indexer.py first."
+    )
+FileNotFoundError: Index not found at data/index.json. Run indexer.py first.
+2026-06-02 11:15:55,006 | INFO     | rag.batch | [3/4] Running query q003: What are the system requirements?
+2026-06-02 11:15:55,007 | INFO     | rag.query | Query received: 'What are the system requirements?'
+2026-06-02 11:15:55,007 | ERROR    | rag.batch | Query q003 failed: Index not found at data/index.json. Run indexer.py first.
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 222, in query
+    top_chunks = retrieve(question, top_k=top_k)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 119, in retrieve
+    index  = load_index()
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 83, in load_index
+    raise FileNotFoundError(
+        f"Index not found at {INDEX_PATH}. Run indexer.py first."
+    )
+FileNotFoundError: Index not found at data/index.json. Run indexer.py first.
+2026-06-02 11:15:56,013 | INFO     | rag.batch | [4/4] Running query q004: How do I contact support?
+2026-06-02 11:15:56,013 | INFO     | rag.query | Query received: 'How do I contact support?'
+2026-06-02 11:15:56,013 | ERROR    | rag.batch | Query q004 failed: Index not found at data/index.json. Run indexer.py first.
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 222, in query
+    top_chunks = retrieve(question, top_k=top_k)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 119, in retrieve
+    index  = load_index()
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 83, in load_index
+    raise FileNotFoundError(
+        f"Index not found at {INDEX_PATH}. Run indexer.py first."
+    )
+FileNotFoundError: Index not found at data/index.json. Run indexer.py first.
+2026-06-02 11:15:56,014 | INFO     | rag.batch | Batch run saved → data/batch_results.json (total runs stored: 2)
+2026-06-02 11:18:39,385 | INFO     | rag.batch | Batch run 20260602T054839 | 4 queries selected (dry_run=False)
+2026-06-02 11:18:39,385 | INFO     | rag.batch | [1/4] Running query q001: What is the refund policy?
+2026-06-02 11:18:39,386 | INFO     | rag.query | Query received: 'What is the refund policy?'
+2026-06-02 11:18:39,386 | INFO     | rag.query | Loading embedding model: all-MiniLM-L6-v2
+2026-06-02 11:18:39,410 | INFO     | sentence_transformers.base.model | No device provided, using mps
+2026-06-02 11:18:39,694 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:39,694 | WARNING  | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-02 11:18:39,708 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:39,937 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:39,954 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:39,957 | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-02 11:18:40,188 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:40,202 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:40,451 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:40,463 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-02 11:18:40,693 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:40,710 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:40,957 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:40,971 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:41,215 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:18:41,448 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:41,462 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:41,771 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:18:42,009 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:18:42,243 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:18:42,471 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:18:42,704 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:42,723 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:42,971 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:42,988 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:43,218 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:43,230 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:43,470 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:43,489 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:43,735 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-02 11:18:43,969 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-02 11:18:44,241 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:18:44,258 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-02 11:18:44,488 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-02 11:18:46,084 | INFO     | rag.query | Retrieved 5 chunks (top similarity: 0.5798)
+2026-06-02 11:18:46,492 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-06-02 11:18:46,494 | ERROR    | rag.batch | Query q001 failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 225, in query
+    gen = generate_answer(question, top_chunks)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 168, in generate_answer
+    response = client.chat.completions.create(
+        model=GROQ_MODEL,
+    ...<5 lines>...
+        max_tokens=1024,
+    )
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/resources/chat/completions.py", line 461, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/openai/v1/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<45 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/_base_client.py", line 1284, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/_base_client.py", line 1071, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-06-02 11:18:47,505 | INFO     | rag.batch | [2/4] Running query q002: How does the onboarding process work?
+2026-06-02 11:18:47,505 | INFO     | rag.query | Query received: 'How does the onboarding process work?'
+2026-06-02 11:18:47,823 | INFO     | rag.query | Retrieved 5 chunks (top similarity: 0.4367)
+2026-06-02 11:18:47,949 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-06-02 11:18:47,949 | ERROR    | rag.batch | Query q002 failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 225, in query
+    gen = generate_answer(question, top_chunks)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 168, in generate_answer
+    response = client.chat.completions.create(
+        model=GROQ_MODEL,
+    ...<5 lines>...
+        max_tokens=1024,
+    )
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/resources/chat/completions.py", line 461, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/openai/v1/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<45 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/_base_client.py", line 1284, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/_base_client.py", line 1071, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-06-02 11:18:48,956 | INFO     | rag.batch | [3/4] Running query q003: What are the system requirements?
+2026-06-02 11:18:48,956 | INFO     | rag.query | Query received: 'What are the system requirements?'
+2026-06-02 11:18:49,293 | INFO     | rag.query | Retrieved 3 chunks (top similarity: 0.5215)
+2026-06-02 11:18:49,396 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-06-02 11:18:49,396 | ERROR    | rag.batch | Query q003 failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 225, in query
+    gen = generate_answer(question, top_chunks)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 168, in generate_answer
+    response = client.chat.completions.create(
+        model=GROQ_MODEL,
+    ...<5 lines>...
+        max_tokens=1024,
+    )
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/resources/chat/completions.py", line 461, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/openai/v1/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<45 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/_base_client.py", line 1284, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/_base_client.py", line 1071, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-06-02 11:18:50,403 | INFO     | rag.batch | [4/4] Running query q004: How do I contact support?
+2026-06-02 11:18:50,403 | INFO     | rag.query | Query received: 'How do I contact support?'
+2026-06-02 11:18:50,423 | INFO     | rag.query | Retrieved 5 chunks (top similarity: 0.3297)
+2026-06-02 11:18:50,546 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-06-02 11:18:50,547 | ERROR    | rag.batch | Query q004 failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+Traceback (most recent call last):
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/batch_runner.py", line 138, in run_batch
+    result = rag_query(question, top_k=top_k, save=True)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 225, in query
+    gen = generate_answer(question, top_chunks)
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/query.py", line 168, in generate_answer
+    response = client.chat.completions.create(
+        model=GROQ_MODEL,
+    ...<5 lines>...
+        max_tokens=1024,
+    )
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/resources/chat/completions.py", line 461, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/openai/v1/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<45 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/_base_client.py", line 1284, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/harshitagupta/Documents/Tasks/ai-integration/Task 13/venv/lib/python3.14/site-packages/groq/_base_client.py", line 1071, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-06-02 11:18:50,553 | INFO     | rag.batch | Batch run saved → data/batch_results.json (total runs stored: 3)
+2026-06-02 11:20:08,368 | INFO     | rag.batch | Batch run 20260602T055008 | 4 queries selected (dry_run=False)
+2026-06-02 11:20:08,368 | INFO     | rag.batch | [1/4] Running query q001: What is the refund policy?
+2026-06-02 11:20:08,368 | INFO     | rag.query | Query received: 'What is the refund policy?'
+2026-06-02 11:20:08,369 | INFO     | rag.query | Loading embedding model: all-MiniLM-L6-v2
+2026-06-02 11:20:08,385 | INFO     | sentence_transformers.base.model | No device provided, using mps
+2026-06-02 11:20:08,676 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:08,689 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:08,925 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:08,925 | WARNING  | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-02 11:20:08,939 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:08,940 | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-02 11:20:09,170 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:09,185 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:09,431 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:09,447 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-02 11:20:09,706 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:09,720 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:09,962 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:09,978 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:10,212 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:20:10,453 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:10,465 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:10,769 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:20:11,003 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:20:11,236 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:20:11,469 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-02 11:20:11,700 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:11,716 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:11,946 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:11,962 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:12,206 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:12,220 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:12,450 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:12,464 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:12,698 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-02 11:20:12,944 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-02 11:20:13,189 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 11:20:13,204 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-02 11:20:13,449 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-02 11:20:14,107 | INFO     | rag.query | Retrieved 5 chunks (top similarity: 0.5798)
+2026-06-02 11:20:16,048 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 11:20:16,057 | INFO     | rag.query | LLM response received | model=llama-3.3-70b-versatile | tokens=4285+279 | latency=1.93s
+2026-06-02 11:20:16,057 | INFO     | rag.query | Result appended → data/query_results.json  (total stored: 1)
+2026-06-02 11:20:17,062 | INFO     | rag.batch | [2/4] Running query q002: How does the onboarding process work?
+2026-06-02 11:20:17,063 | INFO     | rag.query | Query received: 'How does the onboarding process work?'
+2026-06-02 11:20:17,152 | INFO     | rag.query | Retrieved 5 chunks (top similarity: 0.4367)
+2026-06-02 11:20:19,380 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 11:20:19,381 | INFO     | rag.query | LLM response received | model=llama-3.3-70b-versatile | tokens=4287+494 | latency=2.22s
+2026-06-02 11:20:19,382 | INFO     | rag.query | Result appended → data/query_results.json  (total stored: 2)
+2026-06-02 11:20:20,383 | INFO     | rag.batch | [3/4] Running query q003: What are the system requirements?
+2026-06-02 11:20:20,384 | INFO     | rag.query | Query received: 'What are the system requirements?'
+2026-06-02 11:20:20,449 | INFO     | rag.query | Retrieved 3 chunks (top similarity: 0.5215)
+2026-06-02 11:20:20,547 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 11:20:20,548 | INFO     | groq._base_client | Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-06-02 11:20:28,006 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 11:20:28,010 | INFO     | rag.query | LLM response received | model=llama-3.3-70b-versatile | tokens=2636+621 | latency=7.54s
+2026-06-02 11:20:28,013 | INFO     | rag.query | Result appended → data/query_results.json  (total stored: 3)
+2026-06-02 11:20:29,018 | INFO     | rag.batch | [4/4] Running query q004: How do I contact support?
+2026-06-02 11:20:29,019 | INFO     | rag.query | Query received: 'How do I contact support?'
+2026-06-02 11:20:29,126 | INFO     | rag.query | Retrieved 5 chunks (top similarity: 0.3297)
+2026-06-02 11:20:29,250 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 11:20:29,251 | INFO     | groq._base_client | Retrying request to /openai/v1/chat/completions in 25.000000 seconds
+2026-06-02 11:20:55,518 | INFO     | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 11:20:55,519 | INFO     | rag.query | LLM response received | model=llama-3.3-70b-versatile | tokens=4285+242 | latency=26.37s
+2026-06-02 11:20:55,521 | INFO     | rag.query | Result appended → data/query_results.json  (total stored: 4)
+2026-06-02 11:20:55,522 | INFO     | rag.batch | Batch run saved → data/batch_results.json (total runs stored: 4)

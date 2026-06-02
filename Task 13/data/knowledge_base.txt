@@ -1,0 +1,414 @@
+ACME CORP — COMPANY KNOWLEDGE BASE
+====================================
+Version 2.1 | Last Updated: June 2025
+Internal Use Only
+
+═══════════════════════════════════════════════════════════
+SECTION 1: REFUND & RETURNS POLICY
+═══════════════════════════════════════════════════════════
+
+1.1 Overview
+------------
+Acme Corp is committed to customer satisfaction. If you are not fully satisfied
+with your purchase, we offer a straightforward refund and returns process
+designed to be simple, fair, and transparent.
+
+1.2 Eligibility for Refunds
+----------------------------
+To be eligible for a refund, the following conditions must be met:
+
+- The refund request must be submitted within 30 days of the original purchase date.
+- The product must be unused and returned in its original packaging.
+- Digital products and downloadable software are non-refundable once the
+  license key has been activated.
+- Annual subscription plans are eligible for a pro-rated refund if cancelled
+  within the first 60 days.
+- Monthly subscription plans can be cancelled anytime; refunds are issued only
+  for the unused portion of the current billing cycle.
+
+1.3 How to Request a Refund
+-----------------------------
+Step 1: Log in to your Acme Corp account at app.acmecorp.com.
+Step 2: Navigate to Settings → Billing → Refund Request.
+Step 3: Select the order or subscription you wish to refund.
+Step 4: Choose a reason from the dropdown and provide a brief description.
+Step 5: Submit the request. You will receive a confirmation email within 1 hour.
+
+Alternatively, contact our billing team directly at billing@acmecorp.com with
+your Order ID and registered email address.
+
+1.4 Refund Processing Time
+----------------------------
+- Refund requests are reviewed within 2 business days.
+- Approved refunds are processed within 5–7 business days.
+- The refund is credited back to the original payment method (credit card,
+  PayPal, or bank transfer).
+- International refunds may take up to 10–14 business days depending on
+  your bank or payment provider.
+- You will receive an email notification once the refund has been processed.
+
+1.5 Non-Refundable Items
+-------------------------
+The following are strictly non-refundable:
+- Setup fees and onboarding fees.
+- Customisation and professional services charges.
+- Any product purchased under a promotional or discounted plan (unless defective).
+- Add-ons or integrations purchased separately.
+
+1.6 Disputed Charges
+---------------------
+If you believe you have been charged incorrectly, raise a dispute within 14 days
+by emailing billing@acmecorp.com with the subject line "Disputed Charge – [Order ID]".
+Our finance team will investigate and respond within 3 business days.
+
+
+═══════════════════════════════════════════════════════════
+SECTION 2: ONBOARDING PROCESS
+═══════════════════════════════════════════════════════════
+
+2.1 Overview
+------------
+The Acme Corp onboarding process is designed to get new customers and team
+members productive as quickly as possible. The standard onboarding timeline
+is 7 days for individuals and 14 days for enterprise teams.
+
+2.2 Step-by-Step Onboarding for New Users
+------------------------------------------
+Day 0 — Account Creation
+  - Sign up at app.acmecorp.com/register using your business email.
+  - Verify your email address via the confirmation link sent within 5 minutes.
+  - Set a strong password (min 12 characters, one uppercase, one number, one symbol).
+  - Accept the Terms of Service and Privacy Policy.
+
+Day 1 — Profile Setup
+  - Complete your user profile: name, role, department, timezone.
+  - Upload a profile photo (optional but recommended for team collaboration).
+  - Connect your calendar (Google Calendar or Outlook) for meeting scheduling.
+  - Set your notification preferences (email, Slack, in-app).
+
+Day 2 — Product Walkthrough
+  - A Welcome Kit email is sent with links to video tutorials and the Quick
+    Start Guide.
+  - An automated product tour launches on first login — takes approximately
+    15 minutes to complete.
+  - Explore the Dashboard, Projects, Reports, and Settings tabs.
+
+Day 3 — Onboarding Call
+  - A dedicated Customer Success Manager (CSM) will reach out to schedule a
+    30-minute onboarding call.
+  - The call covers: account configuration, team setup, integrations, and
+    answering any initial questions.
+  - Enterprise customers receive an additional 60-minute deep-dive session.
+
+Day 4–5 — Integration & Configuration
+  - Connect your existing tools: Slack, Jira, GitHub, Salesforce, or Zapier.
+  - Import existing data using the CSV Import Tool under Settings → Import.
+  - Configure user roles and permissions for your team members.
+  - Set up your first project or workflow using the provided templates.
+
+Day 6–7 — Go-Live & Handoff
+  - Your CSM confirms the setup is complete and signs off on the onboarding
+    checklist.
+  - Access to the Acme Corp Help Center (help.acmecorp.com) is activated.
+  - You are added to the monthly customer newsletter and product update emails.
+  - A 30-day post-onboarding check-in call is automatically scheduled.
+
+2.3 Enterprise Onboarding
+--------------------------
+Enterprise customers (50+ seats) receive an enhanced onboarding experience:
+- A dedicated Implementation Manager assigned for the full onboarding period.
+- Custom data migration support for existing databases or CRM systems.
+- SSO (Single Sign-On) configuration with your identity provider (Okta, Azure AD).
+- Custom role and permission mapping to match your organisational hierarchy.
+- SLA-backed onboarding completion guarantee within 21 business days.
+
+2.4 Self-Service Onboarding Resources
+---------------------------------------
+If you prefer to onboard at your own pace:
+- Quick Start Guide: help.acmecorp.com/quickstart
+- Video Tutorial Library: help.acmecorp.com/videos
+- API Documentation: developers.acmecorp.com
+- Community Forum: community.acmecorp.com
+- Webinars (live and recorded): acmecorp.com/webinars
+
+
+═══════════════════════════════════════════════════════════
+SECTION 3: SYSTEM REQUIREMENTS
+═══════════════════════════════════════════════════════════
+
+3.1 Web Application (Browser-Based)
+-------------------------------------
+The Acme Corp web application runs in any modern browser. No installation is required.
+
+Supported Browsers:
+  - Google Chrome 110 or later (recommended)
+  - Mozilla Firefox 109 or later
+  - Microsoft Edge 110 or later
+  - Safari 16 or later (macOS and iOS)
+  - Brave Browser (latest stable)
+
+Minimum Hardware for Web App:
+  - Processor: Dual-core 2.0 GHz or higher
+  - RAM: 4 GB minimum, 8 GB recommended
+  - Internet: Stable broadband connection, minimum 10 Mbps download speed
+  - Screen Resolution: 1280 × 720 or higher
+
+3.2 Desktop Application
+-------------------------
+The Acme Corp Desktop App is available for Windows and macOS.
+
+Windows:
+  - OS: Windows 10 (version 21H2) or Windows 11
+  - Processor: Intel Core i5 / AMD Ryzen 5 or equivalent
+  - RAM: 8 GB minimum, 16 GB recommended
+  - Storage: 2 GB free disk space for installation
+  - .NET Framework 4.8 or later required
+
+macOS:
+  - OS: macOS 12 Monterey or later
+  - Processor: Apple M1 / Intel Core i5 or higher
+  - RAM: 8 GB minimum, 16 GB recommended
+  - Storage: 2 GB free disk space for installation
+  - Rosetta 2 required for M1/M2 Macs running Intel builds
+
+Linux (Beta):
+  - Supported distros: Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Debian 11
+  - Processor: x86_64 architecture required
+  - RAM: 8 GB minimum
+  - Storage: 2 GB free disk space
+
+3.3 Mobile Application
+-----------------------
+  - iOS: iPhone or iPad running iOS 15 or later
+  - Android: Android 10 or later, minimum 3 GB RAM
+
+3.4 Self-Hosted / On-Premise Deployment
+-----------------------------------------
+For enterprise customers who require on-premise deployment:
+
+Server Requirements:
+  - OS: Ubuntu 20.04 LTS / 22.04 LTS or RHEL 8+
+  - CPU: 8-core processor minimum (16-core recommended for 100+ users)
+  - RAM: 32 GB minimum, 64 GB recommended
+  - Storage: 500 GB SSD (NVMe preferred); scalable with additional volumes
+  - Database: PostgreSQL 14+ or MySQL 8.0+
+  - Cache: Redis 7.0+
+  - Reverse Proxy: Nginx 1.20+ or Apache 2.4+
+  - Docker: Docker 24+ and Docker Compose 2.0+ (for containerised deployment)
+
+Network:
+  - HTTPS on port 443 (TLS 1.2 or 1.3 required)
+  - Outbound access to api.acmecorp.com on port 443 for license validation
+  - Internal network bandwidth: minimum 1 Gbps between app and database servers
+
+3.5 API Integration Requirements
+----------------------------------
+  - REST API: Any HTTP client supporting TLS 1.2+
+  - Python SDK: Python 3.9 or later
+  - Node.js SDK: Node.js 18 LTS or later
+  - API Rate Limit: 1,000 requests/minute on Standard plan; 10,000 on Enterprise
+  - Authentication: OAuth 2.0 Bearer Token or API Key
+
+
+═══════════════════════════════════════════════════════════
+SECTION 4: SUPPORT & CONTACT INFORMATION
+═══════════════════════════════════════════════════════════
+
+4.1 Support Channels
+---------------------
+Acme Corp offers multiple support channels to ensure you can always get help
+when you need it.
+
+Email Support:
+  - General Enquiries:  hello@acmecorp.com
+  - Technical Support:  support@acmecorp.com
+  - Billing & Refunds:  billing@acmecorp.com
+  - Enterprise Support: enterprise@acmecorp.com
+  - Security Issues:    security@acmecorp.com (PGP key available on request)
+
+Phone Support:
+  - India (Toll-Free):       1800-123-4567
+  - USA / Canada:            +1-888-226-2765
+  - United Kingdom:          +44-800-066-4567
+  - Australia:               +61-1800-456-789
+  - International (General): +91-80-4567-8901
+
+Live Chat:
+  - Available at app.acmecorp.com (bottom-right chat widget)
+  - Hours: Monday to Friday, 9:00 AM – 9:00 PM IST
+  - Weekend Chat: Saturday 10:00 AM – 4:00 PM IST (Standard and above plans)
+
+4.2 Support Tiers & Response Times
+------------------------------------
+Free Plan:
+  - Email support only
+  - Response time: 3–5 business days
+  - Access to Help Center and Community Forum
+
+Standard Plan:
+  - Email + Live Chat support
+  - Response time: within 1 business day
+  - Access to Help Center, video library, and monthly webinars
+
+Professional Plan:
+  - Email + Live Chat + Phone support
+  - Response time: within 4 business hours
+  - Dedicated account manager
+  - Priority queue for critical issues
+
+Enterprise Plan:
+  - 24/7 Email, Chat, and Phone support
+  - Response time: within 1 hour for critical issues (P1/P2)
+  - Dedicated Customer Success Manager + Technical Account Manager
+  - Quarterly business reviews
+  - Custom SLA available on request
+
+4.3 Help Center & Self-Service
+--------------------------------
+Before contacting support, check these self-service resources:
+
+  - Help Center:       help.acmecorp.com
+  - Status Page:       status.acmecorp.com  (real-time system status)
+  - Community Forum:   community.acmecorp.com
+  - API Docs:          developers.acmecorp.com
+  - Release Notes:     acmecorp.com/changelog
+  - Video Tutorials:   help.acmecorp.com/videos
+
+4.4 Submitting a Support Ticket
+---------------------------------
+Step 1: Log in to app.acmecorp.com.
+Step 2: Click the "?" Help icon in the top-right corner.
+Step 3: Select "Submit a Ticket".
+Step 4: Choose the category: Technical, Billing, Account, or General.
+Step 5: Describe your issue in detail. Attach screenshots or logs if relevant.
+Step 6: Submit. You'll receive a ticket number via email immediately.
+
+Track your ticket status at: app.acmecorp.com/support/tickets
+
+4.5 Reporting a Bug or Security Vulnerability
+-----------------------------------------------
+Bug Reports:
+  - Submit via the in-app feedback button or email support@acmecorp.com.
+  - Include: steps to reproduce, expected vs actual behaviour, browser/OS version.
+
+Security Vulnerabilities:
+  - Do NOT post security issues publicly.
+  - Email security@acmecorp.com with full details.
+  - We follow responsible disclosure and aim to patch critical vulnerabilities
+    within 72 hours of confirmation.
+  - A bug bounty programme is available for verified critical findings.
+
+4.6 Office Locations
+---------------------
+Headquarters:
+  Acme Corp Technologies Pvt. Ltd.
+  4th Floor, Tower B, Cyber Hub,
+  Gurugram, Haryana 122002, India
+
+USA Office:
+  Acme Corp Inc.
+  101 California Street, Suite 2710,
+  San Francisco, CA 94111, USA
+
+UK Office:
+  Acme Corp Ltd.
+  The Shard, 32 London Bridge Street,
+  London SE1 9SG, United Kingdom
+
+Business Hours: Monday to Friday, 9:00 AM – 6:00 PM (local time)
+
+
+═══════════════════════════════════════════════════════════
+SECTION 5: PRICING & SUBSCRIPTION PLANS
+═══════════════════════════════════════════════════════════
+
+5.1 Plan Overview
+------------------
+Acme Corp offers four subscription tiers to suit individuals, growing teams,
+and large enterprises.
+
+FREE PLAN — $0/month
+  - Up to 3 users
+  - 5 active projects
+  - 1 GB storage
+  - Community support only
+  - Basic analytics
+
+STANDARD PLAN — $29/user/month (billed monthly) | $24/user/month (billed annually)
+  - Unlimited users
+  - Unlimited projects
+  - 50 GB storage per user
+  - Email + Chat support
+  - Advanced analytics and reporting
+  - API access (1,000 requests/min)
+  - Integrations: Slack, Google Workspace, Microsoft 365
+
+PROFESSIONAL PLAN — $79/user/month (billed monthly) | $64/user/month (billed annually)
+  - Everything in Standard
+  - 500 GB storage per user
+  - Phone support + dedicated account manager
+  - Custom workflows and automation
+  - SSO (SAML 2.0)
+  - Advanced security: audit logs, IP whitelisting
+  - API access (5,000 requests/min)
+
+ENTERPRISE PLAN — Custom pricing
+  - Everything in Professional
+  - Unlimited storage
+  - 24/7 priority support + CSM + TAM
+  - On-premise / private cloud deployment option
+  - Custom SLA and uptime guarantee (99.99%)
+  - Dedicated infrastructure
+  - Quarterly business reviews
+  - API access (10,000+ requests/min)
+
+5.2 Billing Cycle
+------------------
+  - Monthly plans are billed on the same date each month.
+  - Annual plans are billed upfront for the full year.
+  - Annual plans include a 17% discount compared to monthly billing.
+  - Invoices are sent via email and available at app.acmecorp.com/billing.
+
+5.3 Upgrading or Downgrading
+------------------------------
+  - Upgrade: Effective immediately; charged pro-rata for the remainder of
+    the billing period.
+  - Downgrade: Effective at the end of the current billing cycle.
+  - Cancellation: Effective at the end of the current billing period.
+    Data is retained for 60 days after cancellation before permanent deletion.
+
+
+═══════════════════════════════════════════════════════════
+SECTION 6: SECURITY & COMPLIANCE
+═══════════════════════════════════════════════════════════
+
+6.1 Data Security
+------------------
+  - All data is encrypted in transit using TLS 1.3.
+  - Data at rest is encrypted using AES-256.
+  - Regular third-party penetration testing conducted quarterly.
+  - SOC 2 Type II certified.
+  - ISO 27001 certified.
+  - GDPR compliant for EU customers.
+  - Data residency options available for Enterprise customers (US, EU, IN).
+
+6.2 Uptime & SLA
+-----------------
+  - Standard SLA: 99.9% uptime (approx. 8.7 hours downtime/year).
+  - Professional SLA: 99.95% uptime.
+  - Enterprise SLA: 99.99% uptime (approx. 52 minutes downtime/year).
+  - Check live status at status.acmecorp.com.
+  - Scheduled maintenance windows: Sundays 2:00 AM – 4:00 AM IST.
+  - Customers are notified 72 hours in advance of planned maintenance.
+
+6.3 Data Backup
+----------------
+  - Automated daily backups retained for 30 days (Standard).
+  - Automated hourly backups retained for 90 days (Enterprise).
+  - Point-in-time recovery available for Enterprise customers.
+  - Backup storage is geographically distributed across 3 regions.
+
+
+═══════════════════════════════════════════════════════════
+END OF DOCUMENT
+═══════════════════════════════════════════════════════════

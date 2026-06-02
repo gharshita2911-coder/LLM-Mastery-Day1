@@ -1,0 +1,12 @@
+{
+  "run_at": "2026-06-02T05:48:16.927910+00:00",
+  "results": [
+    {
+      "source": "data/knowledge_base.txt",
+      "chunks_added": 5,
+      "chunks_skipped": 0,
+      "total_chunks": 5,
+      "duration_s": 18.7
+    }
+  ]
+}

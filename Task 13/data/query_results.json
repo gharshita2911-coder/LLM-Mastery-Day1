@@ -1,0 +1,192 @@
+[
+  {
+    "query_id": "20260602T055016057298",
+    "timestamp": "2026-06-02T05:50:16.057312+00:00",
+    "question": "What is the refund policy?",
+    "answer": "To be eligible for a refund, the following conditions must be met: \n- The refund request must be submitted within 30 days of the original purchase date.\n- The product must be unused and returned in its original packaging.\n- Digital products and downloadable software are non-refundable once the license key has been activated.\n- Annual subscription plans are eligible for a pro-rated refund if cancelled within the first 60 days.\n- Monthly subscription plans can be cancelled anytime; refunds are issued only for the unused portion of the current billing cycle.\n\nThe refund process involves:\n1. Logging in to your Acme Corp account at app.acmecorp.com.\n2. Navigating to Settings → Billing → Refund Request.\n3. Selecting the order or subscription you wish to refund.\n4. Choosing a reason from the dropdown and providing a brief description.\n5. Submitting the request.\n\nRefund requests are reviewed within 2 business days, and approved refunds are processed within 5–7 business days. The refund is credited back to the original payment method. International refunds may take up to 10–14 business days depending on your bank or payment provider. \n\nCertain items are strictly non-refundable, including setup fees, onboarding fees, customisation and professional services charges, products purchased under promotional or discounted plans (unless defective), and add-ons or integrations purchased separately.",
+    "sources": [
+      {
+        "id": "958556d284cf2264",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 0,
+        "similarity": 0.579819,
+        "snippet": "ACME CORP — COMPANY KNOWLEDGE BASE ==================================== Version 2.1 | Last Updated: June 2025 Internal Use Only ═══════════════════════════════════════════════════════════ SECTION 1: R…"
+      },
+      {
+        "id": "123cd3ea62e64d17",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 4,
+        "similarity": 0.185898,
+        "snippet": "(billed annually) - Unlimited users - Unlimited projects - 50 GB storage per user - Email + Chat support - Advanced analytics and reporting - API access (1,000 requests/min) - Integrations: Slack, Goo…"
+      },
+      {
+        "id": "c91d4c316dd1082a",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 3,
+        "similarity": 0.129798,
+        "snippet": "(bottom-right chat widget) - Hours: Monday to Friday, 9:00 AM – 9:00 PM IST - Weekend Chat: Saturday 10:00 AM – 4:00 PM IST (Standard and above plans) 4.2 Support Tiers & Response Times --------------…"
+      },
+      {
+        "id": "be661403e1e363b3",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 2,
+        "similarity": 0.066238,
+        "snippet": "Web App: - Processor: Dual-core 2.0 GHz or higher - RAM: 4 GB minimum, 8 GB recommended - Internet: Stable broadband connection, minimum 10 Mbps download speed - Screen Resolution: 1280 × 720 or highe…"
+      },
+      {
+        "id": "df5d538a4ebaa09c",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 1,
+        "similarity": 0.025463,
+        "snippet": "using your business email. - Verify your email address via the confirmation link sent within 5 minutes. - Set a strong password (min 12 characters, one uppercase, one number, one symbol). - Accept the…"
+      }
+    ],
+    "metrics": {
+      "top_k": 5,
+      "model": "llama-3.3-70b-versatile",
+      "prompt_tokens": 4285,
+      "completion_tokens": 279,
+      "llm_latency_s": 1.93,
+      "total_latency_s": 7.689
+    }
+  },
+  {
+    "query_id": "20260602T055019381368",
+    "timestamp": "2026-06-02T05:50:19.381385+00:00",
+    "question": "How does the onboarding process work?",
+    "answer": "The onboarding process is designed to get new customers and team members productive as quickly as possible. The standard onboarding timeline is 7 days for individuals and 14 days for enterprise teams. \n\nHere's a step-by-step overview of the onboarding process for new users:\n\nDay 0 — Account Creation: \n- Sign up at app.acmecorp.com/register using your business email.\n- Verify your email address via the confirmation link sent within 5 minutes.\n- Set a strong password (min 12 characters, one uppercase, one number, one symbol).\n- Accept the Terms of Service and Privacy Policy.\n\nDay 1 — Profile Setup: \n- Complete your user profile: name, role, department, timezone.\n- Upload a profile photo (optional but recommended for team collaboration).\n- Connect your calendar (Google Calendar or Outlook) for meeting scheduling.\n- Set your notification preferences (email, Slack, in-app).\n\nDay 2 — Product Walkthrough: \n- A Welcome Kit email is sent with links to video tutorials and the Quick Start Guide.\n- An automated product tour launches on first login — takes approximately 15 minutes to complete.\n- Explore the Dashboard, Projects, Reports, and Settings tabs.\n\nDay 3 — Onboarding Call: \n- A dedicated Customer Success Manager (CSM) will reach out to schedule a 30-minute onboarding call.\n- The call covers: account configuration, team setup, integrations, and answering any initial questions.\n- Enterprise customers receive an additional 60-minute deep-dive session.\n\nDay 4–5 — Integration & Configuration: \n- Connect your existing tools: Slack, Jira, GitHub, Salesforce, or Zapier.\n- Import existing data using the CSV Import Tool under Settings → Import.\n- Configure user roles and permissions for your team members.\n- Set up your first project or workflow using the provided templates.\n\nDay 6–7 — Go-Live & Handoff: \n- Your CSM confirms the setup is complete and signs off on the onboarding checklist.\n- Access to the Acme Corp Help Center (help.acmecorp.com) is activated.\n- You are added to the monthly customer newsletter and product update emails.\n- A 30-day post-onboarding check-in call is automatically scheduled.\n\nFor enterprise customers (50+ seats), there's an enhanced onboarding experience that includes a dedicated Implementation Manager, custom data migration support, SSO configuration, and more.",
+    "sources": [
+      {
+        "id": "df5d538a4ebaa09c",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 1,
+        "similarity": 0.436707,
+        "snippet": "using your business email. - Verify your email address via the confirmation link sent within 5 minutes. - Set a strong password (min 12 characters, one uppercase, one number, one symbol). - Accept the…"
+      },
+      {
+        "id": "c91d4c316dd1082a",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 3,
+        "similarity": 0.194486,
+        "snippet": "(bottom-right chat widget) - Hours: Monday to Friday, 9:00 AM – 9:00 PM IST - Weekend Chat: Saturday 10:00 AM – 4:00 PM IST (Standard and above plans) 4.2 Support Tiers & Response Times --------------…"
+      },
+      {
+        "id": "be661403e1e363b3",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 2,
+        "similarity": 0.144513,
+        "snippet": "Web App: - Processor: Dual-core 2.0 GHz or higher - RAM: 4 GB minimum, 8 GB recommended - Internet: Stable broadband connection, minimum 10 Mbps download speed - Screen Resolution: 1280 × 720 or highe…"
+      },
+      {
+        "id": "123cd3ea62e64d17",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 4,
+        "similarity": 0.131952,
+        "snippet": "(billed annually) - Unlimited users - Unlimited projects - 50 GB storage per user - Email + Chat support - Advanced analytics and reporting - API access (1,000 requests/min) - Integrations: Slack, Goo…"
+      },
+      {
+        "id": "958556d284cf2264",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 0,
+        "similarity": 0.107001,
+        "snippet": "ACME CORP — COMPANY KNOWLEDGE BASE ==================================== Version 2.1 | Last Updated: June 2025 Internal Use Only ═══════════════════════════════════════════════════════════ SECTION 1: R…"
+      }
+    ],
+    "metrics": {
+      "top_k": 5,
+      "model": "llama-3.3-70b-versatile",
+      "prompt_tokens": 4287,
+      "completion_tokens": 494,
+      "llm_latency_s": 2.217,
+      "total_latency_s": 2.318
+    }
+  },
+  {
+    "query_id": "20260602T055028010764",
+    "timestamp": "2026-06-02T05:50:28.010798+00:00",
+    "question": "What are the system requirements?",
+    "answer": "The system requirements are as follows:\n\n**Web App:**\n- Processor: Dual-core 2.0 GHz or higher\n- RAM: 4 GB minimum, 8 GB recommended\n- Internet: Stable broadband connection, minimum 10 Mbps download speed\n- Screen Resolution: 1280 × 720 or higher\n\n**Desktop Application:**\n- Windows: \n  - OS: Windows 10 (version 21H2) or Windows 11\n  - Processor: Intel Core i5 / AMD Ryzen 5 or equivalent\n  - RAM: 8 GB minimum, 16 GB recommended\n  - Storage: 2 GB free disk space for installation\n  - .NET Framework 4.8 or later required\n- macOS: \n  - OS: macOS 12 Monterey or later\n  - Processor: Apple M1 / Intel Core i5 or higher\n  - RAM: 8 GB minimum, 16 GB recommended\n  - Storage: 2 GB free disk space for installation\n  - Rosetta 2 required for M1/M2 Macs running Intel builds\n- Linux (Beta): \n  - Supported distros: Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Debian 11\n  - Processor: x86_64 architecture required\n  - RAM: 8 GB minimum\n  - Storage: 2 GB free disk space\n\n**Mobile Application:**\n- iOS: iPhone or iPad running iOS 15 or later\n- Android: Android 10 or later, minimum 3 GB RAM\n\n**Self-Hosted / On-Premise Deployment:**\n- Server Requirements: \n  - OS: Ubuntu 20.04 LTS / 22.04 LTS or RHEL 8+\n  - CPU: 8-core processor minimum (16-core recommended for 100+ users)\n  - RAM: 32 GB minimum, 64 GB recommended\n  - Storage: 500 GB SSD (NVMe preferred); scalable with additional volumes\n  - Database: PostgreSQL 14+ or MySQL 8.0+\n  - Cache: Redis 7.0+\n  - Reverse Proxy: Nginx 1.20+ or Apache 2.4+\n  - Docker: Docker 24+ and Docker Compose 2.0+ (for containerised deployment)\n- Network: \n  - HTTPS on port 443 (TLS 1.2 or 1.3 required)\n  - Outbound access to api.acmecorp.com on port 443 for license validation\n  - Internal network bandwidth: minimum 1 Gbps between app and database servers\n\n**API Integration Requirements:**\n- REST API: Any HTTP client supporting TLS 1.2+\n- Python SDK: Python 3.9 or later\n- Node.js SDK: Node.js 18 LTS or later\n- API Rate Limit: 1,000 requests/minute on Standard plan; 10,000 on Enterprise\n- Authentication: OAuth 2.0 Bearer Token or API Key",
+    "sources": [
+      {
+        "id": "be661403e1e363b3",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 2,
+        "similarity": 0.521481,
+        "snippet": "Web App: - Processor: Dual-core 2.0 GHz or higher - RAM: 4 GB minimum, 8 GB recommended - Internet: Stable broadband connection, minimum 10 Mbps download speed - Screen Resolution: 1280 × 720 or highe…"
+      },
+      {
+        "id": "123cd3ea62e64d17",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 4,
+        "similarity": 0.28754,
+        "snippet": "(billed annually) - Unlimited users - Unlimited projects - 50 GB storage per user - Email + Chat support - Advanced analytics and reporting - API access (1,000 requests/min) - Integrations: Slack, Goo…"
+      },
+      {
+        "id": "c91d4c316dd1082a",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 3,
+        "similarity": 0.198339,
+        "snippet": "(bottom-right chat widget) - Hours: Monday to Friday, 9:00 AM – 9:00 PM IST - Weekend Chat: Saturday 10:00 AM – 4:00 PM IST (Standard and above plans) 4.2 Support Tiers & Response Times --------------…"
+      }
+    ],
+    "metrics": {
+      "top_k": 3,
+      "model": "llama-3.3-70b-versatile",
+      "prompt_tokens": 2636,
+      "completion_tokens": 621,
+      "llm_latency_s": 7.545,
+      "total_latency_s": 7.626
+    }
+  },
+  {
+    "query_id": "20260602T055055520116",
+    "timestamp": "2026-06-02T05:50:55.520137+00:00",
+    "question": "How do I contact support?",
+    "answer": "You can contact support through multiple channels:\n\n1. Email Support: \n   - General Enquiries: hello@acmecorp.com\n   - Technical Support: support@acmecorp.com\n   - Billing & Refunds: billing@acmecorp.com\n   - Enterprise Support: enterprise@acmecorp.com\n   - Security Issues: security@acmecorp.com (PGP key available on request)\n\n2. Phone Support: \n   - India (Toll-Free): 1800-123-4567\n   - USA / Canada: +1-888-226-2765\n   - United Kingdom: +44-800-066-4567\n   - Australia: +61-1800-456-789\n   - International (General): +91-80-4567-8901\n\n3. Live Chat: \n   - Available at app.acmecorp.com (bottom-right chat widget)\n   - Hours: Monday to Friday, 9:00 AM – 9:00 PM IST\n   - Weekend Chat: Saturday 10:00 AM – 4:00 PM IST (Standard and above plans)",
+    "sources": [
+      {
+        "id": "c91d4c316dd1082a",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 3,
+        "similarity": 0.32967,
+        "snippet": "(bottom-right chat widget) - Hours: Monday to Friday, 9:00 AM – 9:00 PM IST - Weekend Chat: Saturday 10:00 AM – 4:00 PM IST (Standard and above plans) 4.2 Support Tiers & Response Times --------------…"
+      },
+      {
+        "id": "958556d284cf2264",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 0,
+        "similarity": 0.198508,
+        "snippet": "ACME CORP — COMPANY KNOWLEDGE BASE ==================================== Version 2.1 | Last Updated: June 2025 Internal Use Only ═══════════════════════════════════════════════════════════ SECTION 1: R…"
+      },
+      {
+        "id": "df5d538a4ebaa09c",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 1,
+        "similarity": 0.16603,
+        "snippet": "using your business email. - Verify your email address via the confirmation link sent within 5 minutes. - Set a strong password (min 12 characters, one uppercase, one number, one symbol). - Accept the…"
+      },
+      {
+        "id": "123cd3ea62e64d17",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 4,
+        "similarity": 0.091981,
+        "snippet": "(billed annually) - Unlimited users - Unlimited projects - 50 GB storage per user - Email + Chat support - Advanced analytics and reporting - API access (1,000 requests/min) - Integrations: Slack, Goo…"
+      },
+      {
+        "id": "be661403e1e363b3",
+        "source": "data/knowledge_base.txt",
+        "chunk_idx": 2,
+        "similarity": 0.008014,
+        "snippet": "Web App: - Processor: Dual-core 2.0 GHz or higher - RAM: 4 GB minimum, 8 GB recommended - Internet: Stable broadband connection, minimum 10 Mbps download speed - Screen Resolution: 1280 × 720 or highe…"
+      }
+    ],
+    "metrics": {
+      "top_k": 5,
+      "model": "llama-3.3-70b-versatile",
+      "prompt_tokens": 4285,
+      "completion_tokens": 242,
+      "llm_latency_s": 26.371,
+      "total_latency_s": 26.501
+    }
+  }
+]

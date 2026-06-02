@@ -1,0 +1,37 @@
+[
+  {
+    "id": "q001",
+    "question": "What is the refund policy?",
+    "top_k": 5,
+    "tags": ["policy", "refund"],
+    "enabled": true
+  },
+  {
+    "id": "q002",
+    "question": "How does the onboarding process work?",
+    "top_k": 5,
+    "tags": ["onboarding", "process"],
+    "enabled": true
+  },
+  {
+    "id": "q003",
+    "question": "What are the system requirements?",
+    "top_k": 3,
+    "tags": ["technical", "requirements"],
+    "enabled": true
+  },
+  {
+    "id": "q004",
+    "question": "How do I contact support?",
+    "top_k": 5,
+    "tags": ["support", "contact"],
+    "enabled": true
+  },
+  {
+    "id": "q005",
+    "question": "What is the pricing model?",
+    "top_k": 5,
+    "tags": ["pricing", "billing"],
+    "enabled": false
+  }
+]
