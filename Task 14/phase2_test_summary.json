@@ -1,0 +1,39 @@
+{
+  "run_timestamp": "2026-06-08T06:53:26.453498+00:00",
+  "total_queries": 20,
+  "valid_count": 20,
+  "invalid_count": 0,
+  "valid_percentage": 100.0,
+  "target_95_pct_met": true,
+  "fallback_used_count": 0,
+  "avg_attempts_per_query": 1.0,
+  "confidence_distribution": {
+    "high": 7,
+    "medium": 13,
+    "low": 0
+  },
+  "validation_failures": [],
+  "performance_and_cost": {
+    "total_cost_usd": 0.000581,
+    "avg_cost_per_query_usd": 2.905e-05,
+    "total_latency_seconds": 30.245,
+    "avg_latency_seconds": 1.512,
+    "avg_prompt_tokens": 399.9,
+    "avg_completion_tokens": 113.2,
+    "avg_total_tokens": 513.1,
+    "latency_target_met": true
+  },
+  "evaluation_metrics": {
+    "retrieval_relevance_count": 20,
+    "retrieval_relevance_pct": 100.0,
+    "retrieval_relevance_met_90pct": true,
+    "faithfulness_no_hallucination_count": 20,
+    "faithfulness_no_hallucination_pct": 100.0,
+    "faithfulness_target_met_95pct": true
+  },
+  "schema_definition": {
+    "answer": "str — non-empty answer string",
+    "confidence": "'high' | 'medium' | 'low'",
+    "sources": "list[dict] — each with chunkId, snippet, category"
+  }
+}

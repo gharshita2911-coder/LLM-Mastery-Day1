@@ -1,0 +1,1722 @@
+[
+  {
+    "query_id": "Q00",
+    "query": "What are the requirements for creating a strong password?",
+    "answer": "No information is provided about password requirements.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_002",
+        "snippet": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to t",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_023",
+        "snippet": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive files are synced continuously. Retention p",
+        "category": "Backup & Recovery"
+      },
+      {
+        "chunkId": "chunk_020",
+        "snippet": "To request a hardware repair, log a ticket on the IT portal with the asset tag number. Replacement devices are issued wi",
+        "category": "Hardware & Devices"
+      },
+      {
+        "chunkId": "chunk_024",
+        "snippet": "To recover a deleted file from OneDrive, go to the OneDrive web interface, select 'Recycle Bin', locate the file, and cl",
+        "category": "Backup & Recovery"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_002",
+        "doc": "To reset a forgotten password, go to the login page and click 'Forgot Password'.",
+        "score": 0.2372,
+        "category": "Password & Account",
+        "text": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address. The link expires in 24 hours."
+      },
+      {
+        "chunkId": "chunk_023",
+        "doc": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive fi",
+        "score": 0.1795,
+        "category": "Backup & Recovery",
+        "text": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive files are synced continuously. Retention policy: 30 days for files, 90 days for databases."
+      },
+      {
+        "chunkId": "chunk_020",
+        "doc": "To request a hardware repair, log a ticket on the IT portal with the asset tag n",
+        "score": 0.1479,
+        "category": "Hardware & Devices",
+        "text": "To request a hardware repair, log a ticket on the IT portal with the asset tag number. Replacement devices are issued within 2 business days for approved requests."
+      },
+      {
+        "chunkId": "chunk_024",
+        "doc": "To recover a deleted file from OneDrive, go to the OneDrive web interface, selec",
+        "score": 0.1216,
+        "category": "Backup & Recovery",
+        "text": "To recover a deleted file from OneDrive, go to the OneDrive web interface, select 'Recycle Bin', locate the file, and click 'Restore'. Deleted items are retained for 30 days."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.1211,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      }
+    ],
+    "elapsed_seconds": 0.7284,
+    "timestamp": "2026-06-08T06:47:25Z",
+    "prompt_tokens": 486,
+    "completion_tokens": 287,
+    "total_tokens": 773,
+    "cost_usd": 4.726e-05,
+    "relevance_ok": false,
+    "relevance_explanation": "The retrieved context chunks do not contain information related to creating a strong password, but instead provide details on password reset, device management, and data recovery.",
+    "faithfulness_ok": false,
+    "faithfulness_explanation": "The generated answer discusses 'password requirements', but the retrieved context chunks only mention the process of resetting a forgotten password, not the requirements for creating or updating a password."
+  },
+  {
+    "query_id": "Q01",
+    "query": "How do I reset my forgotten password?",
+    "answer": "Go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_002",
+        "snippet": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to t",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_012",
+        "snippet": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachm",
+        "category": "Security & Compliance"
+      },
+      {
+        "chunkId": "chunk_006",
+        "snippet": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge number and network password to connect. ",
+        "category": "Network & Connectivity"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_002",
+        "doc": "To reset a forgotten password, go to the login page and click 'Forgot Password'.",
+        "score": 0.4291,
+        "category": "Password & Account",
+        "text": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address. The link expires in 24 hours."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.0837,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.0749,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      },
+      {
+        "chunkId": "chunk_012",
+        "doc": "Report phishing emails immediately using the 'Report Phishing' button in Outlook",
+        "score": 0.0734,
+        "category": "Security & Compliance",
+        "text": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachments from suspicious emails. The security team reviews all reports."
+      },
+      {
+        "chunkId": "chunk_006",
+        "doc": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge ",
+        "score": 0.0681,
+        "category": "Network & Connectivity",
+        "text": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge number and network password to connect. Guest network SSID: 'Corp-Guest' with daily passcode from reception."
+      }
+    ],
+    "elapsed_seconds": 0.3472,
+    "timestamp": "2026-06-08T06:47:26Z",
+    "prompt_tokens": 488,
+    "completion_tokens": 100,
+    "total_tokens": 588,
+    "cost_usd": 3.24e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_002] directly addresses the user's query by providing step-by-step instructions on how to reset a forgotten password.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_002], which provides instructions for resetting a forgotten password."
+  },
+  {
+    "query_id": "Q02",
+    "query": "How do I enable multi-factor authentication on my account?",
+    "answer": "Enable MFA under Account Settings > Security",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_003",
+        "snippet": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_004",
+        "snippet": "To update your profile information, navigate to Account Settings > Profile. You can change your name, email address, pho",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_012",
+        "snippet": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachm",
+        "category": "Security & Compliance"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_003",
+        "doc": "Multi-factor authentication (MFA) can be enabled under Account Settings > Securi",
+        "score": 0.389,
+        "category": "Password & Account",
+        "text": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app, SMS code, or hardware security key."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.1527,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_004",
+        "doc": "To update your profile information, navigate to Account Settings > Profile. You ",
+        "score": 0.0716,
+        "category": "Password & Account",
+        "text": "To update your profile information, navigate to Account Settings > Profile. You can change your name, email address, phone number, and profile picture. Changes take effect immediately."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.0597,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      },
+      {
+        "chunkId": "chunk_012",
+        "doc": "Report phishing emails immediately using the 'Report Phishing' button in Outlook",
+        "score": 0.0585,
+        "category": "Security & Compliance",
+        "text": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachments from suspicious emails. The security team reviews all reports."
+      }
+    ],
+    "elapsed_seconds": 0.3376,
+    "timestamp": "2026-06-08T06:47:27Z",
+    "prompt_tokens": 471,
+    "completion_tokens": 90,
+    "total_tokens": 561,
+    "cost_usd": 3.075e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_003] directly addresses the user's query by providing instructions on how to enable multi-factor authentication.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is directly supported by Chunk [chunk_003], which states that MFA can be enabled under Account Settings > Security."
+  },
+  {
+    "query_id": "Q03",
+    "query": "How can I update my profile information?",
+    "answer": "Navigate to Account Settings > Profile",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_004",
+        "snippet": "To update your profile information, navigate to Account Settings > Profile. You can change your name, email address, pho",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_003",
+        "snippet": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_010",
+        "snippet": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal e",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_008",
+        "snippet": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.com",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_001",
+        "snippet": "Passwords must be at least 12 characters long and include uppercase, lowercase, digit, and special character. Accounts l",
+        "category": "Password & Account"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_004",
+        "doc": "To update your profile information, navigate to Account Settings > Profile. You ",
+        "score": 0.5051,
+        "category": "Password & Account",
+        "text": "To update your profile information, navigate to Account Settings > Profile. You can change your name, email address, phone number, and profile picture. Changes take effect immediately."
+      },
+      {
+        "chunkId": "chunk_003",
+        "doc": "Multi-factor authentication (MFA) can be enabled under Account Settings > Securi",
+        "score": 0.0693,
+        "category": "Password & Account",
+        "text": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app, SMS code, or hardware security key."
+      },
+      {
+        "chunkId": "chunk_010",
+        "doc": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extens",
+        "score": 0.0662,
+        "category": "Software & Applications",
+        "text": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal extension marketplace. All IDEs are configured with company coding standards."
+      },
+      {
+        "chunkId": "chunk_008",
+        "doc": "The approved email client is Microsoft Outlook. Company email can also be access",
+        "score": 0.0659,
+        "category": "Software & Applications",
+        "text": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.company.internal. Default mailbox quota is 50 GB."
+      },
+      {
+        "chunkId": "chunk_001",
+        "doc": "Passwords must be at least 12 characters long and include uppercase, lowercase, ",
+        "score": 0.0,
+        "category": "Password & Account",
+        "text": "Passwords must be at least 12 characters long and include uppercase, lowercase, digit, and special character. Accounts lock after 5 failed attempts for 30 minutes."
+      }
+    ],
+    "elapsed_seconds": 0.3026,
+    "timestamp": "2026-06-08T06:47:28Z",
+    "prompt_tokens": 464,
+    "completion_tokens": 69,
+    "total_tokens": 533,
+    "cost_usd": 2.872e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_004] directly addresses the user's query by providing step-by-step instructions on how to update profile information.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_004], which provides instructions on how to update profile information, making it strictly grounded in the retrieved context chunks."
+  },
+  {
+    "query_id": "Q04",
+    "query": "How do I connect to the corporate VPN?",
+    "answer": "Download client config from the IT portal and connect using a valid client certificate and company-issued credentials.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_019",
+        "snippet": "Printer setup: Connect to the corporate network, then run the printer installer from Software Center. Default printer na",
+        "category": "Hardware & Devices"
+      },
+      {
+        "chunkId": "chunk_005",
+        "snippet": "The corporate VPN supports OpenVPN and WireGuard protocols. Connection requires a valid client certificate and company-i",
+        "category": "Network & Connectivity"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_006",
+        "snippet": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge number and network password to connect. ",
+        "category": "Network & Connectivity"
+      },
+      {
+        "chunkId": "chunk_002",
+        "snippet": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to t",
+        "category": "Password & Account"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_019",
+        "doc": "Printer setup: Connect to the corporate network, then run the printer installer ",
+        "score": 0.2422,
+        "category": "Hardware & Devices",
+        "text": "Printer setup: Connect to the corporate network, then run the printer installer from Software Center. Default printer naming: 'Floor-Building-DeviceNumber'."
+      },
+      {
+        "chunkId": "chunk_005",
+        "doc": "The corporate VPN supports OpenVPN and WireGuard protocols. Connection requires ",
+        "score": 0.2223,
+        "category": "Network & Connectivity",
+        "text": "The corporate VPN supports OpenVPN and WireGuard protocols. Connection requires a valid client certificate and company-issued credentials. Download client config from the IT portal."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.1106,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_006",
+        "doc": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge ",
+        "score": 0.1019,
+        "category": "Network & Connectivity",
+        "text": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge number and network password to connect. Guest network SSID: 'Corp-Guest' with daily passcode from reception."
+      },
+      {
+        "chunkId": "chunk_002",
+        "doc": "To reset a forgotten password, go to the login page and click 'Forgot Password'.",
+        "score": 0.0902,
+        "category": "Password & Account",
+        "text": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address. The link expires in 24 hours."
+      }
+    ],
+    "elapsed_seconds": 0.8269,
+    "timestamp": "2026-06-08T06:47:29Z",
+    "prompt_tokens": 482,
+    "completion_tokens": 112,
+    "total_tokens": 594,
+    "cost_usd": 3.306e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_005] provides information about the corporate VPN, including supported protocols and connection requirements, which directly addresses the user's query about connecting to the corporate VPN.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is directly based on Chunk [chunk_005], which mentions downloading the client config from the IT portal and using a valid client certificate and company-issued credentials to connect."
+  },
+  {
+    "query_id": "Q05",
+    "query": "What is the Wi-Fi SSID and how do I connect to it?",
+    "answer": "To connect to the Wi-Fi, use the SSID 'Corp-Net' with WPA2-Enterprise encryption, your employee badge number, and network password.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_006",
+        "snippet": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge number and network password to connect. ",
+        "category": "Network & Connectivity"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_002",
+        "snippet": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to t",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_019",
+        "snippet": "Printer setup: Connect to the corporate network, then run the printer installer from Software Center. Default printer na",
+        "category": "Hardware & Devices"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_006",
+        "doc": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge ",
+        "score": 0.3784,
+        "category": "Network & Connectivity",
+        "text": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge number and network password to connect. Guest network SSID: 'Corp-Guest' with daily passcode from reception."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.1266,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_002",
+        "doc": "To reset a forgotten password, go to the login page and click 'Forgot Password'.",
+        "score": 0.1226,
+        "category": "Password & Account",
+        "text": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address. The link expires in 24 hours."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.1185,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      },
+      {
+        "chunkId": "chunk_019",
+        "doc": "Printer setup: Connect to the corporate network, then run the printer installer ",
+        "score": 0.1114,
+        "category": "Hardware & Devices",
+        "text": "Printer setup: Connect to the corporate network, then run the printer installer from Software Center. Default printer naming: 'Floor-Building-DeviceNumber'."
+      }
+    ],
+    "elapsed_seconds": 0.3886,
+    "timestamp": "2026-06-08T06:47:30Z",
+    "prompt_tokens": 493,
+    "completion_tokens": 130,
+    "total_tokens": 623,
+    "cost_usd": 3.505e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_006] directly answers the user's query by providing the Wi-Fi SSID and instructions on how to connect to it.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer directly quotes and accurately represents the information from Chunk [chunk_006] about connecting to the Wi-Fi, without adding any unsupported claims or external facts."
+  },
+  {
+    "query_id": "Q06",
+    "query": "What should I do if my internet is slow?",
+    "answer": "Check your connection speed at speedtest.company.internal, close bandwidth-heavy applications, and restart your router if issues persist.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_007",
+        "snippet": "If you experience slow internet, first check your connection speed at speedtest.company.internal. Then close bandwidth-h",
+        "category": "Network & Connectivity"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_008",
+        "snippet": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.com",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_012",
+        "snippet": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachm",
+        "category": "Security & Compliance"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_007",
+        "doc": "If you experience slow internet, first check your connection speed at speedtest.",
+        "score": 0.3572,
+        "category": "Network & Connectivity",
+        "text": "If you experience slow internet, first check your connection speed at speedtest.company.internal. Then close bandwidth-heavy applications. If issues persist, restart your router and contact IT."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.1147,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      },
+      {
+        "chunkId": "chunk_008",
+        "doc": "The approved email client is Microsoft Outlook. Company email can also be access",
+        "score": 0.1026,
+        "category": "Software & Applications",
+        "text": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.company.internal. Default mailbox quota is 50 GB."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.0739,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_012",
+        "doc": "Report phishing emails immediately using the 'Report Phishing' button in Outlook",
+        "score": 0.0648,
+        "category": "Security & Compliance",
+        "text": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachments from suspicious emails. The security team reviews all reports."
+      }
+    ],
+    "elapsed_seconds": 0.3998,
+    "timestamp": "2026-06-08T06:47:32Z",
+    "prompt_tokens": 474,
+    "completion_tokens": 118,
+    "total_tokens": 592,
+    "cost_usd": 3.314e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_007] provides step-by-step instructions for troubleshooting slow internet, making it directly relevant to the user's query.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct summary of the steps provided in Chunk [chunk_007] for resolving slow internet issues, without introducing any new or unsupported information."
+  },
+  {
+    "query_id": "Q07",
+    "query": "What email client does the company use and what is the mailbox quota?",
+    "answer": "The company uses Microsoft Outlook as the email client, with a default mailbox quota of 50 GB.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_008",
+        "snippet": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.com",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_005",
+        "snippet": "The corporate VPN supports OpenVPN and WireGuard protocols. Connection requires a valid client certificate and company-i",
+        "category": "Network & Connectivity"
+      },
+      {
+        "chunkId": "chunk_002",
+        "snippet": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to t",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_011",
+        "snippet": "To install company-approved software, use the Software Center app on your managed device. Request new software via the I",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_008",
+        "doc": "The approved email client is Microsoft Outlook. Company email can also be access",
+        "score": 0.4731,
+        "category": "Software & Applications",
+        "text": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.company.internal. Default mailbox quota is 50 GB."
+      },
+      {
+        "chunkId": "chunk_005",
+        "doc": "The corporate VPN supports OpenVPN and WireGuard protocols. Connection requires ",
+        "score": 0.2204,
+        "category": "Network & Connectivity",
+        "text": "The corporate VPN supports OpenVPN and WireGuard protocols. Connection requires a valid client certificate and company-issued credentials. Download client config from the IT portal."
+      },
+      {
+        "chunkId": "chunk_002",
+        "doc": "To reset a forgotten password, go to the login page and click 'Forgot Password'.",
+        "score": 0.1512,
+        "category": "Password & Account",
+        "text": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address. The link expires in 24 hours."
+      },
+      {
+        "chunkId": "chunk_011",
+        "doc": "To install company-approved software, use the Software Center app on your manage",
+        "score": 0.1469,
+        "category": "Software & Applications",
+        "text": "To install company-approved software, use the Software Center app on your managed device. Request new software via the IT helpdesk portal at helpdesk.company.internal."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.1293,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      }
+    ],
+    "elapsed_seconds": 2.5024,
+    "timestamp": "2026-06-08T06:47:35Z",
+    "prompt_tokens": 472,
+    "completion_tokens": 113,
+    "total_tokens": 585,
+    "cost_usd": 3.264e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_008] directly answers the user's query by stating the approved email client as Microsoft Outlook and the default mailbox quota as 50 GB.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer directly matches information provided in Chunk [chunk_008], stating the approved email client and default mailbox quota without adding any unsupported claims."
+  },
+  {
+    "query_id": "Q08",
+    "query": "What is the official team communication platform?",
+    "answer": "Slack",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_008",
+        "snippet": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.com",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_012",
+        "snippet": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachm",
+        "category": "Security & Compliance"
+      },
+      {
+        "chunkId": "chunk_014",
+        "snippet": "Screen lock must activate after 15 minutes of inactivity. Employees must lock their workstation when leaving their desk.",
+        "category": "Security & Compliance"
+      },
+      {
+        "chunkId": "chunk_002",
+        "snippet": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to t",
+        "category": "Password & Account"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.4232,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      },
+      {
+        "chunkId": "chunk_008",
+        "doc": "The approved email client is Microsoft Outlook. Company email can also be access",
+        "score": 0.109,
+        "category": "Software & Applications",
+        "text": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.company.internal. Default mailbox quota is 50 GB."
+      },
+      {
+        "chunkId": "chunk_012",
+        "doc": "Report phishing emails immediately using the 'Report Phishing' button in Outlook",
+        "score": 0.0785,
+        "category": "Security & Compliance",
+        "text": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachments from suspicious emails. The security team reviews all reports."
+      },
+      {
+        "chunkId": "chunk_014",
+        "doc": "Screen lock must activate after 15 minutes of inactivity. Employees must lock th",
+        "score": 0.074,
+        "category": "Security & Compliance",
+        "text": "Screen lock must activate after 15 minutes of inactivity. Employees must lock their workstation when leaving their desk. Violations are reported to the compliance team."
+      },
+      {
+        "chunkId": "chunk_002",
+        "doc": "To reset a forgotten password, go to the login page and click 'Forgot Password'.",
+        "score": 0.0674,
+        "category": "Password & Account",
+        "text": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address. The link expires in 24 hours."
+      }
+    ],
+    "elapsed_seconds": 5.6082,
+    "timestamp": "2026-06-08T06:47:42Z",
+    "prompt_tokens": 468,
+    "completion_tokens": 48,
+    "total_tokens": 516,
+    "cost_usd": 2.724e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_009] directly answers the user's query by stating that Slack is the official team communication platform.",
+    "faithfulness_ok": false,
+    "faithfulness_explanation": "The generated answer 'Slack' is mentioned in chunk_009, but it lacks context and does not provide a meaningful response to any potential question, making it an incomplete and ungrounded answer."
+  },
+  {
+    "query_id": "Q09",
+    "query": "How can I get new software installed on my computer?",
+    "answer": "Use the Software Center app on your managed device and request new software via the IT helpdesk portal at helpdesk.company.internal.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_011",
+        "snippet": "To install company-approved software, use the Software Center app on your managed device. Request new software via the I",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_010",
+        "snippet": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal e",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_021",
+        "snippet": "New employee onboarding: IT provisions accounts within 48 hours of HR notification. Welcome kit includes laptop, monitor",
+        "category": "Onboarding & Offboarding"
+      },
+      {
+        "chunkId": "chunk_003",
+        "snippet": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app",
+        "category": "Password & Account"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_011",
+        "doc": "To install company-approved software, use the Software Center app on your manage",
+        "score": 0.3502,
+        "category": "Software & Applications",
+        "text": "To install company-approved software, use the Software Center app on your managed device. Request new software via the IT helpdesk portal at helpdesk.company.internal."
+      },
+      {
+        "chunkId": "chunk_010",
+        "doc": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extens",
+        "score": 0.1801,
+        "category": "Software & Applications",
+        "text": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal extension marketplace. All IDEs are configured with company coding standards."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.1019,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_021",
+        "doc": "New employee onboarding: IT provisions accounts within 48 hours of HR notificati",
+        "score": 0.0859,
+        "category": "Onboarding & Offboarding",
+        "text": "New employee onboarding: IT provisions accounts within 48 hours of HR notification. Welcome kit includes laptop, monitor, keyboard, mouse, and company badge. Accounts are created for email, VPN, Slack, and internal tools."
+      },
+      {
+        "chunkId": "chunk_003",
+        "doc": "Multi-factor authentication (MFA) can be enabled under Account Settings > Securi",
+        "score": 0.0668,
+        "category": "Password & Account",
+        "text": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app, SMS code, or hardware security key."
+      }
+    ],
+    "elapsed_seconds": 4.5303,
+    "timestamp": "2026-06-08T06:47:47Z",
+    "prompt_tokens": 483,
+    "completion_tokens": 123,
+    "total_tokens": 606,
+    "cost_usd": 3.399e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_011] provides information on how to request new software via the IT helpdesk portal, which directly addresses the user's query about getting new software installed on their computer.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_011], making it strictly grounded in the retrieved context chunks without any unsupported claims or external facts."
+  },
+  {
+    "query_id": "Q10",
+    "query": "How do I report a phishing email?",
+    "answer": "Use the 'Report Phishing' button in Outlook.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_012",
+        "snippet": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachm",
+        "category": "Security & Compliance"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_008",
+        "snippet": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.com",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_002",
+        "snippet": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to t",
+        "category": "Password & Account"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_012",
+        "doc": "Report phishing emails immediately using the 'Report Phishing' button in Outlook",
+        "score": 0.4773,
+        "category": "Security & Compliance",
+        "text": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachments from suspicious emails. The security team reviews all reports."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.1403,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_008",
+        "doc": "The approved email client is Microsoft Outlook. Company email can also be access",
+        "score": 0.0895,
+        "category": "Software & Applications",
+        "text": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.company.internal. Default mailbox quota is 50 GB."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.0832,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      },
+      {
+        "chunkId": "chunk_002",
+        "doc": "To reset a forgotten password, go to the login page and click 'Forgot Password'.",
+        "score": 0.0813,
+        "category": "Password & Account",
+        "text": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address. The link expires in 24 hours."
+      }
+    ],
+    "elapsed_seconds": 4.6191,
+    "timestamp": "2026-06-08T06:47:52Z",
+    "prompt_tokens": 477,
+    "completion_tokens": 62,
+    "total_tokens": 539,
+    "cost_usd": 2.881e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_012] directly addresses the user's query by providing instructions on how to report a phishing email using the 'Report Phishing' button in Outlook.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer directly quotes a specific instruction from chunk_012, which is a retrieved context chunk, without adding any unsupported claims or external facts."
+  },
+  {
+    "query_id": "Q11",
+    "query": "Where can I store company data safely?",
+    "answer": "OneDrive for Business and SharePoint",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_013",
+        "snippet": "Company data must never be stored on personal devices or unapproved cloud services. Approved cloud storage: OneDrive for",
+        "category": "Security & Compliance"
+      },
+      {
+        "chunkId": "chunk_008",
+        "snippet": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.com",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_010",
+        "snippet": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal e",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_003",
+        "snippet": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app",
+        "category": "Password & Account"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_013",
+        "doc": "Company data must never be stored on personal devices or unapproved cloud servic",
+        "score": 0.2528,
+        "category": "Security & Compliance",
+        "text": "Company data must never be stored on personal devices or unapproved cloud services. Approved cloud storage: OneDrive for Business and SharePoint. All data at rest is AES-256 encrypted."
+      },
+      {
+        "chunkId": "chunk_008",
+        "doc": "The approved email client is Microsoft Outlook. Company email can also be access",
+        "score": 0.1756,
+        "category": "Software & Applications",
+        "text": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.company.internal. Default mailbox quota is 50 GB."
+      },
+      {
+        "chunkId": "chunk_010",
+        "doc": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extens",
+        "score": 0.1349,
+        "category": "Software & Applications",
+        "text": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal extension marketplace. All IDEs are configured with company coding standards."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.104,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      },
+      {
+        "chunkId": "chunk_003",
+        "doc": "Multi-factor authentication (MFA) can be enabled under Account Settings > Securi",
+        "score": 0.0981,
+        "category": "Password & Account",
+        "text": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app, SMS code, or hardware security key."
+      }
+    ],
+    "elapsed_seconds": 4.5865,
+    "timestamp": "2026-06-08T06:47:58Z",
+    "prompt_tokens": 469,
+    "completion_tokens": 78,
+    "total_tokens": 547,
+    "cost_usd": 2.969e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk_013 directly addresses the query by specifying approved cloud storage services (OneDrive for Business and SharePoint) for safely storing company data, along with the encryption method used.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_013], which mentions 'OneDrive for Business and SharePoint' as approved cloud storage services."
+  },
+  {
+    "query_id": "Q12",
+    "query": "What is the screen lock policy?",
+    "answer": "Screen lock must activate after 15 minutes of inactivity.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_014",
+        "snippet": "Screen lock must activate after 15 minutes of inactivity. Employees must lock their workstation when leaving their desk.",
+        "category": "Security & Compliance"
+      },
+      {
+        "chunkId": "chunk_008",
+        "snippet": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.com",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_023",
+        "snippet": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive files are synced continuously. Retention p",
+        "category": "Backup & Recovery"
+      },
+      {
+        "chunkId": "chunk_001",
+        "snippet": "Passwords must be at least 12 characters long and include uppercase, lowercase, digit, and special character. Accounts l",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_002",
+        "snippet": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to t",
+        "category": "Password & Account"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_014",
+        "doc": "Screen lock must activate after 15 minutes of inactivity. Employees must lock th",
+        "score": 0.278,
+        "category": "Security & Compliance",
+        "text": "Screen lock must activate after 15 minutes of inactivity. Employees must lock their workstation when leaving their desk. Violations are reported to the compliance team."
+      },
+      {
+        "chunkId": "chunk_008",
+        "doc": "The approved email client is Microsoft Outlook. Company email can also be access",
+        "score": 0.1245,
+        "category": "Software & Applications",
+        "text": "The approved email client is Microsoft Outlook. Company email can also be accessed via Outlook Web App (OWA) at mail.company.internal. Default mailbox quota is 50 GB."
+      },
+      {
+        "chunkId": "chunk_023",
+        "doc": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive fi",
+        "score": 0.1232,
+        "category": "Backup & Recovery",
+        "text": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive files are synced continuously. Retention policy: 30 days for files, 90 days for databases."
+      },
+      {
+        "chunkId": "chunk_001",
+        "doc": "Passwords must be at least 12 characters long and include uppercase, lowercase, ",
+        "score": 0.087,
+        "category": "Password & Account",
+        "text": "Passwords must be at least 12 characters long and include uppercase, lowercase, digit, and special character. Accounts lock after 5 failed attempts for 30 minutes."
+      },
+      {
+        "chunkId": "chunk_002",
+        "doc": "To reset a forgotten password, go to the login page and click 'Forgot Password'.",
+        "score": 0.077,
+        "category": "Password & Account",
+        "text": "To reset a forgotten password, go to the login page and click 'Forgot Password'. An email with a reset link is sent to the registered email address. The link expires in 24 hours."
+      }
+    ],
+    "elapsed_seconds": 4.4341,
+    "timestamp": "2026-06-08T06:48:03Z",
+    "prompt_tokens": 469,
+    "completion_tokens": 60,
+    "total_tokens": 529,
+    "cost_usd": 2.825e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_014] directly addresses the screen lock policy, providing specific details about the required inactivity time and the consequences of non-compliance.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_014], making it strictly grounded in the retrieved context chunks without any unsupported claims or external facts."
+  },
+  {
+    "query_id": "Q13",
+    "query": "What are the IT helpdesk hours and how can I contact them?",
+    "answer": "IT helpdesk hours are Monday–Friday, 8 AM – 8 PM EST. Contact via phone (ext. 4357), email (helpdesk@company.internal), or the self-service portal.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_015",
+        "snippet": "IT helpdesk hours: Monday–Friday, 8 AM – 8 PM EST. Contact via phone (ext. 4357), email (helpdesk@company.internal), or ",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_011",
+        "snippet": "To install company-approved software, use the Software Center app on your managed device. Request new software via the I",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_021",
+        "snippet": "New employee onboarding: IT provisions accounts within 48 hours of HR notification. Welcome kit includes laptop, monitor",
+        "category": "Onboarding & Offboarding"
+      },
+      {
+        "chunkId": "chunk_022",
+        "snippet": "Offboarding process: Manager submits termination request in HR system. IT revokes all access within 2 hours. Laptop and ",
+        "category": "Onboarding & Offboarding"
+      },
+      {
+        "chunkId": "chunk_010",
+        "snippet": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal e",
+        "category": "Software & Applications"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_015",
+        "doc": "IT helpdesk hours: Monday–Friday, 8 AM – 8 PM EST. Contact via phone (ext. 4357)",
+        "score": 0.3373,
+        "category": "IT Support & Escalation",
+        "text": "IT helpdesk hours: Monday–Friday, 8 AM – 8 PM EST. Contact via phone (ext. 4357), email (helpdesk@company.internal), or the self-service portal. Priority response within 1 hour for P1 issues."
+      },
+      {
+        "chunkId": "chunk_011",
+        "doc": "To install company-approved software, use the Software Center app on your manage",
+        "score": 0.1887,
+        "category": "Software & Applications",
+        "text": "To install company-approved software, use the Software Center app on your managed device. Request new software via the IT helpdesk portal at helpdesk.company.internal."
+      },
+      {
+        "chunkId": "chunk_021",
+        "doc": "New employee onboarding: IT provisions accounts within 48 hours of HR notificati",
+        "score": 0.163,
+        "category": "Onboarding & Offboarding",
+        "text": "New employee onboarding: IT provisions accounts within 48 hours of HR notification. Welcome kit includes laptop, monitor, keyboard, mouse, and company badge. Accounts are created for email, VPN, Slack, and internal tools."
+      },
+      {
+        "chunkId": "chunk_022",
+        "doc": "Offboarding process: Manager submits termination request in HR system. IT revoke",
+        "score": 0.1586,
+        "category": "Onboarding & Offboarding",
+        "text": "Offboarding process: Manager submits termination request in HR system. IT revokes all access within 2 hours. Laptop and badge must be returned to IT on the last working day."
+      },
+      {
+        "chunkId": "chunk_010",
+        "doc": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extens",
+        "score": 0.1335,
+        "category": "Software & Applications",
+        "text": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal extension marketplace. All IDEs are configured with company coding standards."
+      }
+    ],
+    "elapsed_seconds": 3.5374,
+    "timestamp": "2026-06-08T06:48:07Z",
+    "prompt_tokens": 509,
+    "completion_tokens": 145,
+    "total_tokens": 654,
+    "cost_usd": 3.705e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_015] directly answers the user's query by providing the IT helpdesk hours and contact methods.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct copy of the information provided in Chunk [chunk_015], without adding any new or unsupported claims."
+  },
+  {
+    "query_id": "Q14",
+    "query": "What are the incident severity levels for IT issues?",
+    "answer": "P1 (Critical), P2 (High), P3 (Medium), P4 (Low)",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_016",
+        "snippet": "Incident severity levels: P1 (Critical — system down), P2 (High — major feature broken, no workaround), P3 (Medium — par",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_015",
+        "snippet": "IT helpdesk hours: Monday–Friday, 8 AM – 8 PM EST. Contact via phone (ext. 4357), email (helpdesk@company.internal), or ",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_020",
+        "snippet": "To request a hardware repair, log a ticket on the IT portal with the asset tag number. Replacement devices are issued wi",
+        "category": "Hardware & Devices"
+      },
+      {
+        "chunkId": "chunk_023",
+        "snippet": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive files are synced continuously. Retention p",
+        "category": "Backup & Recovery"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_016",
+        "doc": "Incident severity levels: P1 (Critical — system down), P2 (High — major feature ",
+        "score": 0.2957,
+        "category": "IT Support & Escalation",
+        "text": "Incident severity levels: P1 (Critical — system down), P2 (High — major feature broken, no workaround), P3 (Medium — partial impairment, workaround exists), P4 (Low — cosmetic or minor issue)."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.1702,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_015",
+        "doc": "IT helpdesk hours: Monday–Friday, 8 AM – 8 PM EST. Contact via phone (ext. 4357)",
+        "score": 0.1278,
+        "category": "IT Support & Escalation",
+        "text": "IT helpdesk hours: Monday–Friday, 8 AM – 8 PM EST. Contact via phone (ext. 4357), email (helpdesk@company.internal), or the self-service portal. Priority response within 1 hour for P1 issues."
+      },
+      {
+        "chunkId": "chunk_020",
+        "doc": "To request a hardware repair, log a ticket on the IT portal with the asset tag n",
+        "score": 0.1192,
+        "category": "Hardware & Devices",
+        "text": "To request a hardware repair, log a ticket on the IT portal with the asset tag number. Replacement devices are issued within 2 business days for approved requests."
+      },
+      {
+        "chunkId": "chunk_023",
+        "doc": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive fi",
+        "score": 0.1062,
+        "category": "Backup & Recovery",
+        "text": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive files are synced continuously. Retention policy: 30 days for files, 90 days for databases."
+      }
+    ],
+    "elapsed_seconds": 7.4676,
+    "timestamp": "2026-06-08T06:48:16Z",
+    "prompt_tokens": 511,
+    "completion_tokens": 120,
+    "total_tokens": 631,
+    "cost_usd": 3.515e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_016] directly answers the user's query by providing the incident severity levels for IT issues.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer directly lists the incident severity levels mentioned in Chunk [chunk_016], without adding any unsupported claims or external facts."
+  },
+  {
+    "query_id": "Q15",
+    "query": "How do I report a critical system outage?",
+    "answer": "Call the IT hotline immediately for P1 incidents.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_012",
+        "snippet": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachm",
+        "category": "Security & Compliance"
+      },
+      {
+        "chunkId": "chunk_016",
+        "snippet": "Incident severity levels: P1 (Critical — system down), P2 (High — major feature broken, no workaround), P3 (Medium — par",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_022",
+        "snippet": "Offboarding process: Manager submits termination request in HR system. IT revokes all access within 2 hours. Laptop and ",
+        "category": "Onboarding & Offboarding"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_012",
+        "doc": "Report phishing emails immediately using the 'Report Phishing' button in Outlook",
+        "score": 0.2546,
+        "category": "Security & Compliance",
+        "text": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachments from suspicious emails. The security team reviews all reports."
+      },
+      {
+        "chunkId": "chunk_016",
+        "doc": "Incident severity levels: P1 (Critical — system down), P2 (High — major feature ",
+        "score": 0.1875,
+        "category": "IT Support & Escalation",
+        "text": "Incident severity levels: P1 (Critical — system down), P2 (High — major feature broken, no workaround), P3 (Medium — partial impairment, workaround exists), P4 (Low — cosmetic or minor issue)."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.1875,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_022",
+        "doc": "Offboarding process: Manager submits termination request in HR system. IT revoke",
+        "score": 0.1011,
+        "category": "Onboarding & Offboarding",
+        "text": "Offboarding process: Manager submits termination request in HR system. IT revokes all access within 2 hours. Laptop and badge must be returned to IT on the last working day."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.0758,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      }
+    ],
+    "elapsed_seconds": 4.3634,
+    "timestamp": "2026-06-08T06:48:21Z",
+    "prompt_tokens": 491,
+    "completion_tokens": 60,
+    "total_tokens": 551,
+    "cost_usd": 2.935e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunks [chunk_016] and [chunk_017] provide information on incident severity levels and the procedure for reporting critical system outages, directly addressing the user's query.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is directly supported by chunk_017, which states that for P1 incidents, one should call the IT hotline immediately."
+  },
+  {
+    "query_id": "Q16",
+    "query": "What laptop models are available through the company?",
+    "answer": "Dell Latitude 5540 (Windows) and MacBook Pro 14-inch (macOS)",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_018",
+        "snippet": "Standard laptop models: Dell Latitude 5540 (Windows) and MacBook Pro 14-inch (macOS). Request hardware through the IT pr",
+        "category": "Hardware & Devices"
+      },
+      {
+        "chunkId": "chunk_010",
+        "snippet": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal e",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_021",
+        "snippet": "New employee onboarding: IT provisions accounts within 48 hours of HR notification. Welcome kit includes laptop, monitor",
+        "category": "Onboarding & Offboarding"
+      },
+      {
+        "chunkId": "chunk_022",
+        "snippet": "Offboarding process: Manager submits termination request in HR system. IT revokes all access within 2 hours. Laptop and ",
+        "category": "Onboarding & Offboarding"
+      },
+      {
+        "chunkId": "chunk_011",
+        "snippet": "To install company-approved software, use the Software Center app on your managed device. Request new software via the I",
+        "category": "Software & Applications"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_018",
+        "doc": "Standard laptop models: Dell Latitude 5540 (Windows) and MacBook Pro 14-inch (ma",
+        "score": 0.3244,
+        "category": "Hardware & Devices",
+        "text": "Standard laptop models: Dell Latitude 5540 (Windows) and MacBook Pro 14-inch (macOS). Request hardware through the IT procurement portal with manager approval."
+      },
+      {
+        "chunkId": "chunk_010",
+        "doc": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extens",
+        "score": 0.1775,
+        "category": "Software & Applications",
+        "text": "Available IDE options: VS Code (recommended), IntelliJ IDEA, and PyCharm. Extensions can be installed via the internal extension marketplace. All IDEs are configured with company coding standards."
+      },
+      {
+        "chunkId": "chunk_021",
+        "doc": "New employee onboarding: IT provisions accounts within 48 hours of HR notificati",
+        "score": 0.1247,
+        "category": "Onboarding & Offboarding",
+        "text": "New employee onboarding: IT provisions accounts within 48 hours of HR notification. Welcome kit includes laptop, monitor, keyboard, mouse, and company badge. Accounts are created for email, VPN, Slack, and internal tools."
+      },
+      {
+        "chunkId": "chunk_022",
+        "doc": "Offboarding process: Manager submits termination request in HR system. IT revoke",
+        "score": 0.0786,
+        "category": "Onboarding & Offboarding",
+        "text": "Offboarding process: Manager submits termination request in HR system. IT revokes all access within 2 hours. Laptop and badge must be returned to IT on the last working day."
+      },
+      {
+        "chunkId": "chunk_011",
+        "doc": "To install company-approved software, use the Software Center app on your manage",
+        "score": 0.0705,
+        "category": "Software & Applications",
+        "text": "To install company-approved software, use the Software Center app on your managed device. Request new software via the IT helpdesk portal at helpdesk.company.internal."
+      }
+    ],
+    "elapsed_seconds": 5.5381,
+    "timestamp": "2026-06-08T06:48:27Z",
+    "prompt_tokens": 481,
+    "completion_tokens": 102,
+    "total_tokens": 583,
+    "cost_usd": 3.221e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_018] directly mentions specific laptop models available through the company, which is exactly what the user's query is asking for.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_018], which lists the standard laptop models, making it strictly grounded in the retrieved context chunks."
+  },
+  {
+    "query_id": "Q17",
+    "query": "How do I request a hardware repair?",
+    "answer": "Log a ticket on the IT portal with the asset tag number.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_020",
+        "snippet": "To request a hardware repair, log a ticket on the IT portal with the asset tag number. Replacement devices are issued wi",
+        "category": "Hardware & Devices"
+      },
+      {
+        "chunkId": "chunk_018",
+        "snippet": "Standard laptop models: Dell Latitude 5540 (Windows) and MacBook Pro 14-inch (macOS). Request hardware through the IT pr",
+        "category": "Hardware & Devices"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_003",
+        "snippet": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app",
+        "category": "Password & Account"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_020",
+        "doc": "To request a hardware repair, log a ticket on the IT portal with the asset tag n",
+        "score": 0.329,
+        "category": "Hardware & Devices",
+        "text": "To request a hardware repair, log a ticket on the IT portal with the asset tag number. Replacement devices are issued within 2 business days for approved requests."
+      },
+      {
+        "chunkId": "chunk_018",
+        "doc": "Standard laptop models: Dell Latitude 5540 (Windows) and MacBook Pro 14-inch (ma",
+        "score": 0.1749,
+        "category": "Hardware & Devices",
+        "text": "Standard laptop models: Dell Latitude 5540 (Windows) and MacBook Pro 14-inch (macOS). Request hardware through the IT procurement portal with manager approval."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.0881,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_003",
+        "doc": "Multi-factor authentication (MFA) can be enabled under Account Settings > Securi",
+        "score": 0.0876,
+        "category": "Password & Account",
+        "text": "Multi-factor authentication (MFA) can be enabled under Account Settings > Security. Supported methods: authenticator app, SMS code, or hardware security key."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.0788,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      }
+    ],
+    "elapsed_seconds": 4.4867,
+    "timestamp": "2026-06-08T06:48:32Z",
+    "prompt_tokens": 466,
+    "completion_tokens": 95,
+    "total_tokens": 561,
+    "cost_usd": 3.09e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_020] directly addresses the user's query by providing the steps to request a hardware repair.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_020], which provides instructions for requesting a hardware repair."
+  },
+  {
+    "query_id": "Q18",
+    "query": "What happens during new employee IT onboarding?",
+    "answer": "IT provisions accounts within 48 hours of HR notification, and provides a welcome kit with laptop, monitor, keyboard, mouse, and company badge.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_021",
+        "snippet": "New employee onboarding: IT provisions accounts within 48 hours of HR notification. Welcome kit includes laptop, monitor",
+        "category": "Onboarding & Offboarding"
+      },
+      {
+        "chunkId": "chunk_011",
+        "snippet": "To install company-approved software, use the Software Center app on your managed device. Request new software via the I",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_006",
+        "snippet": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge number and network password to connect. ",
+        "category": "Network & Connectivity"
+      },
+      {
+        "chunkId": "chunk_022",
+        "snippet": "Offboarding process: Manager submits termination request in HR system. IT revokes all access within 2 hours. Laptop and ",
+        "category": "Onboarding & Offboarding"
+      },
+      {
+        "chunkId": "chunk_020",
+        "snippet": "To request a hardware repair, log a ticket on the IT portal with the asset tag number. Replacement devices are issued wi",
+        "category": "Hardware & Devices"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_021",
+        "doc": "New employee onboarding: IT provisions accounts within 48 hours of HR notificati",
+        "score": 0.3369,
+        "category": "Onboarding & Offboarding",
+        "text": "New employee onboarding: IT provisions accounts within 48 hours of HR notification. Welcome kit includes laptop, monitor, keyboard, mouse, and company badge. Accounts are created for email, VPN, Slack, and internal tools."
+      },
+      {
+        "chunkId": "chunk_011",
+        "doc": "To install company-approved software, use the Software Center app on your manage",
+        "score": 0.1403,
+        "category": "Software & Applications",
+        "text": "To install company-approved software, use the Software Center app on your managed device. Request new software via the IT helpdesk portal at helpdesk.company.internal."
+      },
+      {
+        "chunkId": "chunk_006",
+        "doc": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge ",
+        "score": 0.0847,
+        "category": "Network & Connectivity",
+        "text": "Wi-Fi SSID: 'Corp-Net' with WPA2-Enterprise encryption. Use your employee badge number and network password to connect. Guest network SSID: 'Corp-Guest' with daily passcode from reception."
+      },
+      {
+        "chunkId": "chunk_022",
+        "doc": "Offboarding process: Manager submits termination request in HR system. IT revoke",
+        "score": 0.0698,
+        "category": "Onboarding & Offboarding",
+        "text": "Offboarding process: Manager submits termination request in HR system. IT revokes all access within 2 hours. Laptop and badge must be returned to IT on the last working day."
+      },
+      {
+        "chunkId": "chunk_020",
+        "doc": "To request a hardware repair, log a ticket on the IT portal with the asset tag n",
+        "score": 0.039,
+        "category": "Hardware & Devices",
+        "text": "To request a hardware repair, log a ticket on the IT portal with the asset tag number. Replacement devices are issued within 2 business days for approved requests."
+      }
+    ],
+    "elapsed_seconds": 3.5426,
+    "timestamp": "2026-06-08T06:48:37Z",
+    "prompt_tokens": 489,
+    "completion_tokens": 124,
+    "total_tokens": 613,
+    "cost_usd": 3.437e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk_021 directly addresses the IT onboarding process for new employees, including account creation and provision of IT equipment.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_021] and does not introduce any new or unsupported information."
+  },
+  {
+    "query_id": "Q19",
+    "query": "How do I recover a deleted file from OneDrive?",
+    "answer": "Go to the OneDrive web interface, select 'Recycle Bin', locate the file, and click 'Restore'.",
+    "confidence": "low",
+    "sources": [
+      {
+        "chunkId": "chunk_024",
+        "snippet": "To recover a deleted file from OneDrive, go to the OneDrive web interface, select 'Recycle Bin', locate the file, and cl",
+        "category": "Backup & Recovery"
+      },
+      {
+        "chunkId": "chunk_012",
+        "snippet": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachm",
+        "category": "Security & Compliance"
+      },
+      {
+        "chunkId": "chunk_017",
+        "snippet": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on",
+        "category": "IT Support & Escalation"
+      },
+      {
+        "chunkId": "chunk_009",
+        "snippet": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages a",
+        "category": "Software & Applications"
+      },
+      {
+        "chunkId": "chunk_023",
+        "snippet": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive files are synced continuously. Retention p",
+        "category": "Backup & Recovery"
+      }
+    ],
+    "valid": true,
+    "client_valid": true,
+    "server_valid": true,
+    "attempts": 1,
+    "used_fallback": false,
+    "error": "",
+    "chunks_retrieved": [
+      {
+        "chunkId": "chunk_024",
+        "doc": "To recover a deleted file from OneDrive, go to the OneDrive web interface, selec",
+        "score": 0.5785,
+        "category": "Backup & Recovery",
+        "text": "To recover a deleted file from OneDrive, go to the OneDrive web interface, select 'Recycle Bin', locate the file, and click 'Restore'. Deleted items are retained for 30 days."
+      },
+      {
+        "chunkId": "chunk_012",
+        "doc": "Report phishing emails immediately using the 'Report Phishing' button in Outlook",
+        "score": 0.1102,
+        "category": "Security & Compliance",
+        "text": "Report phishing emails immediately using the 'Report Phishing' button in Outlook. Do not click links or download attachments from suspicious emails. The security team reviews all reports."
+      },
+      {
+        "chunkId": "chunk_017",
+        "doc": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email o",
+        "score": 0.0725,
+        "category": "IT Support & Escalation",
+        "text": "For P1 and P2 incidents, call the IT hotline immediately. Do not rely on email or the portal for critical issues. The on-call engineer will respond within 15 minutes."
+      },
+      {
+        "chunkId": "chunk_009",
+        "doc": "Slack is the official team communication platform. Channels are organized by dep",
+        "score": 0.0648,
+        "category": "Software & Applications",
+        "text": "Slack is the official team communication platform. Channels are organized by department. Use @here for urgent messages and @channel sparingly. Do not share sensitive data in public channels."
+      },
+      {
+        "chunkId": "chunk_023",
+        "doc": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive fi",
+        "score": 0.0588,
+        "category": "Backup & Recovery",
+        "text": "Automatic backups run daily at 2 AM for all company-managed devices. OneDrive files are synced continuously. Retention policy: 30 days for files, 90 days for databases."
+      }
+    ],
+    "elapsed_seconds": 8.0916,
+    "timestamp": "2026-06-08T06:48:46Z",
+    "prompt_tokens": 485,
+    "completion_tokens": 122,
+    "total_tokens": 607,
+    "cost_usd": 3.401e-05,
+    "relevance_ok": true,
+    "relevance_explanation": "Chunk [chunk_024] directly addresses the user's query by providing step-by-step instructions on how to recover a deleted file from OneDrive.",
+    "faithfulness_ok": true,
+    "faithfulness_explanation": "The generated answer is a direct quote from Chunk [chunk_024], which provides instructions on how to recover a deleted file from OneDrive."
+  }
+]
